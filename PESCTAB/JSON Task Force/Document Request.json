@@ -1,0 +1,163 @@
+{
+  "@xsi:schemaLocation": "urn:org:pesc:message:DocumentRequest:v1.0.0 ..\\Schema\\DocumentRequest_v1.0.0.xsd",
+  "TransmissionData": {
+    "DocumentID": "TO5776_A_200703080930",
+    "CreatedDateTime": "2007-03-08T09:30:15-05:00",
+    "DocumentTypeCode": "Request",
+    "TransmissionType": "Original",
+    "Source": {
+      "Organization": {
+        "DUNS": "827034414",
+        "OrganizationName": [
+          "National Student Clearinghouse"
+        ]
+      }
+    },
+    "Destination": {
+      "Organization": {
+        "OPEID": "00123400",
+        "OrganizationName": [
+          "HOMETOWN UNIVERSITY"
+        ]
+      }
+    },
+    "DocumentProcessCode": "PRODUCTION"
+  },
+  "RequestDetails": [
+    {
+      "DocumentDescription": {
+        "DocumentCategory": "Transcript",
+        "DocumentFormat": "XML"
+      },
+      "CreatedDateTime": "2007-02-28T10:21:00-05:00",
+      "Requestor": {
+        "Person": {
+          "SSN": "123456789",
+          "Birth": {
+            "BirthDate": "1972-11-25"
+          },
+          "Name": {
+            "FirstName": "JANE",
+            "MiddleName": [
+              "B"
+            ],
+            "LastName": "DOE"
+          },
+          "Contacts": [
+            {
+              "Address": [
+                {
+                  "AddressLine": [
+                    "123 MAIN ST"
+                  ],
+                  "City": "ANYTOWN",
+                  "StateProvinceCode": "VA",
+                  "PostalCode": "20171"
+                }
+              ],
+              "Phone": [
+                {
+                  "AreaCityCode": "703",
+                  "PhoneNumber": "5551212"
+                }
+              ],
+              "Email": [
+                {
+                  "EmailAddress": "someone@gmail.com"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "RequestedStudent": {
+        "Person": {
+          "SSN": "123456789",
+          "Birth": {
+            "BirthDate": "1972-11-25"
+          },
+          "Name": {
+            "FirstName": "JANE",
+            "MiddleName": [
+              "B"
+            ],
+            "LastName": "DOE"
+          },
+          "AlternateName": [
+            {
+              "FirstName": "JANE",
+              "MiddleName": [
+                "A"
+              ],
+              "LastName": "BOE"
+            }
+          ]
+        },
+        "Attendance": [
+          {
+            "School": {
+              "OrganizationName": "HOMETOWN UNIVERSITY",
+              "OPEID": "00123400"
+            },
+            "EnrollDate": "1990-01-01",
+            "ExitDate": "1995-12-31",
+            "AcademicAwardsReported": [
+              {
+                "AcademicAwardTitle": "B.A. Communication",
+                "AcademicAwardDate": "1995-01-01"
+              }
+            ]
+          }
+        ],
+        "ReleaseAuthorizedIndicator": true,
+        "ReleaseAuthorizedMethod": "Signature"
+      },
+      "DocumentRecipient": [
+        {
+          "RequestTrackingID": "123456-1",
+          "Receiver": {
+            "RequestorReceiverOrganization": {
+              "OrganizationName": [
+                "HOMETOWN COMMUNITY COLLEGE"
+              ],
+              "Contacts": [
+                {
+                  "Address": [
+                    {
+                      "AddressLine": [
+                        "P.O. BOX 31127"
+                      ],
+                      "City": "ANYTOWN",
+                      "StateProvinceCode": "VA",
+                      "PostalCode": "20171",
+                      "AttentionLine": [
+                        "HCC TRANSCRIPT OFFICE"
+                      ]
+                    }
+                  ],
+                  "Phone": [
+                    {
+                      "AreaCityCode": "703",
+                      "PhoneNumber": "5551212"
+                    }
+                  ],
+                  "FaxPhone": [
+                    {
+                      "AreaCityCode": "703",
+                      "PhoneNumber": "5551212"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "DocumentPurpose": "Admission",
+          "DeliveryMethod": [
+            "Mail"
+          ],
+          "DocumentCopies": 1
+        }
+      ]
+    }
+  ]
+}

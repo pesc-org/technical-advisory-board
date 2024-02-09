@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ******************************************************************************************************************************************-->
+<!-- Data Transport Standard -->
+<!-- Web Service Definition Language (WSDL) -->
+<!-- Version 2.1 -->
+<!-- 01/29/2007 -->
+<!-- ******************************************************************************************************************************************-->
+<wsdl:definitions targetNamespace="urn:org:pesc:datatransport" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="urn:org:pesc:datatransport" xmlns:intf="urn:org:pesc:datatransport" xmlns:tns="urn:org:pesc:datatransport" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+		<xsd:schema elementFormDefault="qualified" targetNamespace="urn:org:pesc:datatransport" xmlns:tns="urn:org:pesc:datatransport" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<!-- Insert any security imports here. For example, for a version 1.0 token-based sesurity:
+<xsd:import namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+schemaLocation="http://docs.oasis-open.org/wss/v1.1/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+-->
+			<xsd:element name="DTSRequestHeader">
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element maxOccurs="1" minOccurs="1" name="DTSRequestRouting" type="tns:DTSRouting"/>
+						<xsd:element maxOccurs="1" minOccurs="0" name="DTSRequestServiceExpectation" type="xsd:string"/>
+						<xsd:element maxOccurs="1" minOccurs="1" name="DTSRequestPayloadType" type="xsd:string"/>
+						<xsd:element maxOccurs="1" minOccurs="0" name="DTSRequestPayloadBytes" type="xsd:string"/>
+					</xsd:all>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="DTSResponseHeader">
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="DTSResponseRouting" type="tns:DTSRouting"/>
+						<xsd:element name="DTSResponseAcknowledgement" type="xsd:string"/>
+						<xsd:element name="DTSResponsePayloadType" type="xsd:string"/>
+						<xsd:element maxOccurs="1" minOccurs="0" name="DTSResponsePayloadBytes" type="xsd:string"/>
+					</xsd:all>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:complexType name="DTSRouting">
+				<xsd:all>
+					<xsd:element maxOccurs="1" minOccurs="1" name="DTSUUID" type="xsd:string"/>
+					<xsd:element maxOccurs="1" minOccurs="1" name="DTSSourceID" type="xsd:string"/>
+					<xsd:element maxOccurs="1" minOccurs="0" name="DTSSourceSubCode" type="xsd:string"/>
+					<xsd:element maxOccurs="1" minOccurs="0" name="DTSRecipientID" type="xsd:string"/>
+					<xsd:element maxOccurs="1" minOccurs="0" name="DTSRecipientSubCode" type="xsd:string"/>
+				</xsd:all>
+			</xsd:complexType>
+			<xsd:element name="DTSRequest" type="xsd:string"/>
+			<xsd:element name="DTSResponse" type="xsd:string"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="DTSRequest">
+		<wsdl:part element="tns:DTSRequest" name="DTSRequest"/>
+	</wsdl:message>
+	<wsdl:message name="DTSResponse">
+		<wsdl:part element="tns:DTSResponse" name="DTSResponse"/>
+	</wsdl:message>
+	<wsdl:portType name="submitDTS">
+		<wsdl:operation name="submitDTS">
+			<wsdl:input message="tns:DTSRequest"/>
+			<wsdl:output message="tns:DTSResponse"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="submitDTS" type="tns:submitDTS">
+		<wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="submitDTS">
+			<wsdlsoap:operation soapAction="http://www.datatransportstandard.com/submitDTS"/>
+			<wsdl:input>
+				<wsdlsoap:body use="literal"/>
+				<wsdlsoap:header message="tns:DTSRequest" part="DTSRequest" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<wsdlsoap:body use="literal"/>
+				<wsdlsoap:header message="tns:DTSResponse" part="DTSResponse" use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="submitDTS">
+		<wsdl:port binding="tns:submitDTS" name="submitDTS">
+			<wsdlsoap:address location="http://localhost:8080/DTS2.0/services/ReferenceImplementation"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams>
+	<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolio</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p1.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/TransmissionData</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p3.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Profile</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p4.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Events</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p5.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Goals</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p6.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Artifacts</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p7.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Comments</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p8.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Education</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p9.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/EmploymentHistory</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p10.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Competencies</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p11.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Networks</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p12.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/LicensesAndCredentials</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p13.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/MilitaryHistory</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p14.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/CareerAssessments</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p15.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/Lists</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p16.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/UserDefinedExtensions</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p17.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AcademicEPortfolioType/NoteMessage</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p18.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p20.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepTitle</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p21.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p22.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepStartDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p23.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepTargetDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p24.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepCompletionDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p25.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ActionPlanStepType/StepObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p26.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ApplicationForAdmissionType/TransmissionData</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p28.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ApplicationForAdmissionType/Applicant</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p29.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ApplicationForAdmissionType/NoteMessage</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p30.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ApplicationForAdmissionType/UserDefinedExtensions</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p31.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p33.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactTitle</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p34.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactAuthor</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p35.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactCreationDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p36.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p37.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactSource</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p38.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactClassification</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p39.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactMediaIdentifierCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p40.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactLocationURL</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p41.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactFileName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p42.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ArtifactType/ArtifactObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p43.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AssessedAttributeType/StandardAttributeCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p45.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AssessedAttributeType/OtherAttribute</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p46.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AuthorType/Name</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p48.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AuthorType/OrganizationName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p49.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>AuthorType/Relationship</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p50.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeAlignmentType/BadgeAlignmentName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p52.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeAlignmentType/BadgeAlignmentDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p53.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeAlignmentType/BadgeAlignmentURL</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p54.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p56.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p57.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p58.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeImageURL</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p59.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeCriteriaURL</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p60.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeIssuingOrganization</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p61.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeStandardsAlignment</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p62.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeIssuedDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p63.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeExpiryDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p64.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>BadgeType/BadgeObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p65.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentResultType/InterestProfile</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p67.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentResultType/WorkValuesProfile</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p68.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentResultType/OtherCareerAssessmentResultProfile</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p69.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/CareerAssessmentID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p71.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/AssessedAttribute</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p72.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/CareerAssessmentName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p73.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/CareerAssessmentResult</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p74.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/CareerAssessmentDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p75.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/CareerAssessmentDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p76.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CareerAssessmentType/CareerAssessmentObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p77.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CollegeTranscriptType/TransmissionData</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p79.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CollegeTranscriptType/Student</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p80.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CollegeTranscriptType/NoteMessage</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p81.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CollegeTranscriptType/UserDefinedExtensions</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p82.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CommentType/CommentID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p84.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CommentType/CommentDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p85.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CommentType/CommentTitle</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p86.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CommentType/CommentDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p87.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CommentType/CommentAuthor</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p88.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CommentType/CommentObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p89.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CompetencyType/CompetencyID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p91.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CompetencyType/CompetencyName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p92.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CompetencyType/CompetencyDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p93.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CompetencyType/CompetencyLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p94.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CompetencyType/CompetencyObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p95.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>CompetencyType/CompetencySource</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p96.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>DateRangeType/StartDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p98.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>DateRangeType/EndDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p99.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>DateRangeType/CurrentIndicator</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p100.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationDateRangeType/StartDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p102.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationDateRangeType/EndDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p103.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationDateRangeType/CurrentIndicator</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p104.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationDateRangeType/IncompleteIndicator</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p105.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/HSTranscript</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p107.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/CollegeTranscript</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p108.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/TestScoreReport</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p109.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/ApplicationForAdmission</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p110.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/PostsecondaryProgram</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p111.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/SecondaryEducation</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p112.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EducationType/OtherLearning</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p113.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EmployerType/EmployerID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p115.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EmployerType/Employment</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p116.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EmployerType/EmployerObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p117.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EmploymentHistoryType/EmploymentHistoryID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p119.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EmploymentHistoryType/EmployerHistory</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p120.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EmploymentHistoryType/EmploymentHistoryObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p121.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventClassificationType/EventPrimaryClassification</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p123.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventClassificationType/ActivityCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p124.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventClassificationType/AcademicProgramDegreeLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p125.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p127.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventClassification</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p128.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventTitle</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p129.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventStartDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p130.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventEndDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p131.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p132.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/OrganizationName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p133.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventOrganizationDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p134.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>EventType/EventObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p135.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p137.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p138.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalTitle</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p139.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p140.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalTargetDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p141.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalCompletionDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p142.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p143.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>GoalType/GoalActionPlanStep</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p144.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>HSTranscriptType/TransmissionData</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p146.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>HSTranscriptType/Student</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p147.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>HSTranscriptType/NoteMessage</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p148.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>HSTranscriptType/UserDefinedExtensions</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p149.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p151.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p152.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p153.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialIssuedDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p154.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialOrganization</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p155.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p156.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IndustryRecognizedCredentialType/IRCredentialObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p157.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>InterestProfileType/RealisticLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p159.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>InterestProfileType/InvestigativeLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p160.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>InterestProfileType/ArtisticLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p161.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>InterestProfileType/SocialLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p162.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>InterestProfileType/EnterprisingLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p163.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>InterestProfileType/ConventionalLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p164.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IssuingAuthorityType/OrganizationName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p166.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IssuingAuthorityType/City</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p167.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IssuingAuthorityType/StateProvince</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p168.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IssuingAuthorityType/CountryIdentifier</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p169.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>IssuingAuthorityType/WebSite</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p170.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicensesCertificationsType/License</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p172.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicensesCertificationsType/IndustryRecognizedCredential</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p173.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p175.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p176.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseClassification</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p177.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseStatus</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p178.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseNumber</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p179.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicensurePassageDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p180.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseDuration</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p181.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseIssuingAuthority</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p182.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p183.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>LicenseType/LicenseObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p184.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/ONET</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p186.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/ProgramCIPCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p187.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/OPEID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p188.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/IPEDS</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p189.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/FICE</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p190.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/CEEBACT</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p191.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListItemCodeType/ACT</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p192.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p194.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p195.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemNotes</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p196.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemClassificationCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p197.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemIdentifier</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p198.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemURL</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p199.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ListsType/ListItemObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p200.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>MilitaryServiceType/MilitaryServiceID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p202.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>MilitaryServiceType/CountryIdentifier</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p203.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>MilitaryServiceType/MilitaryServiceBranchCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p204.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>MilitaryServiceType/MilitaryServicePeriod</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p205.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>MilitaryServiceType/MilitaryOccupationalClassification</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p206.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>MilitaryServiceType/MilitaryServiceObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p207.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworksType/Network</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p209.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworksType/PersonalReference</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p210.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworkType/NetworkID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p212.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworkType/NetworkName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p213.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworkType/NetworkCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p214.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworkType/NetworkUserName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p215.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>NetworkType/NetworkObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p216.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ObjectLinkType/ObjectPath</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p218.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ObjectLinkType/ObjectRelationCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p219.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ObjectLinkType/ObjectID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p220.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherCareersAssessmentResultProfileType/FactorName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p222.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherCareersAssessmentResultProfileType/FactorLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p223.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p225.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p226.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p227.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningDescription</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p228.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningCertification</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p229.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningDates</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p230.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningExperienceType/OtherLearningObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p231.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningType/OtherLearningExperience</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p233.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>OtherLearningType/Badge</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p234.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/ProgramID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p236.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/School</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p237.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/ProgramName</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p238.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/CIP</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p239.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/CredentialEarned</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p240.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/ProgramPeriod</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p241.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>PostsecondaryProgramType/ProgramObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p242.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/Name</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p244.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/Gender</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p245.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/Birth</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p246.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/SSN</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p247.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/SIN</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p248.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/NSN</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p249.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/AgencyAssignedID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p250.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/Contacts</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p251.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/Citizenship</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p252.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/EthnicityRace</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p253.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ProfileType/ParentGuardian</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p254.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ReferenceType/ReferenceID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p256.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ReferenceType/Contacts</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p257.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ReferenceType/RelationshipCode</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p258.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ReferenceType/ReferenceObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p259.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SecondaryEducationType/SecondaryEducationID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p261.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SecondaryEducationType/School</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p262.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SecondaryEducationType/AcademicAwardLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p263.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SecondaryEducationType/SecondaryEducationDates</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p264.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SecondaryEducationType/SecondaryEducationObjectLink</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p265.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SecondaryEducationType/Course</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p266.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SeparatedDateType/Day</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p268.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SeparatedDateType/Month</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p269.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SeparatedDateType/Year</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p270.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ServicePeriodType/StartDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p272.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ServicePeriodType/EndDate</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p273.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ServicePeriodType/CurrentIndicator</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p274.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>ServicePeriodType/Description</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p275.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SourceType/SelfReportedIndicator</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p277.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>SourceType/Contacts</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p278.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>TransmissionDataType/DocumentID</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p280.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>TransmissionDataType/CreatedDateType</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p281.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>TransmissionDataType/TransmissionType</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p282.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>TransmissionDataType/DocumentType</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p283.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>TransmissionDataType/NoteMessage</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p284.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>WorkValuesProfileType/AchievementLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p286.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>WorkValuesProfileType/IndependenceLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p287.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>WorkValuesProfileType/RecognitionLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p288.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>WorkValuesProfileType/RelationshipsLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p289.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>WorkValuesProfileType/SupportLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p290.png</image>
+	</diagram>
+<diagram>
+		<library>Schema  AcademicEPortfolio_v1.0.0.xsd</library>
+		<element>WorkValuesProfileType/WorkingConditionsLevel</element>
+		<image>AcademicEPortfolio_v1.0.0_diagrams/AcademicEPortfolio_v1.0.0_p291.png</image>
+	</diagram>
+</diagrams>

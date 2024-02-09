@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--this is a comment -->
+<A x="attribute-x">
+	<B y="attribute-y" z="attribute-z">text-B</B>
+	<C>
+		<D xx="attribute-xx"/>
+		<E>text-E1</E>
+		<E>text-E2</E>
+	</C>
+	<F/>
+</A>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<A att1="1">
+	<B att2="2"/>
+	<B att3="3"/>
+	<C>C1</C>
+</A>

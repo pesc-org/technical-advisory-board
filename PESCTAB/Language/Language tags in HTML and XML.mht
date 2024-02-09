@@ -1,0 +1,2348 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: Language tags in HTML and XML
+Date: Wed, 13 Jul 2011 08:59:47 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC413B.372095A0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6109
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.w3.org/International/articles/language-tags/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den xmlns=3D"http://www.w3.org/1999/xhtml" =
+xml:lang=3D"en"><HEAD><TITLE>Language tags in HTML and XML</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META=20
+content=3D"i18n internationalisation internationalization localisation =
+localization translation language tags tagging 3066 iso 639 iso 3166 =
+IANA registry language"=20
+name=3Dkeywords>
+<META=20
+content=3D"How to construct language tag values for such things as HTML =
+lang attributes and XML xml:lang attributes."=20
+name=3Ddescription><LINK=20
+href=3D"http://www.w3.org/International/style/article-standards-v2.css"=20
+type=3Dtext/css rel=3Dstylesheet><LINK title=3D"I18N Activity Home" =
+hreflang=3Den=20
+href=3D"/International/" type=3Dtext/html rel=3Dtop><LINK=20
+title=3D"More resources of this type." hreflang=3Den=20
+href=3D"/International/articles/language-tags/" type=3Dtext/html =
+rel=3Dup><LINK=20
+href=3D"#copyright" rel=3Dcopyright>
+<SCRIPT src=3D"http://www.w3.org/International/javascript/articletoc.js" =
+
+type=3Dtext/javascript>//</SCRIPT>
+<LINK lang=3Des title=3DEspa=C3=B1ol hreflang=3Des =
+href=3D"Overview.es.php" type=3Dtext/html=20
+rel=3Dalternate xml:lang=3D"es"><LINK lang=3Dru =
+title=3DP=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9 hreflang=3Dru=20
+href=3D"Overview.ru.php" type=3Dtext/html rel=3Dalternate =
+xml:lang=3D"ru"><LINK lang=3Duk=20
+title=3D=D0=A3=D0=BA=D1=80=D0=B0=D1=97=D0=BD=D1=81=D1=8C=D0=BA=D0=B0 =
+hreflang=3Duk href=3D"Overview.uk.php" type=3Dtext/html rel=3Dalternate=20
+xml:lang=3D"uk">
+<STYLE type=3Dtext/css media=3Dall>#examples {
+	WIDTH: 60%
+}
+#examples TD {
+	TEXT-ALIGN: left
+}
+#examples TH {
+	TEXT-ALIGN: left
+}
+ABBR {
+	TEXT-TRANSFORM: uppercase
+}
+.currentExample {
+	BORDER-RIGHT: teal 1px dotted; BORDER-TOP: teal 1px dotted; =
+BORDER-LEFT: teal 1px dotted; BORDER-BOTTOM: teal 1px dotted
+}
+.languageExample {
+	COLOR: #ff00ff
+}
+.extlangExample {
+	COLOR: #f90
+}
+.scriptExample {
+	COLOR: #ff0099
+}
+.regionExample {
+	COLOR: #0099ff
+}
+.variantExample {
+	COLOR: #00ff00
+}
+.puExample {
+	COLOR: #800000
+}
+.tagExampleHead {
+	FONT-SIZE: 200%; PADDING-BOTTOM: 0.5em; LINE-HEIGHT: 1.2em; =
+PADDING-TOP: 0.5em
+}
+.tagExample {
+	FONT-SIZE: 400%; MARGIN: 0.25em 0.25em 0.25em 0px; LINE-HEIGHT: 1em
+}
+.insidenote .readmore {
+	MARGIN-TOP: 60px
+}
+</STYLE>
+
+<META content=3D"MSHTML 6.00.6000.17098" name=3DGENERATOR></HEAD>
+<BODY><SPAN id=3Dversion-info style=3D"DISPLAY: none"><!-- #BeginDate =
+format:IS1m -->2011-05-04 18:00<!-- #EndDate --></SPAN>=20
+<DIV id=3Dwai-start>
+<P>Accesskey n skips to <A accessKey=3Dn=20
+href=3D"http://www.w3.org/International/articles/language-tags/#internal-=
+links">in-page=20
+navigation</A>. <A=20
+href=3D"http://www.w3.org/International/articles/language-tags/#contentst=
+art">Skip=20
+to the content start.</A></P></DIV>
+<DIV id=3Dsite-navigation><A =
+href=3D"http://www.w3.org/International/"><IMG=20
+id=3Dpicture title=3D"World map" height=3D61 alt=3D"World map"=20
+src=3D"http://www.w3.org/International/icons/world.gif" width=3D150></A> =
+
+<P class=3Dnoprint><SPAN title=3DSpanish><A lang=3Des=20
+href=3D"http://www.w3.org/International/articles/language-tags/Overview.e=
+s.php?changelang=3Des"=20
+xml:lang=3D"es">Espa=C3=B1ol</A></SPAN>&nbsp; <SPAN title=3DRussian><A =
+lang=3Dru=20
+href=3D"http://www.w3.org/International/articles/language-tags/Overview.r=
+u.php?changelang=3Dru"=20
+xml:lang=3D"ru">P=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9</A></SPAN>&nbsp; =
+<SPAN title=3DUkrainian><A lang=3Duk=20
+href=3D"http://www.w3.org/International/articles/language-tags/Overview.u=
+k.php?changelang=3Duk"=20
+xml:lang=3D"uk">=D0=A3=D0=BA=D1=80=D0=B0=D1=97=D0=BD=D1=81=D1=8C=D0=BA=D0=
+=B0</A></SPAN>&nbsp; </P></DIV>
+<DIV class=3Dnoprint id=3Dsearch>
+<FORM style=3D"MARGIN: 0px" action=3D/International/site-search.php =
+method=3Dget>
+<DIV id=3DsearchSite><INPUT id=3DsearchField onfocus=3D"this.value=3D''" =
+accessKey=3DE=20
+maxLength=3D255 value=3D"I18n site search: " =
+name=3Dq></DIV></FORM></DIV>
+<DIV class=3Dsidebar>
+<P id=3Dbreadcrumbs><A href=3D"http://www.w3.org/International/">Home =
+</A>&gt; <A=20
+href=3D"http://www.w3.org/International/resources">Resources</A> &gt; <A =
+
+href=3D"http://www.w3.org/International/articlelist#language">Articles</A=
+></P>
+<DIV class=3Dnoprint id=3Dtoc>
+<H2><A id=3Dinternal-links=20
+href=3D"http://www.w3.org/International/articles/language-tags/#internal-=
+links"=20
+name=3Dinternal-links>On this page&nbsp; </A></H2>
+<OL>
+  <LI><A=20
+  =
+href=3D"http://www.w3.org/International/articles/language-tags/#overview"=
+>Overview</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www.w3.org/International/articles/language-tags/#rfc">Cons=
+tructing=20
+  language tags</A>=20
+  <OL>
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#registry"=
+>Using=20
+    the subtag registry</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#language"=
+>The=20
+    primary language subtag</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#extlang">=
+The=20
+    extended language subtag</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#script">T=
+he=20
+    script subtag</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#region">T=
+he=20
+    region subtag</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#variants"=
+>Variant=20
+    subtags</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#extension=
+">Extension=20
+    and private-use subtags</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.w3.org/International/articles/language-tags/#grandfath=
+ered">Grandfathered=20
+    and redundant subtags</A> </LI></OL>
+  <LI><A=20
+  =
+href=3D"http://www.w3.org/International/articles/language-tags/#matching"=
+>Matching=20
+  language tags</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.w3.org/International/articles/language-tags/#bytheway"=
+>By the=20
+  way</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.w3.org/International/articles/language-tags/#endlinks"=
+>Further=20
+  reading</A> </LI></OL></DIV>
+<DIV class=3Dnoprint id=3Drelatedlinks>
+<H2><A id=3Dlinks tabIndex=3D4 name=3Dlinks>Related links</A></H2>
+<P><A =
+href=3D"http://www.iana.org/assignments/language-subtag-registry"><ABBR=20
+title=3D"Internet Assigned Numbers Authority">IANA</ABBR> Language =
+Subtag=20
+Registry</A></P>
+<P><A href=3D"http://rishida.net/utils/subtags/">Subtag search =
+tool</A></P>
+<P><A href=3D"http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP=20
+47</A></P></DIV></DIV>
+<DIV id=3Dboilerplate>
+<DIV id=3Dsiteicons><A title=3D"Go to W3C Home Page" =
+href=3D"http://www.w3.org/"><IMG=20
+height=3D48 alt=3Ds_gotoW3cHome=20
+src=3D"http://www.w3.org/International/icons/w3c_home.gif" width=3D77 =
+align=3Dtop=20
+border=3D0></A><A id=3Di18n-name=20
+title=3D"Go to Internationalization Activity Home Page"=20
+href=3D"http://www.w3.org/International/"> =
+Internationalization</A></DIV>
+<DIV class=3Dnoprint id=3Dsitelinks><A=20
+title=3D"Internationalization Activity home page."=20
+href=3D"http://www.w3.org/International/">Home</A>&nbsp; <A=20
+title=3D"Information resources on the Internationalization site."=20
+href=3D"http://www.w3.org/International/resources">Resources</A>&nbsp; =
+<A=20
+title=3D"Task-based index of i18n techniques."=20
+href=3D"http://www.w3.org/International/technique-index">Techniques</A>&n=
+bsp; <A=20
+title=3D"Topic index for information on this site."=20
+href=3D"http://www.w3.org/International/resource-index">Topics</A>&nbsp; =
+<A=20
+title=3D"Information about news filters and RSS feeds for W3C =
+Internationalization."=20
+href=3D"http://www.w3.org/International/log/description">News</A>&nbsp; =
+<A=20
+title=3D"Groups that make up the Internationalization Activity."=20
+href=3D"http://www.w3.org/International/about#scope">Groups</A>&nbsp; <A =
+
+title=3D"About the Internationalization Activity."=20
+href=3D"http://www.w3.org/International/about">About</A>&nbsp; &nbsp; =
+</DIV>
+<DIV id=3Dline></DIV></DIV>
+<H1>Language tags in HTML and XML</H1>
+<DIV class=3Dsection><A id=3Dcontentstart name=3Dcontentstart></A>
+<DIV id=3Daudience>
+<P><SPAN class=3Dleadin>Intended audience:</SPAN> XHTML/HTML coders =
+(using editors=20
+or scripting), script developers (PHP, JSP, etc.), schema developers =
+(DTDs, XML=20
+Schema, RelaxNG, etc.), XSLT developers, Web project managers, standards =
+
+implementers, and anyone who needs an overview of how language tags are=20
+constructed using BCP47.</P>
+<P class=3Dupdated>Updated <A=20
+href=3D"http://www.w3.org/blog/International?s=3Darticle-language-tags&am=
+p;sentence=3Dsentence&amp;blog=3D1&amp;submit=3DSearch">2009-09-10=20
+14:17</A></P></DIV>
+<H2><A id=3Doverview name=3Doverview>Overview</A></H2>
+<DIV class=3Dinsidenote>
+<P><STRONG>Terminology</STRONG></P>
+<P>In this article we refer to the value of a language attribute such as =
+
+<CODE>fr-CA</CODE> as a <SPAN class=3Dnewterm>language tag</SPAN>. The=20
+<CODE>fr</CODE> and <CODE>CA</CODE> parts are referred to as <SPAN=20
+class=3Dnewterm>subtags</SPAN> when described as parts of a tag. When =
+described as=20
+members of an ISO list of languages or countries, <CODE>fr</CODE> and=20
+<CODE>CA</CODE> are referred to as <SPAN =
+class=3Dnewterm>codes</SPAN>.</P></DIV>
+<P>Language tags are used to indicate the language of text or other =
+items in=20
+HTML and XML documents. Use the <CODE class=3Dkw>lang</CODE> attribute =
+to specify=20
+language tags in <A=20
+href=3D"http://www.w3.org/TR/html4/struct/dirlang.html#h-8.1">HTML</A>, =
+and the=20
+<CODE class=3Dkw>xml:lang</CODE> attribute for <A=20
+href=3D"http://www.w3.org/TR/REC-xml#sec-lang-tag">XML</A> </P>
+<P>In both cases, language information is inherited by elements inside =
+the one=20
+where the declaration was made, unless one of those elements declares a=20
+different language (in the same way).</P>
+<DIV class=3Dinsidenote>RFCs are what the IETF calls its specifications. =
+Each RFC=20
+has a unique number. Unfortunately, it is not possible to tell, when =
+reading RFC=20
+1766 or RFC 3066 that these specifications have been obsoleted and =
+replaced by=20
+other specifications.</DIV>
+<P>Language tag syntax is defined by the <ABBR=20
+title=3D"Internet Engineering Task Force">IETF</ABBR>'s <A=20
+href=3D"http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</A>. BCP =
+stands for=20
+'Best Current Practice', and is a persistent name for a series of <ABBR=20
+title=3D"Request For Comment">RFC</ABBR>s whose numbers change as they =
+are=20
+updated. The latest RFC describing language tag syntax is <A=20
+href=3D"http://www.rfc-editor.org/rfc/rfc5646.txt"><CITE>RFC 5646, Tags =
+for the=20
+Identification of Languages</CITE></A>, and it obsoletes the older RFCs =
+<A=20
+href=3D"http://www.rfc-editor.org/rfc/rfc4646.txt">4646</A>, <A=20
+href=3D"http://www.ietf.org/rfc/rfc3066.txt">3066</A> and <A=20
+href=3D"http://www.nordu.net/ftp/rfc/rfc1766.txt">1766</A>. </P>
+<P>You used to find subtags by consulting the lists of codes in various =
+ISO=20
+standards, but now you can find all subtags in the <CITE><A=20
+href=3D"http://www.iana.org/assignments/language-subtag-registry"><ABBR=20
+title=3D"Internet Assigned Numbers Authority">IANA</ABBR> Language =
+Subtag=20
+Registry</A></CITE>. We will describe the new registry below.</P>
+<BLOCKQUOTE=20
+style=3D"PADDING-RIGHT: 10px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; BACKGROUND-COLOR: yellow; TEXT-ALIGN: center; =
+border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: =
+10px"><STRONG>If=20
+  you want step-by-step guidance for choosing a language tag, you should =
+read <A=20
+  =
+href=3D"http://www.w3.org/International/questions/qa-choosing-language-ta=
+gs"><CITE>Choosing=20
+  a language tag</CITE></A>. What follows here provides more of a =
+high-level=20
+  overview of the syntax and concepts involved in language tags, as =
+described by=20
+  BCP 47.</STRONG></BLOCKQUOTE>
+<P>Most language tags consist of a two- or three-letter language subtag. =
+Often=20
+this is followed by a two-letter or three-digit region subtag. RFC 5646 =
+also=20
+allows for a number of additional subtags, where needed. These will be =
+explained=20
+briefly in the next section, and include extended language, script, =
+variant,=20
+extension and private-use subtags.</P>
+<P><STRONG>The golden rule when creating language tags is to keep the =
+tag as=20
+short as possible.</STRONG> Avoid region, script or other subtags except =
+where=20
+they add useful distinguishing information. For instance, use =
+<CODE>ja</CODE>=20
+for Japanese and not <CODE>ja-JP</CODE>, unless there is a particular =
+reason=20
+that you need to say that this is Japanese <EM>as spoken in Japan, =
+rather than=20
+elsewhere</EM>.</P>
+<P>Examples:</P>
+<TABLE id=3Dexamples=20
+summary=3D"This table lists language code, language name and its =
+explanation.">
+  <TBODY>
+  <TR>
+    <TH scope=3Dcol>Code</TH>
+    <TH scope=3Dcol>Language</TH>
+    <TH scope=3Dcol>Subtags</TH></TR>
+  <TR>
+    <TD>en</TD>
+    <TD>English</TD>
+    <TD>language</TD></TR>
+  <TR>
+    <TD>mas</TD>
+    <TD>Masai</TD>
+    <TD>language</TD></TR>
+  <TR>
+    <TD>fr-CA</TD>
+    <TD>French as used in Canada</TD>
+    <TD>language+region</TD></TR>
+  <TR>
+    <TD>es-419</TD>
+    <TD>Spanish as used in Latin America</TD>
+    <TD>language+region</TD></TR>
+  <TR>
+    <TD>zh-Hans</TD>
+    <TD>Chinese written with Simplified script</TD>
+    <TD>language+script</TD></TR></TBODY></TABLE>
+<P>XML also provides a means to <EM>prevent</EM> inheritance of language =
+using=20
+the empty string, ie. <CODE>xml:lang=3D"". </CODE>Essentially, this =
+says: I do not=20
+want to associate any language with this information.</P>
+<P>The remainder of this article provides additional detail on how to =
+construct=20
+language tags.</P>
+<DIV class=3DsidenoteGroup>
+<P>Note that the HTML 4.01 specification still <A=20
+href=3D"http://www.w3.org/TR/REC-html40/struct/dirlang.html#h-8.1.1">reco=
+mmends</A>=20
+the use of RFC 1766 for identifying language but you should use RFC 5646 =
+despite=20
+what the HTML specification currently says.</P>
+<DIV class=3Dsidenote>Although it provides some additional options for =
+identifying=20
+common language variations, RFC 5646 includes all of the tags that were=20
+previously valid. If you have been using RFC 1766, RFC 3066, or RFC 4646 =
+you do=20
+not need to make any changes to your tags.</DIV></DIV></DIV>
+<DIV class=3Dsection>
+<H2><A id=3Drfc name=3Drfc>Constructing language tags</A></H2>
+<P>Some of the key differences between RFC 5646 and earlier =
+specifications such=20
+as RFC 3066 are:</P>
+<OL>
+  <LI>there is just one place to look for valid subtags, the new <A=20
+  href=3D"http://www.iana.org/assignments/language-subtag-registry">IANA =
+
+  registry</A>=20
+  <LI>subtags have fixed positions and lengths, which makes for easier =
+matching=20
+  of language tags=20
+  <LI>there is more flexibility around the potential components of a =
+language=20
+  tag. </LI></OL>
+<P><A href=3D"http://www.ietf.org/rfc/rfc3066.txt">RFC 3066</A> =
+essentially=20
+allowed you to compose language tags that were either a language code on =
+its=20
+own, a language code plus a country code, or one of a small number of =
+specially=20
+registered values in the <A=20
+href=3D"http://www.iana.org/assignments/language-tags">IANA language tag =
+
+registry</A>.</P>
+<P><A href=3D"http://www.rfc-editor.org/rfc/rfc5646.txt">RFC 5646</A> =
+caters for=20
+more types of subtag, and allows you to combine them in various ways. =
+While this=20
+may appear to make life much more complicated, generally speaking =
+choosing=20
+language tags will continue to be a simple matter - however, where you =
+need=20
+additional power it will be available to you. In fact, for most people, =
+RFC 5646=20
+should actually make life simpler in a number of ways =E2=80=93 for one =
+thing, there is=20
+only one place you need to look now for valid subtags.</P>
+<P>The list below shows the various types of subtag that are available. =
+We will=20
+work our way through these and how they are used in the sections that=20
+follow.</P>
+<P style=3D"FONT-WEIGHT: bold; FONT-SIZE: 200%; MARGIN-RIGHT: 0px"><SPAN =
+
+class=3DlanguageExample>language</SPAN>-<SPAN=20
+class=3DextlangExample>extlang</SPAN>-<SPAN=20
+class=3DscriptExample>script</SPAN>-<SPAN =
+class=3DregionExample>region</SPAN>-<SPAN=20
+class=3DvariantExample>variant</SPAN>-extension-<SPAN=20
+class=3DpuExample>privateuse</SPAN></P>
+<P>The entries in the registry follow certain conventions with regard to =
+upper=20
+and lower letter-casing. For example, language tags are lower case, =
+alphabetic=20
+region subtags are upper case, and script tags begin with an initial =
+capital.=20
+This is only a convention! When you use these subtags you are free to do =
+as you=20
+like, unless you are constrained by the rules of the system you are =
+working=20
+with. For HTML and XML language markup, the case should not matter.</P>
+<DIV class=3Dsection2>
+<H3><A id=3Dregistry=20
+href=3D"http://www.w3.org/International/articles/language-tags/#registry"=
+=20
+name=3Dregistry>Using the subtag registry</A></H3>
+<P>As mentioned above, you used to find subtags by consulting the lists =
+of codes=20
+in various ISO standards, but now you can find all subtags in one place. =
+The <A=20
+href=3D"http://www.iana.org/assignments/language-subtag-registry">IANA=20
+registry</A> looks a little complicated at first, compared to the ISO =
+code=20
+lists, but it is easy enough to use once you understand its =
+structure.</P>
+<P>The registry is a long text file. To find a language subtag, search =
+the page=20
+for the name of that language, in English. If we search for 'French', we =
+find a=20
+record that looks like this:</P>
+<DIV class=3Dexample><PRE>%%
+Type: language
+Subtag: fr
+Description: French
+Added: 2005-10-16
+Suppress-Script: Latn
+%%
+</PRE></DIV>
+<P>Note that the type of this record is 'language'. What you are looking =
+for is=20
+the code labeled 'Subtag', which indicates a value of 'fr'.</P>
+<P>You can find other tags in the same way. For example, to create a tag =
+fr-CA=20
+(French as used in Canada), you would next search for 'Canada', and =
+check that=20
+you had found a tag of type 'region'.</P>
+<P>There are, however, some additional things you need to bear in mind =
+when=20
+choosing subtags. For example, you should avoid subtags that are =
+described in=20
+the registry as redundant or deprecated, and you need to use variant =
+subtags in=20
+combination with certain other prescribed subtags. For more information =
+about=20
+choosing subtags, read <A=20
+href=3D"http://www.w3.org/International/questions/qa-choosing-language-ta=
+gs"><CITE>Choosing=20
+a language tag</CITE></A>.</P>
+<P>Richard Ishida has also created a user-friendly <A=20
+href=3D"http://rishida.net/utils/subtags/">tool for searching the=20
+registry</A>.</P>
+<P>The following sections will give you more detail about specific=20
+subtags.</P></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dlanguage=20
+href=3D"http://www.w3.org/International/articles/language-tags/#language"=
+=20
+name=3Dlanguage>The primary language subtag</A></H3>
+<DIV class=3Dinsidenote>
+<P class=3D"languageExample tagExampleHead">Language subtags</P><PRE =
+class=3DtagExample><SPAN class=3D"languageExample currentExample" =
+title=3D"Language subtag">en</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3D"languageExample currentExample" title=3D"Language =
+subtag">ast</SPAN></PRE>
+<P class=3Dreadmore>Read more in the BCP 47 spec: </P>
+<P><A =
+href=3D"http://www.inter-locale.com/ID/rfc5646.html#primarylang">2.2.1=20
+Primary Language Subtag</A></P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#choice">4.1 =
+Choice of=20
+Language Tag</A></P>
+<P><A =
+href=3D"http://www.inter-locale.com/ID/rfc5646.html#macrolanguages">4.1.1=
+=20
+Tagging Encompassed Languages</A></P></DIV>
+<P>All language tags must begin with a primary language subtag.</P>
+<P>Examples of simple, language-only language tags include:</P>
+<UL>
+  <LI>en (English)=20
+  <LI>ast (Asturian - no two-letter code exists for Asturian in the ISO =
+lists)=20
+  </LI></UL>
+<P>These codes come from, and are kept up to date with, ISO 639 language =
+codes.=20
+</P>
+<P>Because RFC 3066 didn't provide a list of valid subtags and just =
+referred=20
+users to ISO 639, there was sometimes confusion about how to tag =
+languages when=20
+the ISO code lists contained both two-letter and three-letter codes (and =
+
+sometimes more than one three-letter code). Now all valid subtags are =
+listed in=20
+a single <A =
+href=3D"http://www.iana.org/assignments/language-subtag-registry">IANA=20
+registry</A>, which adopts only one value from the ISO lists per =
+language. If a=20
+two-letter ISO code is available, this will be the one in the registry.=20
+Otherwise the registry will contain one three-letter code. This should =
+make=20
+things simpler. </P>
+<P>When RFC 5646 was published, over 7,000 new ISO 639-3 three-letter =
+codes were=20
+added to the Subtag Registry.</P>
+<P>This is an example of the primary language subtag for Spanish,=20
+<CODE>es</CODE>, in the registry:</P>
+<DIV class=3Dexample><PRE>%%
+Type: language
+Subtag: es
+Description: Spanish
+Description: Castilian
+Added: 2005-10-16
+Suppress-Script: Latn
+%%
+</PRE></DIV>
+<P>Although the codes are case insensitive, they are commonly written=20
+lowercased, but this is merely a convention.</P></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dextlang=20
+href=3D"http://www.w3.org/International/articles/language-tags/#extlang" =
+
+name=3Dextlang>The extended language subtag</A></H3>
+<DIV class=3Dinsidenote>
+<P class=3D"extlangExample tagExampleHead">Extlang subtags</P><PRE =
+class=3DtagExample><SPAN class=3DlanguageExample title=3D"Language =
+subtag">zh</SPAN>-<SPAN class=3D"extlangExample currentExample" =
+title=3D"Extlang subtag">yue</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3DlanguageExample title=3D"Language subtag">ar</SPAN>-<SPAN =
+class=3D"extlangExample currentExample" title=3D"Extlang =
+subtag">afb</SPAN></PRE>
+<P class=3Dreadmore>Read more in the BCP 47 spec: </P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#extlang">2.2.2 =
+Extended=20
+Language Subtags</A></P>
+<P><A=20
+href=3D"http://www.inter-locale.com/ID/rfc5646.html#choiceUsingExtlang">4=
+.1.2=20
+Using Extended Language Subtags</A></P></DIV>
+<P>We will refer to extended language subtags as <SPAN=20
+class=3Dnewterm>extlang</SPAN> subtags. An extlang subtag must always be =
+preceded=20
+by a specific primary language subtag, there can only be one in a =
+language tag,=20
+and it comes before any other subtags.</P>
+<P>Examples of language tags including extlang subtags are:</P>
+<UL>
+  <LI>zh-yue (Cantonese Chinese)=20
+  <LI>ar-afb (Gulf Arabic) </LI></UL>
+<P>Language+extlang combinations are provided to accommodate legacy =
+language tag=20
+forms, however, there is a single language subtag available for every=20
+language+extlang combination. That language subtag should be used rather =
+than=20
+the language+extlang combination, where possible. For example, use yue =
+rather=20
+than zh-yue for Cantonese, and afb rather than ar-afb for Gulf Arabic, =
+if you=20
+can.</P>
+<P>Extlang subtags are always three letters long. Each extlang entry in =
+the=20
+registry contains a Prefix field that specifies the language that must =
+precede=20
+the extlang subtag. Entries also include a Preferred-Value field that =
+indicates=20
+the equivalent language tag.</P>
+<P>This is an example of the extlang code for Gulf Arabic, =
+<CODE>afb</CODE>, in=20
+the registry:</P>
+<DIV class=3Dexample><PRE>%%
+Type: extlang
+Subtag: afb
+Description: Gulf Arabic
+Added: 2009-07-29
+Preferred-Value: afb
+Prefix: ar Macrolanguage: ar
+%%
+			</PRE></DIV>
+<P><STRONG class=3Dleadin>Macrolanguages</STRONG> The primary language =
+subtags=20
+used with an extlang subtag are known as macrolanguages, and encompass a =
+number=20
+of languages with more specific primary language subtags. The =
+macrolanguage=20
+subtag can be used on its own, but unless there is some convention about =
+its=20
+meaning in the context where it is used, it is not necessarily precise =
+enough.=20
+</P>
+<P>For example, zh means Chinese, but it covers many Chinese dialects, =
+often=20
+mutually incomprehensible. When zh is used on its own, it is usually =
+used to=20
+mean the predominant language in the encompassed range, although this is =
+not=20
+explicitly specified in BCP 47. For example, conventionally zh is =
+considered to=20
+represent the predominant, Mandarin form of Chinese. Where absolute =
+clarity is=20
+needed you can use cmn instead as long as that doesn't break =
+interoperability,=20
+however, if you are using zh to represent a language which is =
+<EM>not</EM>=20
+Mandarin, such as Hakka Chinese, you are better off using the explicit =
+code (in=20
+that case, hak).</P>
+<P>On the other hand, zh-Hans uses zh in its generic sense. This is a =
+useful way=20
+to describe writing in Simplified Chinese, since Chinese tends to be =
+written in=20
+the same way, regardless of the dialect of the reader.</P></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dscript=20
+href=3D"http://www.w3.org/International/articles/language-tags/#script"=20
+name=3Dscript>The script subtag</A></H3>
+<DIV class=3Dinsidenote>
+<P class=3D"scriptExample tagExampleHead">Script subtags</P><PRE =
+class=3DtagExample><SPAN class=3DlanguageExample title=3D"Language =
+subtag">zh</SPAN>-<SPAN class=3D"scriptExample  currentExample" =
+title=3D"Script tag">Hans</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3DlanguageExample title=3D"Language subtag">az</SPAN>-<SPAN =
+class=3D"scriptExample currentExample" title=3D"Script =
+tag">Latn</SPAN></PRE>
+<P class=3Dreadmore>Read more in the BCP 47 spec: </P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#script">2.2.3 =
+Script=20
+Subtag</A></P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#choice">4.1 =
+Choice of=20
+Language Tag</A></P></DIV>
+<P>Examples of language tags including script subtags are:</P>
+<UL>
+  <LI>zh-Hans (Simplified Chinese)=20
+  <LI>az-Latn (Azerbaijani, written in Latin script - since Azerbaijani =
+can also=20
+  be written using the Arabic script) </LI></UL>
+<P>The script subtag was first introduced in RFC 4646. The subtags come =
+from,=20
+and are kept up to date with, the list of ISO 15924 script codes.</P>
+<P>Only one script subtag can appear in a language tag, and it must =
+immediately=20
+follow the language or any extlang subtag. It is always four letters =
+long.</P>
+<P><STRONG>You should only use script tags if they are necessary to make =
+a=20
+distinction you need.</STRONG> As RFC 4646 co-author, Addison Phillips, =
+writes,=20
+"For virtually any content that does not use a script tag today, it =
+remains the=20
+best practice not to use one in the future".</P>
+<P>If you specifically want to indicate that content is not written, =
+there is a=20
+subtag for that. For example, you could use en-Zxxx to make it clear =
+that an=20
+audio recording in English is not written content.</P>
+<P>Actually, many language subtag entries in the registry strongly =
+discourage=20
+the use of script tags by including a 'Suppress script' field. There is =
+such a=20
+field in the Spanish example above, which indicates that Spanish is =
+normally=20
+written using Latin script, and so the <CODE>Latn</CODE> subtag should =
+normally=20
+not be used with <CODE>es</CODE>.</P>
+<P>This example shows the registry entry for Cyrillic script, =
+<CODE>Cyrl</CODE>,=20
+used for languages such as Russian:</P>
+<DIV class=3Dexample><PRE>%%
+Type: script
+Subtag: Cyrl
+Description: Cyrillic
+Added: 2005-10-16
+%%
+</PRE></DIV>
+<P>Although for common uses of language tags it is not likely that you =
+will need=20
+to specify the script, there are one or two situations that have been =
+crying out=20
+for it for some time. One such example is Chinese. There are many =
+Chinese=20
+dialects, often mutually unintelligible, but these dialects are all =
+written=20
+using either Simplified or Traditional Chinese script. People typically =
+want to=20
+label Chinese text as either Simplified or Traditional, but until =
+recently there=20
+was no way to do so. People had to bend something like zh-CN (meaning =
+Chinese as=20
+spoken in China) to mean Simplified Chinese, even in Singapore, and =
+zh-TW=20
+(meaning Chinese as spoken in Taiwan) for Traditional Chinese. (Other =
+people,=20
+however, use zh-HK for Traditional Chinese.) The availability of zh-Hans =
+and=20
+zh-Hant for Chinese written in Simplified and Traditional scripts should =
+improve=20
+consistency and accuracy, and is already becoming widely used, although =
+of=20
+course you may need to continue to use the old language tags in some =
+cases for=20
+consistency.</P></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dregion=20
+href=3D"http://www.w3.org/International/articles/language-tags/#region"=20
+name=3Dregion>The region subtag</A></H3>
+<DIV class=3Dinsidenote>
+<P class=3D"regionExample tagExampleHead">Region subtags</P><PRE =
+class=3DtagExample><SPAN class=3DlanguageExample title=3D"Language =
+subtag">en</SPAN>-<SPAN class=3D"regionExample currentExample" =
+title=3D"Region subtag">GB</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3DlanguageExample title=3D"Language subtag">es</SPAN>-<SPAN =
+class=3D"regionExample currentExample" title=3D"Region =
+subtag">005</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3DlanguageExample title=3D"Language subtag">zh</SPAN>-<SPAN =
+class=3DscriptExample title=3D"Script tag">Hant</SPAN>-<SPAN =
+class=3D"regionExample currentExample" title=3D"Region =
+subtag">HK</SPAN></PRE>
+<P class=3Dreadmore>Read more in the BCP 47 spec: </P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#region">2.2.4 =
+Region=20
+Subtag</A></P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#choice">4.1 =
+Choice of=20
+Language Tag</A></P></DIV>
+<P>Examples of language tags including region subtags include:</P>
+<UL>
+  <LI>en-GB (British English)=20
+  <LI>es-005 (South American Spanish)=20
+  <LI>zh-Hant-HK (Traditional Chinese as used in Hong Kong) </LI></UL>
+<P>The region subtag in RFC 3066 took its values from the ISO 3166 =
+country=20
+codes. These two-letter codes are still available from the new registry, =
+but the=20
+registry also lists 3-digit UN M.49 region codes. The advantage of these =
+codes=20
+is that they can represent more than just countries. For example, =
+localization=20
+groups have for some time wanted to label their carefully crafted =
+translations=20
+as Latin-American Spanish, rather than the Spanish of any particular =
+country.=20
+With RFC 5646 this is possible; the appropriate language tag is=20
+<CODE>es-419</CODE>.</P>
+<P>Only one region subtag can appear in a language tag, and it must =
+appear after=20
+the language subtag and any extlang and script tags. It is a two-letter =
+alpha or=20
+3-digit numeric code. You can have a language code immediately followed =
+by a=20
+region code, just as you are used to for language tags such as=20
+<CODE>en-US</CODE>.</P>
+<P>Once again, you should only use region subtags if they are necessary =
+to make=20
+a distinction you need. Unless you specifically need to highlight that =
+you are=20
+talking about Italian <EM>as spoken in Italy</EM> you should use =
+<CODE>it</CODE>=20
+for Italian, and not <CODE>it-IT</CODE>. The same goes for any other =
+possible=20
+combination.</P>
+<P>These examples from the registry show the codes for Austria, =
+<CODE>AT</CODE>,=20
+and Northern Africa, <CODE>015</CODE>:</P>
+<DIV class=3Dexample><PRE>%%
+Type: region
+Subtag: AT
+Description: Austria
+Added: 2005-10-16
+%%
+Type: region
+Subtag: 015
+Description: Northern Africa
+Added: 2005-10-16
+%%
+</PRE></DIV></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dvariants=20
+href=3D"http://www.w3.org/International/articles/language-tags/#variants"=
+=20
+name=3Dvariants>Variant subtags</A></H3>
+<DIV class=3Dinsidenote>
+<P class=3D"variantExample tagExampleHead">Variant subtags</P><PRE =
+class=3DtagExample><SPAN class=3DlanguageExample title=3D"Language =
+subtag">sl</SPAN>-<SPAN class=3D"variantExample currentExample" =
+title=3D"Variant subtag">nedis</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3DlanguageExample title=3D"Language subtag">sl</SPAN>-<SPAN =
+class=3DregionExample title=3D"Region subtag">IT</SPAN>-<SPAN =
+class=3D"variantExample currentExample" title=3D"Variant =
+subtag">nedis</SPAN></PRE><PRE class=3DtagExample><SPAN =
+class=3DlanguageExample title=3D"Language subtag">de</SPAN>-<SPAN =
+class=3DregionExample title=3D"Region subtag">CH</SPAN>-<SPAN =
+class=3D"variantExample currentExample" title=3D"Variant =
+subtag">1901</SPAN></PRE>
+<P class=3Dreadmore>Read more in the BCP 47 spec: </P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#variant">2.2.5 =
+Variant=20
+Subtags</A></P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#choice">4.1 =
+Choice of=20
+Language Tag</A></P></DIV>
+<P>Variant subtags are values used to indicate dialects or script =
+variations not=20
+already covered by combinations of language, script and region subtag. =
+The=20
+variant subtags must appear after any language, script or region =
+subtags, but=20
+script and region subtags do not need to precede them.</P>
+<P>It is unlikely that you will need to use variant subtags unless you =
+are=20
+working in a specialized area.</P>
+<P>The following examples may help you understand what these subtags =
+do.</P>
+<UL>
+  <LI>sl-nedis (the Nadiza dialect of Slovenian)=20
+  <LI>sl-rozaj (the Rezijan dialect of Slovenian)=20
+  <LI>sl-IT-nedis (the specific variant of the Nadiza dialect of =
+Slovenian that=20
+  is spoken in Italy)=20
+  <LI>de-CH-1901 (the variant of German orthography dating from the 1901 =
+
+  reforms, as seen in Switzerland) </LI></UL>
+<P>This example from the registry shows the code for the Nadiza dialect =
+of=20
+Slovenian, <CODE>nedis</CODE>:</P>
+<DIV class=3Dexample><PRE>%%
+Type: variant
+Subtag: nedis
+Description: Natisone dialect
+Description: Nadiza dialect
+Added: 2005-10-16
+Prefix: sl
+%%
+</PRE></DIV>
+<P>In the registry these subtags are tied to a specific language (and =
+possibly=20
+additional subtags between this subtag and the primary language subtag) =
+by the=20
+'Prefix' field. The <CODE>nedis</CODE> example shown above should only =
+be used=20
+with Slovenian. </P>
+<P>If you need to express a particular dialectal or script nuance that =
+is not=20
+currently available, you should propose a variant subtag or subtags for=20
+inclusion in the registry using the registration procedure outlined in =
+RFC=20
+5646.</P></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dextension=20
+href=3D"http://www.w3.org/International/articles/language-tags/#extension=
+"=20
+name=3Dextension>Extension and private-use subtags</A></H3>
+<DIV class=3Dinsidenote style=3D"MARGIN-LEFT: 2em; WIDTH: 44%">
+<P class=3D"extensionExample tagExampleHead">Extension subtags</P><PRE =
+class=3DtagExample><SPAN class=3DlanguageExample title=3D"Language =
+subtag">de</SPAN>-<SPAN class=3DregionExample title=3D"Region =
+subtag">DE</SPAN>-<SPAN class=3D"extensionExample currentExample" =
+title=3D"Private use subtag">u-co-phonebk</SPAN></PRE>
+<P class=3D"puExample tagExampleHead">Private use subtags</P><PRE =
+class=3DtagExample><SPAN class=3DlanguageExample title=3D"Language =
+subtag">en</SPAN>-<SPAN class=3DregionExample title=3D"Region =
+subtag">US</SPAN>-<SPAN class=3D"puExample currentExample" =
+title=3D"Private use subtag">x-twain</SPAN></PRE>
+<P class=3Dreadmore>Read more in the BCP 47 spec: </P>
+<P><A =
+href=3D"http://www.inter-locale.com/ID/rfc5646.html#privateusesubt">2.2.7=
+=20
+Private Use Subtags</A></P>
+<P><A =
+href=3D"http://www.inter-locale.com/ID/rfc5646.html#extensionsubt">2.2.6 =
+
+Extension Subtags</A></P>
+<P><A href=3D"http://www.inter-locale.com/ID/rfc5646.html#choice">4.1 =
+Choice of=20
+Language Tag</A></P></DIV>
+<P>If you feel you really need to use these subtags, you should read the =
+<A=20
+href=3D"http://www.w3.org/International/core/langtags/rfc3066bis.html">sp=
+ecification</A>,=20
+rather than this article.</P>
+<P>Extension and private use subtags are introduced by a single letter =
+tag, or=20
+'singleton'. An organization can propose a singleton for an extension. =
+It's=20
+intended use must be described by an RFC (IETF specification). The =
+singleton=20
+will be added to the registry if it successfully passes a review. The =
+singleton=20
+<CODE>x</CODE> is reserved for private use. Multiple subtags are allowed =
+after=20
+the singleton; however, as for all subtags, they must each be 8 or less=20
+characters in length.</P>
+<P>Extension subtags allow for extensions to the language tag. For =
+example, the=20
+extension subtag <CODE>u</CODE> has been registered by the Unicode =
+Consortium to=20
+add information about language or locale behavior. Many locale =
+identifiers=20
+require additional "tailorings" or options for specific values within a=20
+language, culture, region, or other variation. This extension provides a =
+
+mechanism for using these additional tailorings within language tags for =
+general=20
+interchange.</P>
+<P>For example, the following indicates that phonebook collation order =
+should be=20
+used by an application, that sorted data in a document is sorted =
+according to=20
+this collation, and so on.</P>
+<UL>
+  <LI>de-DE-u-co-phonebk </LI></UL>
+<P>The u- extension is defined in <A=20
+href=3D"http://www.rfc-editor.org/rfc/rfc6067.txt">RFC 6067</A>, which =
+points to=20
+the Unicode Consortium's Common Locale Data Repository (CLDR) for =
+details on the=20
+subtags that follow it. It is not defined by BCP 47.</P>
+<P>Private-use subtags do not appear in the subtag registry, and are =
+chosen and=20
+maintained by private agreement amongst parties.</P>
+<P>Because these subtags are only meaningful within private agreements =
+and=20
+cannot be used interoperably across the Web, they should be used with =
+great=20
+care, and avoided whenever possible. </P>
+<P>The following example of a private use subtag may identify a specific =
+type of=20
+US English, but only within a closed community. Outside of that private=20
+agreement, its meaning cannot be relied upon.</P>
+<UL>
+  <LI>en-US-x-twain </LI></UL></DIV>
+<DIV class=3Dsection2>
+<H3><A id=3Dgrandfathered=20
+href=3D"http://www.w3.org/International/articles/language-tags/#grandfath=
+ered"=20
+name=3Dgrandfathered>Grandfathered and redundant subtags</A></H3>
+<DIV class=3Dinsidenote>
+<P>Read more in the BCP 47 spec: </P>
+<P><A =
+href=3D"http://www.inter-locale.com/ID/rfc5646.html#preexisreg">2.2.8=20
+Grandfathered and Redundant Registrations</A></P></DIV>
+<P>Grandfathered tags are special cases, provided for backwards =
+compatibility.=20
+They are subtags that were registered before RFC 4646 that cannot be =
+completely=20
+composed from the subtags in the current registry, or do not fit the =
+syntax=20
+currently defined for language tags. </P>
+<P>Redundant tags are language tags composed of a sequence of subtags =
+and=20
+registered before RFC 4646 that can now be formed by combining separate =
+subtags=20
+from the current registry. The original registrations remain in the =
+registry=20
+mostly 'as a matter of historical curiosity'.</P>
+<P>Many grandfathered tags have been superceded by subtags or =
+combinations of=20
+subtags in the registry. Such grandfathered tags are now deprecated, and =
+usually=20
+contain a Preferred-Value field that indicates how you ought to =
+represent that=20
+language instead. For instance, the following example of a grandfathered =
+tag=20
+indicates that you should use the jbo language subtag instead of =
+art-lojban.</P>
+<DIV class=3Dexample><PRE>%%
+Type: grandfathered=20
+Tag: art-lojban=20
+Description: Lojban=20
+Added: 2001-11-11=20
+Deprecated: 2003-09-02=20
+Preferred-Value: jbo=20
+%%</PRE></DIV></DIV></DIV>
+<DIV class=3Dsection>
+<H2 style=3D"MARGIN-BOTTOM: 0px"><A id=3Dmatching tabIndex=3D1 =
+name=3Dmatching>Matching=20
+language tags</A></H2>
+<P>Matching different language tags is important for a number of =
+applications.=20
+According to BCP 47 'en' can be said to match 'en-GB'. For example, the=20
+following CSS code colors all English text red in browsers that support =
+the=20
+pseudo-attribute :lang.</P>
+<BLOCKQUOTE><PRE>:lang(en) { color: red; }</PRE></BLOCKQUOTE>
+<P>In the following code, the text described as =
+<CODE>lang=3D"en-GB"</CODE> will=20
+be red.</P>
+<BLOCKQUOTE><PRE lang=3Dfr xml:lang=3D"fr">&lt;p&gt;En janvier, toutes =
+les boutiques de Londres affichent des panneaux=20
+&lt;span lang=3D"en-GB"&gt;SALE&lt;/span&gt;, mais en fait ces magasins =
+sont bien propres!&lt;/p&gt;</PRE></BLOCKQUOTE>
+<P>On the other hand, given the following CSS declaration,</P>
+<BLOCKQUOTE><PRE>:lang(en-GB) { color: red; }</PRE></BLOCKQUOTE>
+<P>the word 'SALE' should <EM>not</EM> be red in the following code.</P>
+<BLOCKQUOTE><PRE lang=3Dfr xml:lang=3D"fr">&lt;p&gt;En janvier, toutes =
+les boutiques de Londres affichent des panneaux=20
+&lt;span lang=3D"en"&gt;SALE&lt;/span&gt;, mais en fait ces magasins =
+sont bien propres!&lt;/p&gt;</PRE></BLOCKQUOTE>
+<P>With the availability of additional tags in RFC 5646, matching is a =
+little=20
+more complicated. In addition, its companion, <A=20
+href=3D"http://www.rfc-editor.org/rfc/rfc4647.txt"><CITE>RFC 4647 =
+Matching of=20
+Language Tags</CITE></A>, describes more than one possible approach to =
+matching.=20
+Matching will be described in another article.</P></DIV>
+<DIV class=3Dsection>
+<H2><A id=3Dbytheway=20
+href=3D"http://www.w3.org/International/articles/language-tags/#bytheway"=
+=20
+name=3Dbytheway>By the way</A></H2>
+<P>Language tags for HTML were first formally defined in RFC 2070, F. =
+Yergeau,=20
+et.al. <CITE><A =
+href=3D"http://www.ietf.org/rfc/rfc2070.txt">Internationalization=20
+of the Hypertext Markup Language</A></CITE>. RFC 2070 was incorporated =
+into <A=20
+href=3D"http://www.w3.org/TR/html4">HTML 4</A>, and has been =
+reclassified as=20
+historic.</P>
+<P>Note there have been <A=20
+href=3D"http://www.loc.gov/standards/iso639-2/codechanges.html"><STRONG>c=
+hanges</STRONG></A>=20
+to ISO language codes. In 1989 iw, in, and ji were withdrawn and =
+replaced by he,=20
+id, and yi. More recently, the ISO country code cs, that used to =
+represent=20
+Czechoslovakia, was changed to represent Serbia and Montenegro. Such =
+changes can=20
+lead to confusion when comparing codes that were assigned to text over a =
+long=20
+period. The new IANA subtag registry allows for tags to be deprecated =
+and=20
+superseded by new tags, but will never remove or change the meaning of a =
+subtag.=20
+It is expected that ISO will also follow a similar policy for the =
+future.</P>
+<P>Many other W3C and Web-related specifications use language tags:</P>
+<UL>
+  <LI><A href=3D"http://www.w3.org/TR/xhtml1/">XHTML 1.0</A> uses =
+language tags in=20
+  the HTML <CODE>lang</CODE> attribute and the XML <CODE>xml:lang</CODE> =
+
+  attribute, as well as the <CODE>hreflang</CODE> attribute.=20
+  <LI>HTTP uses language tags in the Accept-Language and =
+Content-Language=20
+  headers.=20
+  <LI>SMIL and SVG can use language tags in the &lt;switch&gt; =
+statement.=20
+  <LI>CSS and XSL use language tags for detailed style control. =
+</LI></UL>
+<P>Note also that language information can be attached to objects such =
+as images=20
+and included audio files.</P></DIV>
+<DIV class=3Dsection id=3Dsurvey>
+<DIV class=3Dcontainer>
+<DIV class=3Dtopright>
+<P>Tell us what you think (English).</P>
+<FORM action=3D/International/2007/06/surveyform-110707.php =
+method=3Dpost>
+<P><LABEL class=3Dinteraction><INPUT type=3Dimage alt=3D""=20
+src=3D"http://www.w3.org/International/icons/mailus.gif"> Send us a=20
+comment</LABEL></P><INPUT type=3Dhidden=20
+value=3D/International/articles/language-tags/Overview.en.php =
+name=3Ddocname> <INPUT=20
+type=3Dhidden value=3Dnone name=3Dreferer> <INPUT type=3Dhidden =
+value=3Den name=3Dlang>=20
+</FORM></DIV>
+<DIV class=3Dbottomleft>
+<DIV class=3Dbottomright>
+<P>Subscribe to an RSS feed.</P>
+<P><A class=3Dinteraction=20
+title=3D"Notifies you each time a new resource is published for the =
+first time."=20
+href=3D"http://www.w3.org/blog/xmlsrv/rdf.php?blog=3D11&amp;cat=3D20"><IM=
+G alt=3D""=20
+src=3D"http://www.w3.org/International/icons/rss.gif"> New =
+resources</A></P>
+<P><A class=3Dinteraction title=3D"All news items shown on the home =
+page."=20
+href=3D"http://www.w3.org/blog/xmlsrv/rdf.php?blog=3D11"><IMG alt=3D""=20
+src=3D"http://www.w3.org/International/icons/rss.gif"> Home page =
+news</A></P>
+<P>Twitter (Home page news)</P>
+<P><A class=3Dinteraction title=3D"Twitter: @webi18n"=20
+href=3D"http://www.twitter.com/webi18n"><IMG style=3D"VERTICAL-ALIGN: =
+middle" alt=3D""=20
+src=3D"http://www.w3.org/International/icons/twitter-bird.png">=20
+=E2=80=8E@webi18n</A></P></DIV></DIV></DIV></DIV>
+<DIV class=3D"section noprint">
+<H2><A id=3Dendlinks=20
+href=3D"http://www.w3.org/International/articles/language-tags/#endlinks"=
+=20
+name=3Dendlinks>Further reading</A></H2>
+<UL id=3Dfull-links>
+  <LI>
+  <P>Getting started? <A=20
+  =
+href=3D"http://www.w3.org/International/getting-started/language"><CITE>L=
+anguage=20
+  on the Web</CITE></A> <SPAN=20
+  =
+class=3Duri>http://www.w3.org/International/getting-started/language</SPA=
+N></P>
+  <LI>
+  <P><A href=3D"http://www.rfc-editor.org/rfc/rfc5646.txt"><CITE>RFC =
+5646, Tags=20
+  for the Identification of Languages</CITE></A> <SPAN=20
+  class=3Duri>http://www.rfc-editor.org/rfc/rfc5646.txt</SPAN></P>
+  <LI>
+  <P><A href=3D"http://www.rfc-editor.org/rfc/rfc4647.txt"><CITE>RFC =
+4647,=20
+  Matching of Language Tags</CITE></A> <SPAN=20
+  class=3Duri>http://www.rfc-editor.org/rfc/rfc4647.txt</SPAN></P>
+  <LI>
+  <P><CITE><A=20
+  href=3D"http://www.iana.org/assignments/language-subtag-registry">IANA =
+Language=20
+  Subtag Registry</A><SPAN=20
+  =
+class=3Duri>http://www.iana.org/assignments/language-subtag-registry</SPA=
+N></CITE></P>
+  <LI>
+  <P><A href=3D"http://people.w3.org/rishida/utils/subtags/"><CITE>IANA =
+Language=20
+  Subtag Registry Lookup</CITE></A> tool by Richard Ishida <SPAN=20
+  class=3Duri>http://people.w3.org/rishida/utils/subtags/</SPAN></P>
+  <LI>
+  <P><A=20
+  =
+href=3D"http://www.w3.org/International/questions/qa-choosing-language-ta=
+gs"><CITE>Choosing=20
+  a language tag</CITE></A> <SPAN=20
+  =
+class=3Duri>http://www.w3.org/International/questions/qa-choosing-languag=
+e-tags</SPAN></P>
+  <LI>
+  <P>Related links, <CITE>Authoring HTML &amp; CSS</CITE> =E2=80=93 <A=20
+  =
+href=3D"http://www.w3.org/International/techniques/authoring-html#languag=
+e">Language</A>=20
+  <SPAN=20
+  =
+class=3Duri>http://www.w3.org/International/techniques/authoring-html#lan=
+guage</SPAN></P>
+  <LI>
+  <P>Related links, <CITE>Authoring XML</CITE> =E2=80=93 <A=20
+  =
+href=3D"http://www.w3.org/International/techniques/authoring-xml#language=
+">Language</A>=20
+  <SPAN=20
+  =
+class=3Duri>http://www.w3.org/International/techniques/authoring-xml#lang=
+uage</SPAN></P>
+  <LI>
+  <P>Related links, <CITE>Authoring SVG</CITE> =E2=80=93 <A=20
+  =
+href=3D"http://www.w3.org/International/techniques/authoring-svg#language=
+">Language</A>=20
+  <SPAN=20
+  =
+class=3Duri>http://www.w3.org/International/techniques/authoring-svg#lang=
+uage</SPAN></P>
+  <LI>
+  <P>Related links, <CITE>Developing schemas</CITE> =E2=80=93 <A=20
+  =
+href=3D"http://www.w3.org/International/techniques/developing-schemas#lan=
+guage">Language</A>=20
+  <SPAN=20
+  =
+class=3Duri>http://www.w3.org/International/techniques/developing-schemas=
+#language</SPAN></P></LI></UL></DIV>
+<DIV id=3Dauthor>
+<P>Author: Richard Ishida, W3C. </P></DIV>
+<DIV class=3Dsmallprint>
+<DIV class=3Dnoprint id=3Dlogos><A =
+href=3D"http://validator.w3.org/check/referer"><IMG=20
+title=3D"Valid XHTML 1.0!" height=3D31 alt=3D"Valid XHTML 1.0!"=20
+src=3D"http://www.w3.org/Icons/valid-xhtml10" width=3D88 =
+border=3D0></A><BR><A=20
+href=3D"http://jigsaw.w3.org/css-validator/"><IMG title=3D"Valid CSS!" =
+height=3D31=20
+alt=3D"Valid CSS!" src=3D"http://www.w3.org/Icons/valid-css" width=3D88=20
+border=3D0></A><BR><A href=3D"http://www.unicode.org/"><IMG=20
+title=3D"Encoded in UTF-8!" height=3D33 alt=3D"Encoded in UTF-8!"=20
+src=3D"http://www.w3.org/International/icons/UniEncTrans-small.gif" =
+width=3D84=20
+border=3D0></A></DIV>
+<P id=3Dversion>Content first published 2006-09-20. Last substantive =
+update=20
+2009-09-10 14:17 GMT. This version 2011-05-04 17:57 GMT</P>
+<P>For the history of document changes, search for <SPAN =
+class=3Dsearchkey><A=20
+href=3D"http://www.w3.org/blog/International?s=3Darticle-language-tags&am=
+p;sentence=3Dsentence&amp;blog=3D1&amp;submit=3DSearch">article-language-=
+tags</A></SPAN>=20
+in the i18n blog.</P>
+<P class=3Dcopyright lang=3Den xml:lang=3D"en"><A id=3Dcopyright=20
+href=3D"http://www.w3.org/Consortium/Legal/ipr-notice#Copyright" =
+rel=3DCopyright=20
+name=3Dcopyright>Copyright</A> =C2=A9 2006-2011 <A =
+href=3D"http://www.w3.org/"><ACRONYM=20
+title=3D"World Wide Web Consortium">W3C</ACRONYM></A><SUP>=C2=AE</SUP> =
+(<A=20
+href=3D"http://www.csail.mit.edu/"><ACRONYM=20
+title=3D"Massachusetts Institute of Technology">MIT</ACRONYM></A>, <A=20
+href=3D"http://www.ercim.eu/"><ACRONYM=20
+title=3D"European Research Consortium for Informatics and =
+Mathematics">ERCIM</ACRONYM></A>,=20
+<A href=3D"http://www.keio.ac.jp/">Keio</A>), All Rights Reserved. W3C =
+<A=20
+href=3D"http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">l=
+iability</A>,=20
+<A=20
+href=3D"http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">tra=
+demark</A>,=20
+<A href=3D"http://www.w3.org/Consortium/Legal/copyright-documents"=20
+rel=3DCopyright>document use</A> and <A=20
+href=3D"http://www.w3.org/Consortium/Legal/copyright-software"=20
+rel=3DCopyright>software licensing</A> rules apply. Your interactions =
+with this=20
+site are in accordance with our <A=20
+href=3D"http://www.w3.org/Consortium/Legal/privacy-statement#Public">publ=
+ic</A>=20
+and <A=20
+href=3D"http://www.w3.org/Consortium/Legal/privacy-statement#Members">Mem=
+ber</A>=20
+privacy statements.</P></DIV>
+<SCRIPT type=3Dtext/javascript>if =
+(document.getElementById('toclocation')) { createtoc(); }</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/International/icons/world.gif
+
+R0lGODlhlgA9AIABAAAAAP///yH5BAEAAAEALAAAAACWAD0AQAL/jI+py+0Po5y0OoCz3hwEbS3g
+kX2l2aXqFrbV2rmXacD2XZ7yzng6yUPgcMIhK4i02HhGmYeEoSWnEGJo+UuuqFxUtguOjBLPsPmM
+TlOiarbErUZjOVSQ8W6vxddWbkyEpyL0sbfz5RSY0gAH9XNY+BJ4taXFSPYIefEXRHc2lDlhCTpK
+Wmp6ipqqWubFiqSzWdRJqNpTBlNEq6s1mIglVXtn5kvsitrUleXTWjwGnCqo59fcXGvrXGMcSa19
+xMwmaq2gOEk9oyS+2NdywxSVcxse/MlO+Vx3m34Z7cIvX75E3zd8/6Y48pYOk0AlxgoW0rYwosSJ
+FCtavIixHkR31XAQNnIo0JuPJ+A+btx2Sdo+YseQAcnGBJAbbvYyWbLnsRLJb+ZogXw4BxtHmvSs
+4QlDlMjJUcKmdeTZ8yW0omCEQk20b1W7qn9mJoWSUKFOrNmKLRwxEwUiSeQIicxzT1xOTr5ayWTl
+8Sc0MoZYqhTRI+4uiTVD2WmKEsjOigH7Nq5X9p1FxNsKQ9bTEe1SSJIY8iO4cTPTdXwo6a1MUnSp
+x6jfJrNstK3jI6ffkJ43i67YV1vDzl2r2t04q1prY+wm2KbxjOOMMn/+IDj06dSrW6dSAAA7
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/International/icons/w3c_home.gif
+
+R0lGODlhTQAxAPcAAAAAAAEBAQICAgUFBQYGBggICAwMDA4ODhISEhQUFBUVFRgYGBoaGh0dHR8f
+HyAgICYmJigoKCwsLDExMTU1NTY2Njc3Nzg4ODs7Oz8/P0REREVFRUZGRklJSU5OTk9PT1ZWVl1d
+XV5eXmBgYGFhYWRkZGdnZ2xsbG1tbW9vb3BwcHFxcXR0dHx8fABanAFbnAJbnQNcnQRdngVdngZe
+nghfnwlgnwthoAxioQ5joQ9kohJmoxNmoxRnpBZopRhqpRprphtrph5tqB9uqCBvqCFvqSNxqiRx
+qih0rC13rTJ6rzR8sDV8sTd+sTh+sjl/sjqAszyBs0GEtUKFtkSGtkeIuEmJuEqKuUuLuU6MulGO
+u1WRvVmUv1qUv1uVv12WwF+XwWKZwmedxGmexWqfxWufxmygxm2hxm6hx2+ix3GjyHOkyXWmyXen
+ynioy3qpy3yqzH2rzX6szYGBgYSEhImJiYqKioyMjI2NjY+Pj5GRkZKSkpaWlpeXl5iYmJqamp2d
+nZ+fn6CgoKGhoaKioqWlpaampqioqKqqqqurq6ysrK2tra+vr7GxsbKysrOzs7S0tLe3t7m5uby8
+vL+/v4KuzoOvz4Ww0Iax0Iex0Iiy0Yu00oy10pa71pe815i815m915u+2KDC2qTE3KXF3KjH3arI
+3q/L4LDM4LHN4bLN4bTO4rfQ47vT5bzU5b7V5sHBwcLCwsPDw8XFxcbGxsfHx83Nzc7Ozs/Pz9PT
+09jY2NnZ2dvb29zc3N3d3d/f38DW58HX58PY6MXZ6Mfb6cjb6srd6svd68ze683e687f683f7NHh
+7dLi7tPj7tTj7tXk79fl79jl79nm8Nrm8Nvo8dzo8eDg4OHh4eTk5Ofn5+np6evr6+3t7e7u7uHs
+8+Ls9OTu9efv9unx9urx9+vy9+3z+O70+PDw8PLy8vT09PX19ff39/D1+fP3+vT4+/b5/Pf6/Pn5
++fv7+/j6/Pn7/fr8/fv8/fz8/P39/fz9/v3+/v7+/v7+/////8zMzCwAAAAATQAxAAAI/wAZABhI
+sKDBgwgTKlzIcCG/hxAjPvRHsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjyqxITVmy
+ZOYyMruZzB1HczyTIRtKtCgynyDTVeTXi1tHMC6iuskoJaqLThzdWN3K1aqwi/PyZKigAptFExR3
+3ZnE6M66jaasJsnIySoWjkm66o1KzCI6CgUNLKJoK4A3f3cSrSAha8/GdjOsfsMYzaoNeBq/7dW7
+ZF9FfBgOEojl7wMAWdocFTpRglcejlWjYsVoxOoqjZ2s6qDCuzcRqy/6VtST0AGsAAAGqSNU6NGH
+sBzrRr2LUY3VMRqxWNV0kd4Rq14syv9TMDDAhj+ERAgAYADAgW7+9FDqNQuRIo6Vo17G+MqqkIzw
+2GCVNRdlYhUO4VhEyEAFHGIRLeQBMAdF8wTSRx+SeFRbVLddBM1WzWC0ilVIXCRODlZdcpFpACCC
+US4GJKAUSWlch5F0UWWC0RhWrXERVFEVEY9F87Q3gkZ/4GFSf1H9d1FsUUWBkRBWvWLRMS9YdcpF
+vAAgAC8a4cOOSfboYFWIFUG2VQw5VdSMbvZU1I8TVk2BUSQAdCDTFlbpWFFcXJFikYFRbWHRKFbJ
+4AxGhQDAh0yiWCVlRUBu1YVFUVglSkXuBGFVGBn5AcAuMo0DQ1RsUqQPD1EhgURUO+j/Q5E5MUQF
+wzgVwbEVDFegWdEhB+QzUxNWCeqPMD2u4RVFpFjlhEU1dDUDKBZNAsFM/lRi1aX+aBUVMEy6MJU/
+XfRp0V4vbEqRLhZgu4xVsfqTlwuxlhnVXPrscKZFrbSSSiWvWnXDZP7w4wG2/QDhlWZRccuFZMg2
+udE9bGwlRkUTYsujVLlFZWyzsnnrAnYcZXEgZv7ggq0/I96rnQsztEnrdPO60OFGxmzFCkX4rByg
+VTREJQWmUQWtH8oc9WAVJitb9PJWnFi0SVfUdfSEVWU0XVHHW0VjUX5bzdaRFVZ9oTVFDFt1BG1b
+vQDOR1BYZcY2IPEzT0o1u+DjRWhs/6UESD9YJQck6nwkyC0pieyClRe5slUcFX3zRhLvYPTMVqhw
+04JH2SAASEoRu6BDnBfZG1UxFJVSqwuWYFRGouX4U0IjHK2TAQAopLSPD4VqxKcLPnjmTzgyoKqK
+RcNEFpUWFP2iwCQaqcPBQIaoBKSxGEXqAhgWkWFVDGcEU00oZtoqnD91DECHPBfVIsFAHvCjUlyp
+ZkROraZYdM4Qm0VlhkX40AAAGsCCQiDCDhdADgAecBiVQGZSGonCDNpxEWYobS9VqMdF0BEahETA
+Fy2Rgp80komhYWQaTOgKDMqANIusIwXrKUgHGsgST0iDI8/4hEb2kQowLAEJU2jDMy06co06hAAE
+LajF2ZbIxCY68YlQjKIUp0jFlEjkiliEyBIX0JAuevGLYDxIQAAAOw==
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/International/icons/rss.gif
+
+R0lGODlhEAAQAMQAAOuFNPvWtfnDlPmlUd9oLf3kzeV6MfaqZ/udOuyWY/vBhPmeROh/M+6JNfSR
+Nv748vS9mOBxMeV1L+BuL+yMS/i1duJ5Rv7x5MfJnNtgK/eXOPmaOfWSN/GLNeqwh////yH5BAAA
+AAAALAAAAAAQABAAAAW0IOYZJGMCaNMAnshIxtl0DqdtyDJKFAQds9oNgdgASImP8iFYDIucI4Mi
+CFyWFeKG0zExAMHD9aPYdgCnw6PQ3ASUlTMj1jgoP48D4v2gzA0ANAMKV3kcVxAGEhIAQhsLbxcc
+dg8SE4w2BQUKC1cVDA8fFAQRDRoVSgUcAh8BBm8eBBMNGwOhAR12BRIQHx4ZEwBEAwdyCQkTFgkW
+GREeC2ZoihMEBBnNLR4oJiSLERMTzhghADs=
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/International/icons/twitter-bird.png
+
+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
+YAAAOpgAABdvkl/FRgAAAwBQTFRFa83skI+O8vLy9cd1x8fH6qYpZZWUK7bjzu33Nrnj66s16+vr
+unJBp6eniNXuubm5OL3lJpjSM6vcRsLoM7Th4eHhFYPN9M+H+LVK+Pj499mjKTBE6J0S29vblI90
+qNLpsOT17rhU7rRIVcfqHHvCOsHn6Y8zSbnj0tLS6aEcLKvd0KdO875j++rM6JZNjrnc4vT7UrHJ
+/Pz8pJZW/vnwTpTMxpVG3IAxLqXZ97tW07Rz9K4zNrDeb6vUJ6rc97NA5LGN/PPiIoXGIpLPRomn
+KHy4pbeKsopoLZ/V9aspa5zMKbHgssncJqXZJqThPJa8h6mR8fn8uqBS15ZqhqO57KpY8qpGnIdg
+hIN57K8++v3+N7bhJZ/W/rMxnp2c+eK44aM9NonBBCp7/P7+V2x11cKz//357Pj89tvHMLvn9/v9
+//78////v+LyoODz/v7+/v///f7///7+mp902+/3MLDfOZnMYMLmr6+v/vv25ubm7Onj+89M/O3h
+///+HYvOgICAgYGBgoKCg4ODhISEhYWFhoaGh4eHiIiIiYmJioqKi4uLjIyMjY2Njo6Oj4+PkJCQ
+kZGRkpKSk5OTlJSUlZWVlpaWl5eXmJiYmZmZmpqam5ubnJycnZ2dnp6en5+foKCgoaGhoqKio6Oj
+pKSkpaWlpqamp6enqKioqampqqqqq6urrKysra2trq6ur6+vsLCwsbGxsrKys7OztLS0tbW1tra2
+t7e3uLi4ubm5urq6u7u7vLy8vb29vr6+v7+/wMDAwcHBwsLCw8PDxMTExcXFxsbGx8fHyMjIycnJ
+ysrKy8vLzMzMzc3Nzs7Oz8/P0NDQ0dHR0tLS09PT1NTU1dXV1tbW19fX2NjY2dnZ2tra29vb3Nzc
+3d3d3t7e39/f4ODg4eHh4uLi4+Pj5OTk5eXl5ubm5+fn6Ojo6enp6urq6+vr7Ozs7e3t7u7u7+/v
+8PDw8fHx8vLy8/Pz9PT09fX19vb29/f3+Pj4+fn5+vr6+/v7/Pz8/f39/v7+////gPkDzQAAAdJJ
+REFUeNps0t9v2jAQB3DHxM0cC+IQUgh12gHxCgwh5q0aDxldoQ+domzaqqqlidB+aExRrZppzUs1
+af/6XqYmVLsnnz7y6SvdAVmuJz9viwYUT8fIMuPHf6hmOOD2aa2HN49pYvR6nGccgJ48aW9RRDnn
+4Z6bOVnr97pM1wamnF9/3Yuz7J18dVMiEGFK6UJMeEaPW5Xyr2mOKaWUc0rpi9FWjDjPKcYUU4pp
+vinTJp1FMcYYY4qdfCt8LTKGcZ7kCcZJb1iib1Fk5MM4/dB8nyQJSEtUi4xGWE/3K53KsJGAw4Im
+EWiE4XTR6XS7rToNg4LuZk4Y1qf2r+5yaX4CaXBUDIwbeX16Zu8ulybqHi6CNwWt49n0zP6za5qj
+JhoFdw8Dj+bzL6ltL04RQk3UYRcHD3QwP+0s7J2dl0i2pdlkbFzECOafl8/3EboZjLqMsbflVX4M
+jhFCsjnYMPZs/fgA0EDK9smAnQtVJqWE950xiZip6z4sSEBC3L41HiA01jTNcgmEnhBCSeBBcu/r
+1dXr0fnV1aVWtfS+794T6AmghBDQt6rVlaatLN13CSEQQs8TQEqpYF+3LMvSfegJpZRUSql/CQUk
+hBACxdaV/x0AKL7Iifpgi8sAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/Icons/valid-xhtml10
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAADAFBMVEUBAAAIBgMMCQQLCwsSDgYX
+EgkaFQoUFBQcHBwlHQ4rIhEwJhM2KxU7Lxc9MBgjIyMoKCg0MzI7OztBNBpOPh5OSz9TQiFeSyVk
+UChqVCpuWCx1Rzl0XC5+ZDFOTk5ST0tWUk1VVVVcXFxqXUplZWVra2twcHB7e3sAWpwIX58JYJ8O
+Y6ERZaIVaKQaa6Yebaghb6klcqopdawxea82fbE4frI+grRFhrZMi7pVkb1alL9dlsBkm8NoncRt
+ocZ0pcl8qsyWBAOZAACcCASIIBmdNiegDge3PB6mPiqBZzODaDSKbjaOcTiUdjuXeDyaez26QiG/
+TCaAeWihclPATifBUCjIXy/QbzfWej3Yfj+KgWWjgkGui0WxjUa0gVi3kkm6lEq+mEyjkmuzn2e7
+pnLFnU7eikXOpFHRp1PVqlXarlfesVjjlUrmm03poFDtqVTitFrmuFzqu13ywWD7xWL+y2WDg4OX
+l5eYmJippZ61rZisrKy0tLS/v7+Crs6FsNCLtNKQt9SWu9aYvNebvtifwdqjw9uox92ryd6yzeG2
+0OPCwsLMzMzU1NTA1ufG2ujN3+zT4+7d6fL/7Mbn5+fs7Ozl7vXp8fbu9Pj09PTy9/r1+Pv+/v7M
+zMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAADn4rtgAAAAnnRSTlP/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////AD6H4/gAAAABYktHRP+lB/LFAAAACXBIWXMAAABIAAAASABGyWs+AAADSUlEQVRI
+x+2WaU8TURSGzyCLQEUxiFYtCEo8Da3sYglQbDUaluISV6pYFdsyop1Or8ElSgg2RSjgArSZ63/1
+3JkOXRBZgn7yTXpmyzwz857lFhb3XW9/CsEi317f2c71/OnZ/+C9gSdDKmNySI2GorQNxiaDpFA4
+FgrS+WgoxFhwck/gMTjBwmCJ+WCYMQso5SBUoQCcZKwGgClg2QSOt7jp7pnWGQFJ2e0tpFYX5+k3
+TUn+QTOsqAV/hRRmJngiYAVrYILAkipT+C34GzqJ+AW7BDiBhga4VgdwIFmdNMBKMcAQI3Ctz1cO
+CmPD4hEKVBX5TpdYfg/m7bhC0YHrFHvQtbY2h840fw9Hzh8tO7CaSZ6V3k2AdWXBNdaKosGtwG78
+SLED4xSd+I1rbWK37ii5cO58pirCUglYBXhIjVlywWGQoluBl7CT83VE8nUZ28lu3ZUycUlLZ8CV
+UrgGnpgeR7JgZrUxHVzh9/tjAuzxbFRFM7nwGbGZ8wF083UHLlPqDuZWxSAZrBSXqmbyGBuBEQNM
+0sFCUQJf8QiyAXbRp7uwA5fI7iXei9ifotzlgiMy3R+NqKpMRiv6gUwVzfTAlAiLyUJkxVWPUAYc
+R5fWfCGB7jV00GOciJ0an95T5133GDLAKXTMY1/K3j6HPeJ42YEJvrAX8M0M1+y8LvJhnnejURmc
+92HvH2aFGtuWa4I/Ido1qgbElH48j235YNkiwbhxc6QKpJN56NiN18bOnQ2uCV5BvCRaEC8aqAS2
+rBp76bSRPFutCT4No8chkMu95vG+ynIve3KHUAvO6i04w2d7dCu6Fwxy00LGCpsJrixlQbAVfL/3
+5Qb3VN5068M1vQW/UrG5U3EHxrXGH4IrJTfAxluqUMWicCjLva/zvC8Mf72388fmfIeIS61UIU60
+o2jFxbKGxsMwzQvfuKScyTREcxz2ZOV9XDCPtY/6ZoB+X/udzl6Rw2RDWfV7ngceonFxXIqMgj83
+eXey3Fe7HfRh0bAlondZQJKgXM2rsrsmd2rXK4j6ZHx8PMAmhM/y2CO1oH7vmdx9X0wfZLj7v0q/
+8Orcv7D8T039s/8VH7bVu2c718NbJrhuBzq2leo3nTlTX62DfwGZkKiGotSUXQAAAABJRU5ErkJg
+gg==
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/Icons/valid-css
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAABzlBMVEUAAAAJBwMLCAQLCwsWEQga
+FAoUFBQcHBwmHg4pIBAxJxMzKBQ6LhY+MRgjIyMoKCg0MzI7OztDNRpGOBxMPB5OSz9TQiFYRiNb
+SCRiTiZpVCluWCx1RzlzWy17YjFOTk5ST0tWUk1VVVVcXFxqXUplZWVra2tya2FwcHB7e3sAWpwI
+X58JYJ8OY6ERZaIVaKQaa6Yebaghb6klcqopdawxea82fbE4frI+grRFhrZMi7pVkb1alL9dlsBk
+m8NoncRtocZ0pcl8qsyWBAOZAACcCASIIBmdNiegDge3PB6mPiqAZjOKbjePcjmTdTqXeDyefj+6
+QiG/TCahclPATifBUCjIXy/QbzfWej3Yfj+Rh2uigUCohkOyjke0gVi2kUi5lEq/mEyjkmuzn2e7
+pnLDnE7eikXJoFDarlfjlUrmm03poFDtqVTitFrqul30w2H5xWL+y2WDg4OXl5eYmJippZ61rZis
+rKy0tLS/v7+Crs6FsNCLtNKQt9SWu9aYvNebvtifwdqjw9uox92ryd6yzeG20OPCwsLMzMzU1NTA
+1ufG2ujN3+zT4+7d6fL/7Mbn5+fs7Ozl7vXp8fbu9Pj09PTy9/r1+Pv+/v7MzMx1sEU/AAAAmnRS
+TlP/////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////8Ay7CFYwAAAAFiS0dEAIgF
+HUgAAAAJcEhZcwAAAEgAAABIAEbJaz4AAAK5SURBVEjH7ZX7UxJRFMeviYxMYmgEJoGmZXkINlQy
+wxHRpdfYw3J6SWkPrZjMvTmlGeMYAwn4KBFmb/9t5+6yCIbBJPVD03dmz97dnfvZe889D5Kout5/
+5yIJVl5faeV68ezUf/C/AI56Ajg70hPhkIzT6UH1+BjLvutKsiX598FbICDxC/RzcAxUjTC5jZDa
+pCl5AFf0wQZaN+ygHQRfOr0KQpYtkiPdTfra7QOAA7CM1gtRtAJsMbmXD9ua0Aunuw9yeCm4wNgO
+APp1HfrQ3YpX9PyTnNXAj1stjld0PnS8xfGW0mm71fZyH7Ao5qPChV74DOBibAQCbOccrOPRNRZF
+RQupaa63UTsxHtVN0yliMBvspcGXRU5WwT7cug+8kEJ3p9gQOIczeHaF4ClSj+uco3UGnCzhb+Yo
+nS8JviJy5cBR8Mmu8zEIpMGNvxEAvDJbKAQ7iEOZZyU661NKJ0mNcVIqBb4uqlLBGXDHwZ9x9q3C
+IH9ed0OMrRWC7WRMmSfdaiDkNu7AcohYS3Dv5Lha5vWjH+JsANTIYMwPQ8WZFyKHJb559McMEvE2
+r9P9gquBPwE4ZYwGgIzyHIfePSltJHU2s53qzPYGEqItDTYradVw0vgbdTCR52rgDYBLPAXhooqK
+gWdbHWWzKlgaazZYZugNs8F8U6JTVoORR53KvSZeDe+ud1QsLEIeWFFSMMJWBhVXDKyp5LMfyyYI
+5wVfa+sdPVFU3fyQVlJwE4MtkIm6ISp3fsM3XTVla8UDhRecVbnBu8VlM+7lNtWDESKAE3gqJvQd
+nY1koWxKS+NiXsHgkz31WF5WbiN4bQ4LwhA/w2SH3rRYST2e2AWHq1vo7+W51e4g9zVu1VvTwxy3
++j1vNqhw/0AzDYf/WpdeKqsPzyvXozMauK0CHdtP7T+9OdluUsA/AHmIulA5u0yNAAAAAElFTkSu
+QmCC
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/International/icons/UniEncTrans-small.gif
+
+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
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.w3.org/International/icons/mailus.gif
+
+R0lGODlhFAAQAMQAAAAAAP///8fJnPmaOfeXOPudOvmeRPmlUfSRNvWSN/GLNe6JNfaqZ+uFNOV6
+Meh/M+qwh+V1L+BuL+BxMeyWY99oLeJ5RttgK////wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEA
+ABgALAAAAAAUABAAAAWMoAA55GM26NIsKgqJT+Sci4IkBD7chTFGgaBwSAxEGqRgZMlsLpXIh9Ho
+bE4jJumzugViHw2q1yk2zhbicXfraCjKSm952UBQ4cw7PXHlbo0TCwRxfk9GEgsDRYtCERINBQUH
+DAoNDxQUEhaamJoXExAGAwmVDw6OFakVFxKroCIoJiRLExK1EhETryEAOw==
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.w3.org/International/style/article-standards-v2.css
+
+P {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+H2 {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+H3 {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+DIV.h4 {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+DL {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+DIV#footer {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+DIV.example {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 32%
+}
+DIV.example-wide {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 5%
+}
+UL {
+	MARGIN-LEFT: 11%; MARGIN-RIGHT: 34%
+}
+OL {
+	MARGIN-LEFT: 11%; MARGIN-RIGHT: 34%
+}
+UL UL {
+	MARGIN-LEFT: 2%; MARGIN-RIGHT: 5%
+}
+TABLE {
+	MARGIN-LEFT: 7.5%
+}
+TABLE.inband {
+	MARGIN-RIGHT: 32%
+}
+BLOCKQUOTE {
+	MARGIN-LEFT: 11%; MARGIN-RIGHT: 34%
+}
+LI P {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+BLOCKQUOTE P {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+LI LI {
+	MARGIN-RIGHT: 0px
+}
+LI DIV.example {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+BLOCKQUOTE OL {
+	MARGIN-RIGHT: 0px
+}
+DIV.example DL {
+	MARGIN-RIGHT: 0px
+}
+DIV.example DD {
+	MARGIN-RIGHT: 0px
+}
+#footer P {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+DIV.example P {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+DIV.sidenote P {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+DIV.example BLOCKQUOTE {
+	MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em
+}
+A:link {
+	COLOR: teal; TEXT-DECORATION: none
+}
+#site-navigation A {
+	WHITE-SPACE: nowrap
+}
+DIV#site-navigation A:link {
+	COLOR: #b8cbcb
+}
+H2 A:link {
+	COLOR: #005a9c; TEXT-DECORATION: none
+}
+H2 A:visited {
+	COLOR: #005a9c; TEXT-DECORATION: none
+}
+DIV.section2 H3 A:link {
+	COLOR: #005a9c; TEXT-DECORATION: none
+}
+DIV.section2 H3 A:visited {
+	COLOR: #005a9c
+}
+A:hover {
+	BACKGROUND: white; COLOR: #005a9c; TEXT-DECORATION: underline
+}
+#siteicons A:hover {
+	COLOR: white; BACKGROUND-COLOR: #003163; TEXT-DECORATION: none
+}
+#site-navigation A:hover {
+	COLOR: #005a9c; BACKGROUND-COLOR: #003163; TEXT-DECORATION: none
+}
+#sitelinks A:hover {
+	COLOR: #005a9c; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: teal; TEXT-DECORATION: none
+}
+DIV#site-navigation A:visited {
+	COLOR: #b8cbcb; TEXT-DECORATION: none
+}
+#alternates A {
+	TEXT-TRANSFORM: none
+}
+A.dfn:link {
+	BORDER-BOTTOM: teal 1px dotted; TEXT-DECORATION: none
+}
+A.dfn:hover {
+	BACKGROUND: white; COLOR: #005a9c; BORDER-BOTTOM: teal 1px dotted; =
+TEXT-DECORATION: none
+}
+A.dfn:visited {
+	BORDER-BOTTOM: teal 1px dotted; TEXT-DECORATION: none
+}
+ACRONYM {
+	TEXT-TRANSFORM: capitalize
+}
+ADDRESS {
+	FONT-STYLE: normal
+}
+#author {
+	MARGIN-TOP: 5em
+}
+.background-link {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+BLOCKQUOTE {
+	TEXT-ALIGN: left
+}
+.box-header {
+	FONT-WEIGHT: bold
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.9em; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: black; PADDING-TOP: 0px; =
+FONT-FAMILY: arial, "lucida grande", helvetica, sans-serif; =
+BACKGROUND-COLOR: white
+}
+.codelink {
+	FLOAT: right
+}
+.codelinkl {
+	FLOAT: left
+}
+#disclaimer {
+	FONT-SIZE: 80%; LINE-HEIGHT: 1em; BACKGROUND-COLOR: transparent; =
+TEXT-ALIGN: left
+}
+DIV#disclaimer {
+	CLEAR: right; FLOAT: right; WIDTH: 28%
+}
+#disclaimer P {
+	FONT-SIZE: 115%; COLOR: #c30; LINE-HEIGHT: 1.2em
+}
+DIV#search {
+	CLEAR: right; FLOAT: right; WIDTH: 28%
+}
+#searchField {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN-RIGHT: 5px; BACKGROUND-COLOR: #5f9ea0; BORDER-RIGHT-WIDTH: =
+0px
+}
+#searchSite {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 80%; PADDING-BOTTOM: =
+0px; MARGIN: 30px 10px 10px 18px; COLOR: #7fffd4; PADDING-TOP: 0px; =
+BACKGROUND-COLOR: teal; TEXT-ALIGN: left; border-radius: 5px; =
+-moz-border-radius: 5px; -webkit-border-radius: 5px
+}
+#searchSite INPUT {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 18px; BACKGROUND-IMAGE: =
+url(/International/style/search.png); WIDTH: 90%; CURSOR: pointer; =
+COLOR: #7fffd4; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: teal
+}
+DIV.code {
+	DISPLAY: block; FONT-SIZE: 95%; OVERFLOW: auto; WIDTH: 100%; =
+LINE-HEIGHT: 120%; FONT-FAMILY: 'Andale Mono', Courier, monospace; =
+WHITE-SPACE: pre
+}
+DD DIV.example {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+DIV.example {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ccc 1px =
+solid; MARGIN-TOP: 0.25em; PADDING-LEFT: 15px; BACKGROUND: #ffe; =
+MARGIN-BOTTOM: 0.25em; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; =
+COLOR: #000066; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; =
+TEXT-ALIGN: left; border-radius: 10px; -moz-border-radius: 10px; =
+-webkit-border-radius: 10px; -o-box-shadow: 7px 7px 5px #888; =
+-icab-box-shadow: 7px 7px 5px #888; -khtml-box-shadow: 7px 7px 5px #888; =
+-moz-box-shadow: 7px 7px 5px #ccc; -webkit-box-shadow: 7px 7px 5px #ccc; =
+box-shadow: 7px 7px 5px #888
+}
+DIV.example-wide {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ccc 1px =
+solid; MARGIN-TOP: 0.25em; PADDING-LEFT: 15px; BACKGROUND: #ffe; =
+MARGIN-BOTTOM: 0.25em; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; =
+COLOR: #000066; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; =
+TEXT-ALIGN: left; border-radius: 10px; -moz-border-radius: 10px; =
+-webkit-border-radius: 10px; -o-box-shadow: 7px 7px 5px #888; =
+-icab-box-shadow: 7px 7px 5px #888; -khtml-box-shadow: 7px 7px 5px #888; =
+-moz-box-shadow: 7px 7px 5px #ccc; -webkit-box-shadow: 7px 7px 5px #ccc; =
+box-shadow: 7px 7px 5px #888
+}
+DIV.section {
+	COLOR: #555; LINE-HEIGHT: 150%; BACKGROUND-COLOR: white
+}
+DT {
+	MARGIN-TOP: 1em; FONT-WEIGHT: bold
+}
+.ed {
+	COLOR: red
+}
+FIELDSET {
+	COLOR: #a52a2a
+}
+#footer {
+	BORDER-RIGHT: #333 0px solid; BORDER-TOP: #333 1px solid; MARGIN-TOP: =
+5em; FONT-SIZE: 90%; BORDER-LEFT: #333 0px solid; BORDER-BOTTOM: #333 =
+0px solid
+}
+H1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: =
+200%; PADDING-BOTTOM: 5px; MARGIN: 1em 28% 0px 0px; COLOR: #005a9c; =
+PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+P.background-link + H2 {
+	MARGIN-TOP: 0px
+}
+.leadin {
+	FONT-WEIGHT: bold
+}
+H2 {
+	PADDING-RIGHT: 6px; MARGIN-TOP: 2em; PADDING-LEFT: 10px; FONT-WEIGHT: =
+normal; FONT-SIZE: 140%; PADDING-BOTTOM: 6px; TEXT-TRANSFORM: lowercase; =
+COLOR: #005a9c; PADDING-TOP: 6px; BACKGROUND-COLOR: #eee; TEXT-ALIGN: =
+left; border-radius: 10px; -moz-border-radius: 10px; =
+-webkit-border-radius: 10px
+}
+UNKNOWN {
+	TEXT-TRANSFORM: none
+}
+.sidebar H2 {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 16px; MARGIN-RIGHT: 3%
+}
+H3 {
+	MARGIN-TOP: 2em; FONT-WEIGHT: bold; FONT-SIZE: 120%; MARGIN-BOTTOM: =
+1em; BORDER-BOTTOM: #eee 1px solid; TEXT-ALIGN: left
+}
+H4 {
+	DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 100%; MARGIN-RIGHT: 1em
+}
+DIV.h4 {
+	MARGIN-TOP: 2em
+}
+DIV.h4 P {
+	DISPLAY: inline; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.hide {
+=09
+}
+#i18n-name {
+	FONT-SIZE: 22pt; MARGIN-LEFT: 10px; VERTICAL-ALIGN: bottom; COLOR: =
+#a5b9b9; FONT-FAMILY: Arial; LETTER-SPACING: -1px; TEXT-ALIGN: right
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+#icon {
+	CLEAR: right; FLOAT: right; WIDTH: 28%
+}
+P.background-link {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; COLOR: teal; TEXT-ALIGN: right
+}
+#sidebar LI {
+	LIST-STYLE-TYPE: none
+}
+#line {
+	LEFT: 72%; BORDER-LEFT: #005a9c 2px dotted; WIDTH: 10px; POSITION: =
+absolute; TOP: 0px; HEIGHT: 30em
+}
+.kw {
+	COLOR: #a52a2a; FONT-FAMILY: "Courier New", monospaced
+}
+#logos {
+	FLOAT: right; MARGIN: 0.25em 1em 0px
+}
+#navigation {
+	MARGIN-TOP: 3em; FONT-WEIGHT: bold; MARGIN-BOTTOM: 1.5em; =
+TEXT-TRANSFORM: lowercase; COLOR: #555; LINE-HEIGHT: 150%; =
+BACKGROUND-COLOR: transparent
+}
+UNKNOWN {
+	TEXT-TRANSFORM: none
+}
+.newterm {
+	FONT-WEIGHT: bold
+}
+#audience {
+	MARGIN-TOP: 4em; FONT-WEIGHT: normal; FONT-SIZE: 90%; MARGIN-BOTTOM: =
+2em; COLOR: gray; LINE-HEIGHT: normal
+}
+#audience .leadin {
+	FONT-WEIGHT: bold; TEXT-TRANSFORM: lowercase; COLOR: #555
+}
+#audience .leadin {
+	TEXT-TRANSFORM: lowercase
+}
+P#internal-links {
+	LINE-HEIGHT: normal
+}
+#author P {
+	BORDER-TOP: gray 1px solid; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.5em; =
+BORDER-BOTTOM: gray 1px solid
+}
+#disclaimer P {
+	MARGIN-LEFT: 30px; MARGIN-RIGHT: 20px
+}
+#navigation P {
+	MARGIN-TOP: 0px; FONT-SIZE: 90%; MARGIN-BOTTOM: 0.25em; TEXT-ALIGN: =
+left
+}
+.sidebar P {
+	MARGIN-LEFT: 30px; MARGIN-RIGHT: 20px
+}
+.sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+MARGIN-LEFT: 30px; MARGIN-RIGHT: 20px; PADDING-TOP: 0px
+}
+.insidenote P {
+	MARGIN: 0px 0px 0.5em
+}
+#site-navigation P {
+	MARGIN: 0px 20px 0px 30px
+}
+P#pagelocation {
+	DISPLAY: none
+}
+IMG#picture {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0.5em; DISPLAY: block; =
+BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 0.5em; =
+MARGIN-LEFT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+PRE {
+	LINE-HEIGHT: 1.3em
+}
+.qchar {
+	FONT-SIZE: 100%; COLOR: black; FONT-FAMILY: "Times New Roman", Times, =
+serif
+}
+.qchar:unknown {
+	FONT-SIZE: 100%; MARGIN-RIGHT: 1px; FONT-STYLE: normal; content: '=91'
+}
+.qchar:unknown {
+	FONT-SIZE: 100%; MARGIN-LEFT: 1px; FONT-STYLE: normal; content: '=92'
+}
+.question {
+	FONT-WEIGHT: bold; TEXT-ALIGN: left
+}
+.qterm {
+	FONT-STYLE: italic
+}
+.qterm:unknown {
+	FONT-SIZE: 100%; FONT-STYLE: normal; content: '''
+}
+.qterm:unknown {
+	FONT-SIZE: 100%; MARGIN-LEFT: 2px; FONT-STYLE: normal; content: '''
+}
+.q:unknown {
+	content: '"'
+}
+.q:unknown {
+	content: '"'
+}
+DIV.section {
+	COLOR: #333; LINE-HEIGHT: 150%; BACKGROUND-COLOR: white; TEXT-ALIGN: =
+justify
+}
+#references P {
+	TEXT-ALIGN: left
+}
+.sidebar {
+	CLEAR: right; FLOAT: right; WIDTH: 28%
+}
+.sidenote {
+	FONT-SIZE: 80%; RIGHT: 2em; WIDTH: 24%; LINE-HEIGHT: 1em; POSITION: =
+absolute; TOP: 0px; TEXT-ALIGN: left
+}
+.insidenote {
+	FONT-SIZE: 80%; Z-INDEX: -500; FLOAT: right; MARGIN: 0.5em 2em 1em =
+1.5em; WIDTH: 24%; LINE-HEIGHT: 1em; TEXT-ALIGN: left
+}
+SPAN#scale {
+	COLOR: gray; WHITE-SPACE: nowrap
+}
+DIV.sidenoteGroup {
+	WIDTH: 100%; POSITION: relative
+}
+#siteicons {
+	MARGIN-RIGHT: 29%; BACKGROUND-COLOR: #003163; -o-box-shadow: -4px 4px =
+7px #888; -icab-box-shadow: -4px 4px 7px #888; -khtml-box-shadow: -4px =
+4px 7px #888; -moz-box-shadow: -4px 4px 7px #ccc; -webkit-box-shadow: =
+-4px 4px 7px #ccc; box-shadow: -4px 4px 7px #888; =
+border-bottom-right-radius: 30px; -moz-border-radius-bottomright: 30px; =
+-webkit-border-bottom-right-radius: 30px
+}
+#sitelinks {
+	PADDING-TOP: 8px; TEXT-ALIGN: right
+}
+#sitelinks A {
+	PADDING-LEFT: 0.75em
+}
+#site-navigation {
+	CLEAR: right; BACKGROUND-POSITION: right top; FLOAT: right; =
+BACKGROUND-IMAGE: url(standards-corner.png); PADDING-BOTTOM: 0px; WIDTH: =
+28%; COLOR: #7fffd4; PADDING-TOP: 1em; BACKGROUND-REPEAT: no-repeat; =
+BACKGROUND-COLOR: white
+}
+DIV.smallprint {
+	FONT-SIZE: 90%
+}
+DIV#survey {
+	FONT-SIZE: 90%; FLOAT: right; WIDTH: 28%; TEXT-ALIGN: left
+}
+SPAN.searchkey {
+	FONT-STYLE: italic
+}
+SPAN.surveyScale {
+	COLOR: gray; WHITE-SPACE: nowrap
+}
+DIV#survey P {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px; TEXT-ALIGN: left
+}
+TABLE {
+	FONT-SIZE: 1em
+}
+TD {
+	FONT-SIZE: 1em
+}
+TH {
+	FONT-SIZE: 1em
+}
+TABLE.inband {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+TABLE TD {
+	BORDER-RIGHT: teal 1px solid; BORDER-TOP: teal 1px solid; =
+VERTICAL-ALIGN: top; BORDER-LEFT: teal 1px solid; BORDER-BOTTOM: teal =
+1px solid; FONT-FAMILY: "Arial Unicode MS", "Lucida Sans Unicode", =
+sans-serif; BORDER-COLLAPSE: collapse; TEXT-ALIGN: center
+}
+TABLE.inband TD {
+	BORDER-RIGHT: #000066 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: =
+#000066 1px solid; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.2em; =
+VERTICAL-ALIGN: top; BORDER-LEFT: #000066 1px solid; PADDING-TOP: 0.2em; =
+BORDER-BOTTOM: #000066 1px solid; TEXT-ALIGN: left
+}
+TABLE TH {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: =
+4px; PADDING-TOP: 4px; TEXT-ALIGN: right
+}
+TABLE.inband TH {
+	BORDER-RIGHT: #000066 1px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: =
+#000066 1px solid; PADDING-LEFT: 0.2em; FONT-WEIGHT: bold; =
+PADDING-BOTTOM: 0.2em; VERTICAL-ALIGN: top; BORDER-LEFT: #000066 1px =
+solid; PADDING-TOP: 0.2em; BORDER-BOTTOM: #000066 1px solid; =
+BACKGROUND-COLOR: #f9f5de; TEXT-ALIGN: left
+}
+.uppercase {
+	TEXT-TRANSFORM: uppercase
+}
+.uri {
+	DISPLAY: none
+}
+#wai-start {
+	DISPLAY: block; LEFT: -999px; WIDTH: 990px; POSITION: absolute
+}
+.oldsidenote {
+	CLEAR: right; FONT-SIZE: 80%; FLOAT: right; WIDTH: 20%; LINE-HEIGHT: =
+1em; MARGIN-RIGHT: 8%; TEXT-ALIGN: left
+}
+#full-links P {
+	TEXT-ALIGN: left
+}
+.container {
+	BACKGROUND: url(/International/icons/survey-right.gif) no-repeat right =
+top; MAX-WIDTH: 250px; COLOR: #666; TEXT-ALIGN: left
+}
+.topright {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; BACKGROUND: =
+url(/International/icons/survey-left.gif) no-repeat left top; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 9px
+}
+.bottomleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: =
+url(/International/icons/survey-left.gif) no-repeat left bottom; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bottomright {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 0px; BACKGROUND: =
+url(/International/icons/survey-right.gif) no-repeat right bottom; =
+PADDING-BOTTOM: 9px; MARGIN: 0px; PADDING-TOP: 0px; FONT-STYLE: normal
+}
+.container A.interaction {
+	FONT-SIZE: 130%; COLOR: #e70
+}
+.container BUTTON.interaction {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 130%; BORDER-BOTTOM-WIDTH: 0px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 225px; CURSOR: pointer; COLOR: =
+#e70; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left; =
+BORDER-RIGHT-WIDTH: 0px
+}
+.container LABEL.interaction {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 130%; BORDER-BOTTOM-WIDTH: 0px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; COLOR: #e70; =
+PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 0px
+}
+.container FORM {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.container P {
+	MARGIN: 0px; PADDING-TOP: 9px
+}
+#print-author {
+	MARGIN-TOP: 4em; DISPLAY: none; FONT-WEIGHT: bold; FONT-SIZE: 110%; =
+COLOR: #005a9c
+}
+#print-uri {
+	DISPLAY: none; FONT-SIZE: 100%; MARGIN-BOTTOM: 2em; COLOR: #005a9c
+}
+
+@media Print   =20
+{
+BODY {
+	FONT-SIZE: 10pt
+}
+DIV.sidebar {
+	FLOAT: none; MARGIN-BOTTOM: 3em; MARGIN-LEFT: 10%; WIDTH: 80%; COLOR: =
+#555; LINE-HEIGHT: 150%; MARGIN-RIGHT: 12%; BACKGROUND-COLOR: white; =
+TEXT-ALIGN: justify
+}
+.sidenote:unknown {
+	COLOR: #005a9c; content: ?=20
+}
+.sidenote {
+	FONT-SIZE: 80%; MARGIN-LEFT: 11%; WIDTH: auto; LINE-HEIGHT: 1em; =
+MARGIN-RIGHT: 12%; POSITION: static; TEXT-ALIGN: left
+}
+.oldsidenote {
+	CLEAR: right; BORDER-RIGHT: teal 1px solid; PADDING-RIGHT: 2%; =
+BORDER-TOP: teal 1px solid; PADDING-LEFT: 2%; FONT-SIZE: 80%; FLOAT: =
+right; MARGIN-BOTTOM: 1em; PADDING-BOTTOM: 2%; MARGIN-LEFT: 4%; =
+BORDER-LEFT: teal 1px solid; WIDTH: 20%; LINE-HEIGHT: 1em; MARGIN-RIGHT: =
+8%; PADDING-TOP: 2%; BORDER-BOTTOM: teal 1px solid; TEXT-ALIGN: left
+}
+.newsidenote {
+	BORDER-RIGHT: teal 1px solid; PADDING-RIGHT: 5pt; BORDER-TOP: teal 1px =
+solid; PADDING-LEFT: 5pt; FONT-SIZE: 80%; MARGIN-BOTTOM: 0.5em; =
+PADDING-BOTTOM: 5pt; MARGIN-LEFT: 20%; BORDER-LEFT: teal 1px solid; =
+WIDTH: auto; LINE-HEIGHT: 1em; MARGIN-RIGHT: 12%; PADDING-TOP: 5pt; =
+BORDER-BOTTOM: teal 1px solid; POSITION: static; TEXT-ALIGN: left
+}
+H1 {
+	BACKGROUND-COLOR: white
+}
+H2 {
+	BACKGROUND-COLOR: white
+}
+H2 {
+	PADDING-LEFT: 0px; TEXT-TRANSFORM: none; PADDING-TOP: 3em; =
+BORDER-BOTTOM: #eee 1px solid
+}
+H3 {
+	BORDER-BOTTOM-WIDTH: 0px; PADDING-TOP: 1em
+}
+H4 {
+	MARGIN-RIGHT: 0px
+}
+DIV.h4 {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+.figure {
+	page-break-inside: avoid
+}
+#line {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+.noprint {
+	DISPLAY: none
+}
+CODE {
+	FONT-SIZE: 120%
+}
+#survey {
+	DISPLAY: none
+}
+.uri {
+	DISPLAY: inline; FONT-STYLE: italic
+}
+#full-links P {
+	TEXT-ALIGN: left
+}
+P#pagelocation {
+	DISPLAY: block; FONT-WEIGHT: bold
+}
+#site-navigation {
+	DISPLAY: none
+}
+#navigation {
+	DISPLAY: none
+}
+P {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+H2 {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+H3 {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+DL {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+DIV#footer {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+LI P {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+UL {
+	MARGIN-LEFT: 11%; MARGIN-RIGHT: 12%
+}
+OL {
+	MARGIN-LEFT: 11%; MARGIN-RIGHT: 12%
+}
+BLOCKQUOTE {
+	MARGIN-LEFT: 11%; MARGIN-RIGHT: 12%
+}
+TABLE {
+	MARGIN-LEFT: 7.5%
+}
+DIV.example {
+	MARGIN-LEFT: 7.5%; MARGIN-RIGHT: 10%
+}
+#print-author {
+	DISPLAY: block
+}
+#print-uri {
+	DISPLAY: block
+}
+    }
+.outofdate {
+	BORDER-RIGHT: teal 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: teal 1px =
+solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: teal 1px =
+solid; PADDING-TOP: 8px; BORDER-BOTTOM: teal 1px solid; =
+BACKGROUND-COLOR: yellow
+}
+.foreign {
+	FONT-STYLE: italic
+}
+.quickcheck INPUT {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px =
+solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px =
+solid; WIDTH: 100%; COLOR: #999; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc =
+1px solid; border-radius: 5px; -moz-border-radius: 5px; =
+-webkit-border-radius: 5px
+}
+.quickcheck BUTTON[type=3Dsubmit] {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; =
+BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 2px; BACKGROUND-COLOR: #eee; BORDER-RIGHT-WIDTH: 0px; =
+border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px
+}
+.quickcheck .guide {
+	FONT-SIZE: 75%; FONT-STYLE: italic
+}
+.quickcheck P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px; COLOR: #666
+}
+#toc OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+1em 15px 2em; PADDING-TOP: 0px
+}
+#toc LI {
+	MARGIN-BOTTOM: 5px; LIST-STYLE-TYPE: none
+}
+#toc OL OL {
+	FONT-SIZE: 80%; MARGIN: 8px 0px 8px 10px
+}
+#toc OL OL LI {
+	MARGIN-BOTTOM: 3px
+}
+#breadcrumbs {
+	FONT-SIZE: 90%; MARGIN-BOTTOM: 10px
+}
+.example H2 {
+	MARGIN: 0px
+}
+DFN {
+	FONT-WEIGHT: bold; FONT-STYLE: normal
+}
+CITE {
+	FONT-STYLE: italic
+}
+.mark {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; BACKGROUND-COLOR: yellow; border-radius: 10px; =
+-moz-border-radius: 10px; -webkit-border-radius: 10px
+}
+.updated {
+	MARGIN-TOP: 0px; FONT-SIZE: 90%; MARGIN-BOTTOM: 0px; TEXT-ALIGN: right
+}
+
+------=_NextPart_000_0000_01CC413B.372095A0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.w3.org/International/javascript/articletoc.js
+
+function createtoc () {=0A=
+	// creates a TOC and puts it in a div with id=3D"toc"=0A=
+	=0A=
+	var h2s =3D document.getElementsByTagName('H2');=0A=
+	var toc =3D document.getElementById('toclocation');=0A=
+	=0A=
+	toplevel =3D toc.appendChild(document.createElement('ol'));=0A=
+	for (var i=3D0; i<h2s.length; i++) {=0A=
+		if (!h2s[i].firstChild.id.match(/internal-links/)) {=0A=
+			var h2 =3D h2s[i].firstChild.innerHTML;=0A=
+			var h =3D document.createElement('li');=0A=
+			a =3D document.createElement('a');=0A=
+				a.href =3D '#'+h2s[i].firstChild.id;=0A=
+				a.innerHTML =3D h2;=0A=
+			h.appendChild(a);=0A=
+			h.className =3D 'toc1';=0A=
+		=0A=
+			// check for h3s=0A=
+			var h3s =3D h2s[i].parentNode.getElementsByTagName('H3');=0A=
+			if (h3s.length > 0) { secondlevel =3D =
+h.appendChild(document.createElement('ol')); }=0A=
+			for (var k=3D0; k<h3s.length; k++) {=0A=
+				if (!h3s[k].className.match(/notoc/)) {=0A=
+					var h3 =3D h3s[k].firstChild.innerHTML;=0A=
+					var hh =3D document.createElement('li');=0A=
+					aa =3D document.createElement('a');=0A=
+						aa.href =3D '#'+h3s[k].firstChild.id;=0A=
+						aa.innerHTML =3D h3;=0A=
+					hh.appendChild(aa);=0A=
+					hh.className =3D 'toc2';=0A=
+					}=0A=
+				secondlevel.appendChild(hh);=0A=
+				}=0A=
+			toplevel.appendChild(h);=0A=
+			}=0A=
+		}=0A=
+	}
+------=_NextPart_000_0000_01CC413B.372095A0--

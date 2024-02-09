@@ -1,0 +1,26 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Comment describing your JSON Schema",
+	"definitions": {
+		"list1": {
+			"oneOf":[{"required":["C"]},{"required":["D"]}],
+			"additionalProperties": false,
+			"properties": {
+				"A": {
+					"type": "string"
+				},
+				"B": {
+					"type": "boolean"
+				},
+				"C": {
+					"type": "string"
+				},
+				"D": {
+					"type": "boolean"
+				}
+			}
+	
+		},
+"properties":{"$ref":"#/definitions/list1"}
+	}
+}

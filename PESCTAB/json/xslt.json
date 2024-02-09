@@ -1,0 +1,2179 @@
+{
+	"stylesheet": {
+		"@version": 2.0,
+		"$": [
+			{
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"output": {
+					"@indent": "no",
+					"@omit-xml-declaration": "yes",
+					"@method": "text",
+					"@encoding": "utf-8"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"strip-space": {
+					"@elements": "*"
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"": null
+			}, {
+				"": "$"
+			}, {
+				"param": {
+					"@name": "debug",
+					"@as": "xs:boolean",
+					"@select": "false()"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"param": {
+					"@name": "use-rabbitfish",
+					"@as": "xs:boolean",
+					"@select": "true()"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"param": {
+					"@name": "use-badgerfish",
+					"@as": "xs:boolean",
+					"@select": "true()"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"param": {
+					"@name": "use-namespaces",
+					"@as": "xs:boolean",
+					"@select": "false()"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"param": {
+					"@name": "use-rayfish",
+					"@as": "xs:boolean",
+					"@select": "false()"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"param": {
+					"@name": "jsonp",
+					"@as": "xs:string",
+					"@select": "''"
+				}
+			}, {
+				"$": [
+					"\n  "
+				]
+			}, {
+				"param": {
+					"@name": "skip-root",
+					"@as": "xs:boolean",
+					"@select": "false()"
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"": null
+			}, {
+				"": "$"
+			}, {
+				"function": {
+					"@name": "json:generate",
+					"@as": "xs:string",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "input",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "json-tree",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"object": [
+											{
+												"$": "\n        "
+											}, {
+												"copy-of": {
+													"@select": "if (not($use-rayfish)) then json:create-node($input, false()) else json:create-simple-node($input)"
+												}
+											}, {
+												"$": "\n      "
+											}
+										]
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "json-mtree",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"choose": [
+											{
+												"$": "\n        "
+											}, {
+												"when": {
+													"@test": "$skip-root",
+													"$": [
+														{
+															"$": [
+																"\n          "
+															]
+														}, {
+															"copy-of": {
+																"@select": "$json-tree\/json:object\/json:member\/json:value\/child::node()"
+															}
+														}, {
+															"$": [
+																"\n        "
+															]
+														}
+													]
+												}
+											}, {
+												"$": "\n        "
+											}, {
+												"otherwise": [
+													{
+														"$": "\n          "
+													}, {
+														"copy-of": {
+															"@select": "$json-tree"
+														}
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": "\n      "
+											}
+										]
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "output",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"choose": [
+											{
+												"$": "\n        "
+											}, {
+												"when": {
+													"@test": "normalize-space($jsonp)",
+													"$": [
+														{
+															"$": [
+																"\n          "
+															]
+														}, {
+															"value-of": {
+																"@select": "$jsonp"
+															}
+														}, {
+															"text": {
+																"$": "("
+															}
+														}, {
+															"apply-templates": {
+																"@select": "$json-mtree",
+																"@mode": "json"
+															}
+														}, {
+															"text": {
+																"$": ")"
+															}
+														}, {
+															"$": [
+																"\n        "
+															]
+														}
+													]
+												}
+											}, {
+												"$": "\n        "
+											}, {
+												"otherwise": [
+													{
+														"$": "\n          "
+													}, {
+														"text": null
+													}, {
+														"apply-templates": {
+															"@select": "$json-mtree",
+															"@mode": "json"
+														}
+													}, {
+														"text": null
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": "\n      "
+											}
+										]
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n\n    "
+							]
+						}, {
+							"sequence": {
+								"@select": "$output"
+							}
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"": null
+			}, {
+				"": "$"
+			}, {
+				"template": {
+					"@match": "\/*",
+					"$": [
+						{
+							"$": [
+								"\n      "
+							]
+						}, {
+							"choose": [
+								{
+									"$": "\n        "
+								}, {
+									"when": {
+										"@test": "$debug",
+										"$": [
+											{
+												"$": [
+													"\n          "
+												]
+											}, {
+												"variable": {
+													"@name": "json-tree",
+													"$": [
+														{
+															"$": [
+																"\n            "
+															]
+														}, {
+															"object": [
+																{
+																	"$": "\n              "
+																}, {
+																	"copy-of": {
+																		"@select": "if (not($use-rayfish)) then json:create-node(., false()) else json:create-simple-node(.)"
+																	}
+																}, {
+																	"$": "\n            "
+																}
+															]
+														}, {
+															"$": [
+																"\n          "
+															]
+														}
+													]
+												}
+											}, {
+												"$": [
+													"\n\n          "
+												]
+											}, {
+												"debug": [
+													{
+														"$": "\n            "
+													}, {
+														"copy-of": {
+															"@select": "$json-tree"
+														}
+													}, {
+														"$": "\n          "
+													}
+												]
+											}, {
+												"$": [
+													"\n          "
+												]
+											}, {
+												"apply-templates": {
+													"@select": "$json-tree",
+													"@mode": "json"
+												}
+											}, {
+												"$": [
+													"\n        "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n        "
+								}, {
+									"otherwise": [
+										{
+											"$": "\n          "
+										}, {
+											"value-of": {
+												"@select": "json:generate(.)"
+											}
+										}, {
+											"$": "\n        "
+										}
+									]
+								}, {
+									"$": "\n      "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"": null
+			}, {
+				"": "$"
+			}, {
+				"template": {
+					"@name": "json:build-tree",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "input",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"object": [
+								{
+									"$": "\n      "
+								}, {
+									"copy-of": {
+										"@select": "if (not($use-rayfish)) then json:create-node($input, false()) else json:create-simple-node($input\/child::node())"
+									}
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-simple-node-member",
+					"@as": "node()",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "type",
+								"@as": "xs:string"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "value"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"member": [
+								{
+									"$": "\n      "
+								}, {
+									"name": {
+										"value-of": {
+											"@select": "$type"
+										}
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"value": {
+										"copy-of": {
+											"@select": "$value"
+										}
+									}
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-simple-node",
+					"@as": "node()*",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n\t\n    "
+							]
+						}, {
+							"copy-of": {
+								"@select": "json:create-simple-node-member('#name', $node\/local-name())"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"copy-of": {
+								"@select": "json:create-simple-node-member('#text', $node\/child::text())"
+							}
+						}, {
+							"$": [
+								"\n\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "empty-array",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"array": null
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "children",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"array": [
+											{
+												"$": "\n        "
+											}, {
+												"for-each": {
+													"@select": "$node\/@*",
+													"$": [
+														{
+															"$": [
+																"\n          "
+															]
+														}, {
+															"array-value": [
+																{
+																	"$": "\n            "
+																}, {
+																	"value": [
+																		{
+																			"$": "\n              "
+																		}, {
+																			"object": [
+																				{
+																					"$": "\n                "
+																				}, {
+																					"copy-of": {
+																						"@select": "json:create-simple-node-member('#name', concat('@',.\/local-name()))"
+																					}
+																				}, {
+																					"$": "\n                "
+																				}, {
+																					"copy-of": {
+																						"@select": "json:create-simple-node-member('#text', string(.))"
+																					}
+																				}, {
+																					"$": "\n                "
+																				}, {
+																					"copy-of": {
+																						"@select": "json:create-simple-node-member('#children', $empty-array)"
+																					}
+																				}, {
+																					"$": "\n              "
+																				}
+																			]
+																		}, {
+																			"$": "\n            "
+																		}
+																	]
+																}, {
+																	"$": "\n          "
+																}
+															]
+														}, {
+															"$": [
+																"\n        "
+															]
+														}
+													]
+												}
+											}, {
+												"$": "\n        "
+											}, {
+												"for-each": {
+													"@select": "$node\/child::element()",
+													"$": [
+														{
+															"$": [
+																"\n          "
+															]
+														}, {
+															"array-value": [
+																{
+																	"$": "\n            "
+																}, {
+																	"value": [
+																		{
+																			"$": "\n              "
+																		}, {
+																			"object": [
+																				{
+																					"$": "\n                "
+																				}, {
+																					"copy-of": {
+																						"@select": "json:create-simple-node(.)"
+																					}
+																				}, {
+																					"$": "\n              "
+																				}
+																			]
+																		}, {
+																			"$": "\n            "
+																		}
+																	]
+																}, {
+																	"$": "\n          "
+																}
+															]
+														}, {
+															"$": [
+																"\n        "
+															]
+														}
+													]
+												}
+											}, {
+												"$": "\n      "
+											}
+										]
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"copy-of": {
+								"@select": "json:create-simple-node-member('#children', $children)"
+							}
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-node",
+					"@as": "node()",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "in-array",
+								"@as": "xs:boolean"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"choose": [
+								{
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "$in-array",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"array-value": [
+													{
+														"$": "\n          "
+													}, {
+														"value": [
+															{
+																"$": "\n            "
+															}, {
+																"copy-of": {
+																	"@select": "json:create-children($node)"
+																}
+															}, {
+																"$": "\n          "
+															}
+														]
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"otherwise": [
+										{
+											"$": "\n        "
+										}, {
+											"member": [
+												{
+													"$": "\n          "
+												}, {
+													"copy-of": {
+														"@select": "json:create-string($node)"
+													}
+												}, {
+													"$": "\n          "
+												}, {
+													"value": [
+														{
+															"$": "\n            "
+														}, {
+															"copy-of": {
+																"@select": "json:create-children($node)"
+															}
+														}, {
+															"$": "\n          "
+														}
+													]
+												}, {
+													"$": "\n        "
+												}
+											]
+										}, {
+											"$": "\n      "
+										}
+									]
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-children",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"choose": [
+								{
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "exists($node\/child::text()) and count($node\/child::node()) eq 1",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"choose": [
+													{
+														"$": "\n          "
+													}, {
+														"when": {
+															"@test": "(count($node\/namespace::*) gt 0 and $use-namespaces) or count($node\/@*[not(..\/@json:force-array) or count(.|..\/@json:force-array)=2]) gt 0",
+															"$": [
+																{
+																	"$": [
+																		"\n            "
+																	]
+																}, {
+																	"object": [
+																		{
+																			"$": "\n              "
+																		}, {
+																			"copy-of": {
+																				"@select": "json:create-namespaces($node)"
+																			}
+																		}, {
+																			"$": "\n              "
+																		}, {
+																			"copy-of": {
+																				"@select": "json:create-attributes($node)"
+																			}
+																		}, {
+																			"$": "\n              "
+																		}, {
+																			"member": [
+																				{
+																					"$": "\n                "
+																				}, {
+																					"name": {
+																						"$": "$"
+																					}
+																				}, {
+																					"$": "\n                "
+																				}, {
+																					"value": {
+																						"value-of": {
+																							"@select": "$node"
+																						}
+																					}
+																				}, {
+																					"$": "\n              "
+																				}
+																			]
+																		}, {
+																			"$": "\n            "
+																		}
+																	]
+																}, {
+																	"$": [
+																		"\n          "
+																	]
+																}
+															]
+														}
+													}, {
+														"$": "\n          "
+													}, {
+														"otherwise": [
+															{
+																"$": "\n            "
+															}, {
+																"copy-of": {
+																	"@select": "json:create-text-value($node)"
+																}
+															}, {
+																"$": "\n          "
+															}
+														]
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "exists($node\/child::text())",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"choose": [
+													{
+														"$": "\n          "
+													}, {
+														"when": {
+															"@test": "(count($node\/namespace::*) gt 0 and $use-namespaces) or count($node\/@*[not(..\/@json:force-array) or count(.|..\/@json:force-array)=2]) gt 0",
+															"$": [
+																{
+																	"$": [
+																		"\n            "
+																	]
+																}, {
+																	"object": [
+																		{
+																			"$": "\n              "
+																		}, {
+																			"copy-of": {
+																				"@select": "json:create-namespaces($node)"
+																			}
+																		}, {
+																			"$": "\n              "
+																		}, {
+																			"copy-of": {
+																				"@select": "json:create-attributes($node)"
+																			}
+																		}, {
+																			"$": "\n              "
+																		}, {
+																			"member": [
+																				{
+																					"$": "\n                "
+																				}, {
+																					"name": {
+																						"$": "$"
+																					}
+																				}, {
+																					"$": "\n                "
+																				}, {
+																					"value": [
+																						{
+																							"$": "\n                  "
+																						}, {
+																							"copy-of": {
+																								"@select": "json:create-mixed-array($node)"
+																							}
+																						}, {
+																							"$": "\n                "
+																						}
+																					]
+																				}, {
+																					"$": "\n              "
+																				}
+																			]
+																		}, {
+																			"$": "\n            "
+																		}
+																	]
+																}, {
+																	"$": [
+																		"\n          "
+																	]
+																}
+															]
+														}
+													}, {
+														"$": "\n          "
+													}, {
+														"otherwise": [
+															{
+																"$": "\n            "
+															}, {
+																"copy-of": {
+																	"@select": "json:create-mixed-array($node)"
+																}
+															}, {
+																"$": "\n          "
+															}
+														]
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "exists($node\/child::node()) or ((count($node\/namespace::*) gt 0 and $use-namespaces) or count($node\/@*[not(..\/@json:force-array) or count(.|..\/@json:force-array)=2]) gt 0)",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"object": [
+													{
+														"$": "\n          "
+													}, {
+														"copy-of": {
+															"@select": "json:create-namespaces($node)"
+														}
+													}, {
+														"$": "\n          "
+													}, {
+														"copy-of": {
+															"@select": "json:create-attributes($node)"
+														}
+													}, {
+														"$": "\n          "
+													}, {
+														"for-each-group": {
+															"@select": "$node\/child::node()",
+															"@group-adjacent": "local-name()",
+															"$": [
+																{
+																	"$": [
+																		"\n            "
+																	]
+																}, {
+																	"choose": [
+																		{
+																			"$": "\n              "
+																		}, {
+																			"when": {
+																				"@test": "count(current-group()) eq 1 and (not(exists(.\/@json:force-array)) or .\/@json:force-array eq 'false')",
+																				"$": [
+																					{
+																						"$": [
+																							"\n                "
+																						]
+																					}, {
+																						"copy-of": {
+																							"@select": "json:create-node(current-group()[1], false())"
+																						}
+																					}, {
+																						"$": [
+																							"\n              "
+																						]
+																					}
+																				]
+																			}
+																		}, {
+																			"$": "\n              "
+																		}, {
+																			"otherwise": [
+																				{
+																					"$": "\n                "
+																				}, {
+																					"member": [
+																						{
+																							"$": "\n                  "
+																						}, {
+																							"name": {
+																								"value-of": {
+																									"@select": "if($use-namespaces) then current-group()[1]\/name() else current-group()[1]\/local-name()"
+																								}
+																							}
+																						}, {
+																							"$": "\n                  "
+																						}, {
+																							"value": [
+																								{
+																									"$": "\n                    "
+																								}, {
+																									"array": [
+																										{
+																											"$": "\n                      "
+																										}, {
+																											"for-each": {
+																												"@select": "current-group()",
+																												"$": [
+																													{
+																														"$": [
+																															"\n                        "
+																														]
+																													}, {
+																														"copy-of": {
+																															"@select": "json:create-node(.,true())"
+																														}
+																													}, {
+																														"$": [
+																															"\n                      "
+																														]
+																													}
+																												]
+																											}
+																										}, {
+																											"$": "\n                    "
+																										}
+																									]
+																								}, {
+																									"$": "\n                  "
+																								}
+																							]
+																						}, {
+																							"$": "\n                "
+																						}
+																					]
+																				}, {
+																					"$": "\n              "
+																				}
+																			]
+																		}, {
+																			"$": "\n            "
+																		}
+																	]
+																}, {
+																	"$": [
+																		"\n          "
+																	]
+																}
+															]
+														}
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-mixed-array",
+					"@as": "node()",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"array": [
+								{
+									"$": "\n      "
+								}, {
+									"for-each": {
+										"@select": "$node\/child::node()",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"array-value": [
+													{
+														"$": "\n          "
+													}, {
+														"value": [
+															{
+																"$": "\n            "
+															}, {
+																"choose": [
+																	{
+																		"$": "\n              "
+																	}, {
+																		"when": {
+																			"@test": "self::text()",
+																			"$": [
+																				{
+																					"$": [
+																						"\n                "
+																					]
+																				}, {
+																					"copy-of": {
+																						"@select": "json:create-text-value(.)"
+																					}
+																				}, {
+																					"$": [
+																						"\n              "
+																					]
+																				}
+																			]
+																		}
+																	}, {
+																		"$": "\n              "
+																	}, {
+																		"otherwise": [
+																			{
+																				"$": "\n                "
+																			}, {
+																				"object": [
+																					{
+																						"$": "\n                  "
+																					}, {
+																						"copy-of": {
+																							"@select": "json:create-node(.,false())"
+																						}
+																					}, {
+																						"$": "\n                "
+																					}
+																				]
+																			}, {
+																				"$": "\n              "
+																			}
+																		]
+																	}, {
+																		"$": "\n            "
+																	}
+																]
+															}, {
+																"$": "\n          "
+															}
+														]
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-text-value",
+					"@as": "node()",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"choose": [
+								{
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "$use-badgerfish",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"object": [
+													{
+														"$": "\n          "
+													}, {
+														"member": [
+															{
+																"$": "\n            "
+															}, {
+																"name": {
+																	"$": "$"
+																}
+															}, {
+																"$": "\n            "
+															}, {
+																"value": [
+																	{
+																		"$": "\n              "
+																	}, {
+																		"value-of": {
+																			"@select": "$node"
+																		}
+																	}, {
+																		"$": "\n            "
+																	}
+																]
+															}, {
+																"$": "\n          "
+															}
+														]
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"otherwise": [
+										{
+											"$": "\n        "
+										}, {
+											"value-of": {
+												"@select": "$node"
+											}
+										}, {
+											"$": "\n      "
+										}
+									]
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-string",
+					"@as": "node()",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"choose": [
+								{
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "$use-namespaces",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"name": {
+													"value-of": {
+														"@select": "$node\/name()"
+													}
+												}
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"otherwise": [
+										{
+											"$": "\n        "
+										}, {
+											"name": {
+												"value-of": {
+													"@select": "$node\/local-name()"
+												}
+											}
+										}, {
+											"$": "\n      "
+										}
+									]
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-attributes",
+					"@as": "node()*",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"for-each": {
+								"@select": "$node\/@*[not(..\/@json:force-array) or count(.|..\/@json:force-array)=2]",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"member": [
+											{
+												"$": "\n        "
+											}, {
+												"name": {
+													"if": {
+														"@test": "$use-badgerfish or $use-rabbitfish",
+														"$": "@"
+													},
+													"value-of": {
+														"@select": "if($use-namespaces) then name() else local-name()"
+													}
+												}
+											}, {
+												"$": "\n        "
+											}, {
+												"value": {
+													"value-of": {
+														"@select": "."
+													}
+												}
+											}, {
+												"$": "\n      "
+											}
+										]
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:create-namespaces",
+					"@as": "node()*",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "node",
+								"@as": "node()"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"if": {
+								"@test": "$use-namespaces",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"if": {
+											"@test": "count($node\/namespace::*) gt 0",
+											"$": [
+												{
+													"$": [
+														"\n        "
+													]
+												}, {
+													"member": [
+														{
+															"$": "\n          "
+														}, {
+															"name": [
+																{
+																	"if": {
+																		"@test": "$use-badgerfish or $use-rabbitfish",
+																		"$": "@"
+																	}
+																}, {
+																	"$": "xmlns"
+																}
+															]
+														}, {
+															"$": "\n          "
+														}, {
+															"value": [
+																{
+																	"$": "\n            "
+																}, {
+																	"object": [
+																		{
+																			"$": "\n              "
+																		}, {
+																			"for-each": {
+																				"@select": "$node\/namespace::*",
+																				"$": [
+																					{
+																						"$": [
+																							"\n                "
+																						]
+																					}, {
+																						"member": [
+																							{
+																								"$": "\n                  "
+																							}, {
+																								"choose": [
+																									{
+																										"$": "\n                    "
+																									}, {
+																										"when": {
+																											"@test": "local-name(.) eq ''",
+																											"$": [
+																												{
+																													"$": [
+																														"\n                      "
+																													]
+																												}, {
+																													"name": {
+																														"$": "$"
+																													}
+																												}, {
+																													"$": [
+																														"\n                    "
+																													]
+																												}
+																											]
+																										}
+																									}, {
+																										"$": "\n                    "
+																									}, {
+																										"otherwise": [
+																											{
+																												"$": "\n                      "
+																											}, {
+																												"name": {
+																													"value-of": {
+																														"@select": "local-name(.)"
+																													}
+																												}
+																											}, {
+																												"$": "\n                    "
+																											}
+																										]
+																									}, {
+																										"$": "\n                  "
+																									}
+																								]
+																							}, {
+																								"$": "\n                  "
+																							}, {
+																								"value": {
+																									"value-of": {
+																										"@select": "."
+																									}
+																								}
+																							}, {
+																								"$": "\n                "
+																							}
+																						]
+																					}, {
+																						"$": [
+																							"\n              "
+																						]
+																					}
+																				]
+																			}
+																		}, {
+																			"$": "\n            "
+																		}
+																	]
+																}, {
+																	"$": "\n          "
+																}
+															]
+														}, {
+															"$": "\n        "
+														}
+													]
+												}, {
+													"$": [
+														"\n      "
+													]
+												}
+											]
+										}
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"": null
+			}, {
+				"": "$"
+			}, {
+				"template": {
+					"@match": "json:parameter",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "parameters",
+								"apply-templates": {
+									"@mode": "json"
+								}
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"value-of": {
+								"@select": "string-join($parameters\/parameter, ', ')"
+							}
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"template": {
+					"@match": "json:object",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "members",
+								"apply-templates": {
+									"@mode": "json"
+								}
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"parameter": [
+								{
+									"$": "\n      "
+								}, {
+									"text": null
+								}, {
+									"$": "{"
+								}, {
+									"text": null
+								}, {
+									"$": "\n        "
+								}, {
+									"value-of": {
+										"@select": "string-join($members\/member,',')"
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"text": null
+								}, {
+									"$": "}"
+								}, {
+									"text": null
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"template": {
+					"@match": "json:member",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"text": null
+						}, {
+							"member": {
+								"apply-templates": {
+									"@mode": "json"
+								}
+							}
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"function": {
+					"@name": "json:encode-string",
+					"@as": "xs:string",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"param": {
+								"@name": "string",
+								"@as": "xs:string"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"sequence": {
+								"@select": "replace(           replace(           replace(           replace(           replace(           replace(           replace(           replace(           replace($string,             '\\\\','\\\\\\\\'),             '\/', '\\\\\/'),             '\"', '\\\\\"'),             '\n','\\\\n'),             '\r','\\\\r'),             '\t','\\\\t'),             '\\n','\\\\n'),             '\\r','\\\\r'),             '\\t','\\\\t')"
+							}
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"template": {
+					"@match": "json:name",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"\""
+							]
+						}, {
+							"value-of": {
+								"@select": "json:encode-string(.)"
+							}
+						}, {
+							"$": [
+								"\":"
+							]
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"template": {
+					"@match": "json:value",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"choose": [
+								{
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "node() and not(text())",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"apply-templates": {
+													"@mode": "json"
+												}
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"when": {
+										"@test": "text()",
+										"$": [
+											{
+												"$": [
+													"\n        "
+												]
+											}, {
+												"choose": [
+													{
+														"$": "\n          "
+													}, {
+														"": null
+													}, {
+														"": "$"
+													}, {
+														"when": {
+															"@test": "normalize-space(.) ne . or not((string(.) castable as xs:integer  and not(starts-with(string(.),'+')) and not(starts-with(string(.),'0') and not(. = '0'))) or (string(.) castable as xs:decimal  and not(starts-with(string(.),'+')) and not(starts-with(.,'-.')) and not(starts-with(.,'.')) and not(starts-with(.,'-0') and not(starts-with(.,'-0.'))) and not(ends-with(.,'.')) and not(starts-with(.,'0') and not(starts-with(.,'0.'))) )) and not(. = 'false') and not(. = 'true') and not(. = 'null')",
+															"$": [
+																{
+																	"$": [
+																		"\n            "
+																	]
+																}, {
+																	"text": null
+																}, {
+																	"$": [
+																		"\""
+																	]
+																}, {
+																	"value-of": {
+																		"@select": "json:encode-string(.)"
+																	}
+																}, {
+																	"$": [
+																		"\""
+																	]
+																}, {
+																	"text": null
+																}, {
+																	"$": [
+																		"\n          "
+																	]
+																}
+															]
+														}
+													}, {
+														"$": "\n          "
+													}, {
+														"otherwise": [
+															{
+																"$": "\n            "
+															}, {
+																"text": null
+															}, {
+																"value-of": {
+																	"@select": "."
+																}
+															}, {
+																"text": null
+															}, {
+																"$": "\n          "
+															}
+														]
+													}, {
+														"$": "\n        "
+													}
+												]
+											}, {
+												"$": [
+													"\n      "
+												]
+											}
+										]
+									}
+								}, {
+									"$": "\n      "
+								}, {
+									"otherwise": [
+										{
+											"$": "\n        "
+										}, {
+											"text": null
+										}, {
+											"$": null
+										}, {
+											"text": null
+										}, {
+											"$": "\n      "
+										}
+									]
+								}, {
+									"$": "\n    "
+								}
+							]
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"template": {
+					"@match": "json:array-value",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"text": null
+						}, {
+							"value": {
+								"apply-templates": {
+									"@mode": "json"
+								}
+							}
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n\n  "
+				]
+			}, {
+				"template": {
+					"@match": "json:array",
+					"@mode": "json",
+					"$": [
+						{
+							"$": [
+								"\n    "
+							]
+						}, {
+							"variable": {
+								"@name": "values",
+								"$": [
+									{
+										"$": [
+											"\n      "
+										]
+									}, {
+										"apply-templates": {
+											"@mode": "json"
+										}
+									}, {
+										"$": [
+											"\n    "
+										]
+									}
+								]
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"["
+							]
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"\n      "
+							]
+						}, {
+							"value-of": {
+								"@select": "string-join($values\/value,',')"
+							}
+						}, {
+							"$": [
+								"\n    "
+							]
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"]"
+							]
+						}, {
+							"text": null
+						}, {
+							"$": [
+								"\n  "
+							]
+						}
+					]
+				}
+			}, {
+				"$": [
+					"\n"
+				]
+			}
+		]
+	}
+}

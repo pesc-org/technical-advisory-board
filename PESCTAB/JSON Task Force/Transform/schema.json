@@ -1,0 +1,527 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/object_13",
+  "definitions": {
+    "object_01": {
+      "type": "object",
+      "required": [
+        "Organization"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "Organization": {
+          "$ref": "#/definitions/object_04"
+        }
+      }
+    },
+    "object_02": {
+      "title": "Phone",
+      "type": "object",
+      "required": [
+        "PhoneNumber"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "AreaCityCode": {
+          "type": "number"
+        },
+        "PhoneNumber": {
+          "type": [
+            "number",
+            "string"
+          ]
+        }
+      }
+    },
+    "object_03": {
+      "title": "Contacts",
+      "type": "object",
+      "required": [
+        "Address",
+        "Phone",
+        "Email"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "Address": {
+          "title": "Address",
+          "type": "object",
+          "required": [
+            "AddressLine",
+            "City",
+            "StateProvinceCode",
+            "PostalCode"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "AddressLine": {
+              "type": "string"
+            },
+            "City": {
+              "type": "string"
+            },
+            "StateProvinceCode": {
+              "type": "string"
+            },
+            "PostalCode": {
+              "type": "number"
+            }
+          }
+        },
+        "Phone": {
+          "$ref": "#/definitions/object_02"
+        },
+        "Email": {
+          "title": "Email",
+          "type": "object",
+          "required": [
+            "EmailAddress"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "EmailAddress": {
+              "type": "string",
+              "format": "email"
+            }
+          }
+        }
+      }
+    },
+    "object_04": {
+      "type": "object",
+      "required": [
+        "OrganizationName"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "MutuallyDefined": {
+          "type": "number"
+        },
+        "FICE": {
+          "type": "string"
+        },
+        "OrganizationName": {
+          "type": "string"
+        },
+        "Contacts": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/object_03"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "object_05": {
+      "title": "TransmissionData",
+      "type": "object",
+      "required": [
+        "DocumentID",
+        "CreatedDateTime",
+        "DocumentTypeCode",
+        "TransmissionType",
+        "Source",
+        "Destination",
+        "RequestTrackingID"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "DocumentID": {
+          "type": "number"
+        },
+        "CreatedDateTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DocumentTypeCode": {
+          "type": "string"
+        },
+        "TransmissionType": {
+          "type": "string"
+        },
+        "Source": {
+          "$ref": "#/definitions/object_01"
+        },
+        "Destination": {
+          "$ref": "#/definitions/object_01"
+        },
+        "RequestTrackingID": {
+          "type": "number"
+        }
+      }
+    },
+    "object_06": {
+      "title": "Person",
+      "type": "object",
+      "required": [
+        "SchoolAssignedPersonID",
+        "SSN",
+        "PartialSSN",
+        "Birth",
+        "Name",
+        "HighSchool",
+        "Contacts"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "SchoolAssignedPersonID": {
+          "type": "number"
+        },
+        "SSN": {
+          "type": "string"
+        },
+        "PartialSSN": {
+          "type": "string"
+        },
+        "Birth": {
+          "title": "Birth",
+          "type": "object",
+          "required": [
+            "BirthDate"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "BirthDate": {
+              "type": "string"
+            }
+          }
+        },
+        "Name": {
+          "title": "Name",
+          "type": "object",
+          "required": [
+            "FirstName",
+            "LastName"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "FirstName": {
+              "type": "string"
+            },
+            "LastName": {
+              "type": "string"
+            }
+          }
+        },
+        "HighSchool": {
+          "title": "HighSchool",
+          "type": "object",
+          "required": [
+            "OrganizationName",
+            "CEEBACT"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "OrganizationName": {
+              "type": "string"
+            },
+            "CEEBACT": {
+              "type": "string"
+            }
+          }
+        },
+        "Contacts": {
+          "$ref": "#/definitions/object_03"
+        }
+      }
+    },
+    "object_07": {
+      "title": "StudentLevel",
+      "type": "object",
+      "required": [
+        "StudentLevelCode"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "StudentLevelCode": {
+          "type": "string"
+        }
+      }
+    },
+    "object_08": {
+      "title": "AcademicSummary",
+      "type": "object",
+      "required": [
+        "AcademicSummaryType",
+        "AcademicSummaryLevel",
+        "GPA",
+        "AcademicHonors"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "AcademicSummaryType": {
+          "type": "string"
+        },
+        "AcademicSummaryLevel": {
+          "type": "string"
+        },
+        "GPA": {
+          "title": "GPA",
+          "type": "object",
+          "required": [
+            "CreditHoursAttempted",
+            "CreditHoursEarned",
+            "CreditUnit",
+            "GradePointAverage",
+            "TotalQualityPoints",
+            "CreditHoursforGPA",
+            "GPARangeMinimum",
+            "GPARangeMaximum"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "CreditHoursAttempted": {
+              "type": "number"
+            },
+            "CreditHoursEarned": {
+              "type": "number"
+            },
+            "CreditUnit": {
+              "type": "string"
+            },
+            "GradePointAverage": {
+              "type": "number"
+            },
+            "TotalQualityPoints": {
+              "type": "number"
+            },
+            "CreditHoursforGPA": {
+              "type": "number"
+            },
+            "GPARangeMinimum": {
+              "type": "number"
+            },
+            "GPARangeMaximum": {
+              "type": "number"
+            }
+          }
+        },
+        "AcademicHonors": {
+          "title": "AcademicHonors",
+          "type": "object",
+          "required": [
+            "HonorsTitle",
+            "HonorsLevel"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "HonorsTitle": {
+              "type": "string"
+            },
+            "HonorsLevel": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "object_09": {
+      "type": "object",
+      "required": [
+        "AcademicSessionDetail",
+        "StudentLevel",
+        "AcademicProgram",
+        "Course",
+        "AcademicSummary"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "AcademicSessionDetail": {
+          "title": "AcademicSessionDetail",
+          "type": "object",
+          "required": [
+            "SessionDesignator",
+            "SessionName",
+            "SessionBeginDate",
+            "SessionEndDate"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "SessionDesignator": {
+              "type": "string"
+            },
+            "SessionName": {
+              "type": "string"
+            },
+            "SessionBeginDate": {
+              "type": "string"
+            },
+            "SessionEndDate": {
+              "type": "string"
+            }
+          }
+        },
+        "StudentLevel": {
+          "$ref": "#/definitions/object_07"
+        },
+        "AcademicProgram": {
+          "title": "AcademicProgram",
+          "type": "object",
+          "required": [
+            "ProgramCIPCode",
+            "AcademicProgramType",
+            "AcademicProgramName"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "ProgramCIPCode": {
+              "type": "number"
+            },
+            "AcademicProgramType": {
+              "type": "string"
+            },
+            "AcademicProgramName": {
+              "type": "string"
+            }
+          }
+        },
+        "Course": {
+          "type": "array",
+          "title": "Course",
+          "items": {
+            "type": "object",
+            "required": [
+              "CourseCreditBasis",
+              "CourseCreditUnits",
+              "CourseCreditLevel",
+              "CourseCreditValue",
+              "CourseCreditEarned",
+              "CourseAcademicGradeScaleCode",
+              "CourseAcademicGrade",
+              "CourseCIPCode",
+              "CourseQualityPointsEarned",
+              "CourseLevel",
+              "CourseGPAApplicabilityCode",
+              "CourseSubjectAbbreviation",
+              "CourseNumber",
+              "CourseTitle"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "CourseCreditBasis": {
+                "type": "string"
+              },
+              "CourseCreditUnits": {
+                "type": "string"
+              },
+              "CourseCreditLevel": {
+                "type": "string"
+              },
+              "CourseCreditValue": {
+                "type": "number"
+              },
+              "CourseCreditEarned": {
+                "type": "number"
+              },
+              "CourseAcademicGradeScaleCode": {
+                "type": "number"
+              },
+              "CourseAcademicGrade": {
+                "type": "string"
+              },
+              "CourseCIPCode": {
+                "type": "number"
+              },
+              "CourseQualityPointsEarned": {
+                "type": "number"
+              },
+              "CourseLevel": {
+                "type": "string"
+              },
+              "CourseGPAApplicabilityCode": {
+                "type": "string"
+              },
+              "CourseSubjectAbbreviation": {
+                "type": "string"
+              },
+              "CourseNumber": {
+                "type": "number"
+              },
+              "CourseTitle": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "AcademicSummary": {
+          "$ref": "#/definitions/object_08"
+        }
+      }
+    },
+    "object_10": {
+      "title": "AcademicRecord",
+      "type": "object",
+      "required": [
+        "School",
+        "StudentLevel",
+        "AcademicSession"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "School": {
+          "$ref": "#/definitions/object_04"
+        },
+        "StudentLevel": {
+          "$ref": "#/definitions/object_07"
+        },
+        "AcademicSession": {
+          "type": "array",
+          "title": "AcademicSession",
+          "items": {
+            "$ref": "#/definitions/object_09"
+          }
+        }
+      }
+    },
+    "object_11": {
+      "title": "Student",
+      "type": "object",
+      "required": [
+        "Person",
+        "AcademicRecord"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "Person": {
+          "$ref": "#/definitions/object_06"
+        },
+        "AcademicRecord": {
+          "$ref": "#/definitions/object_10"
+        }
+      }
+    },
+    "object_12": {
+      "title": "CollegeTranscript",
+      "type": "object",
+      "required": [
+        "TransmissionData",
+        "Student"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "TransmissionData": {
+          "$ref": "#/definitions/object_05"
+        },
+        "Student": {
+          "$ref": "#/definitions/object_11"
+        }
+      }
+    },
+    "object_13": {
+      "description": "JSON Schema generated by XMLSpy v2016 rel. 2 sp1 (x64) (http://www.altova.com)",
+      "type": "object",
+      "required": [
+        "CollegeTranscript"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "CollegeTranscript": {
+          "$ref": "#/definitions/object_12"
+        }
+      }
+    }
+  }
+}

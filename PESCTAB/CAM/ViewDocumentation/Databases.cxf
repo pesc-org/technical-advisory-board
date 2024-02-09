@@ -1,0 +1,1001 @@
+<as:CAM
+ xmlns:as="http://www.oasis-open.org/committees/cam"
+ xmlns:camed="http://jcam.org.uk/editor"
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" CAMlevel="1" version="1.1" cameditor="3.2.3">
+  <as:Header>
+    <as:Description>No Description</as:Description>
+    <as:Owner>Not Set</as:Owner>
+    <as:Version>0.1</as:Version>
+    <as:DateTime>2016-06-29T16:50:36</as:DateTime>
+  </as:Header>
+  <as:Namespaces>
+    <as:namespace prefix="xs">http://www.w3.org/2001/XMLSchema</as:namespace>
+    <as:namespace prefix="as">http://www.oasis-open.org/committees/cam</as:namespace>
+    <as:namespace prefix="xml">http://www.w3.org/XML/1998/namespace</as:namespace>
+    <as:namespace prefix="camed">http://jcam.org.uk/editor</as:namespace>
+  </as:Namespaces>
+  <as:AssemblyStructure>
+    <as:Structure ID="LimeSurvey" reference="appian.jpa" taxonomy="XML">
+      <as:Element name="LimeSurvey" path="/LimeSurvey" namespace="" namespacePrefix="">
+        <as:Rule>
+          <as:constraint action="makeMandatory()" />
+        </as:Rule>
+        <as:Element name="Prefix_answers" path="/LimeSurvey/Prefix_answers" namespace="" namespacePrefix="">
+          <as:Rule>
+            <as:constraint action="makeRepeatable()" xpath="//LimeSurvey/Prefix_answers" />
+          </as:Rule>
+          <camed:annotation item="//LimeSurvey/Prefix_answers">
+            <camed:documentation type="Definition">SQL Table: prefix_answers</camed:documentation>
+          </camed:annotation>
+          <as:Element name="Qid" path="/LimeSurvey/Prefix_answers/Qid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_answers/Qid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Qid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.qid</camed:documentation>
+              <camed:documentation type="KeyRef">qid</camed:documentation>
+            </camed:annotation>
+            <as:Attribute name="foobar" path="/LimeSurvey/Prefix_answers/Qid/@foobar" namespace="" namespacePrefix="" exampleValue="%HH:MM:SS%">
+              <as:Rule>
+                <as:constraint action="setDateMask(hh:mm:ss)" xpath="//Qid/@foobar" />
+              </as:Rule>
+              <camed:annotation item="//Qid/@foobar">
+                <camed:documentation type="Definition">hello foobar</camed:documentation>
+              </camed:annotation>
+            </as:Attribute>
+          </as:Element>
+          <as:Element name="Code" path="/LimeSurvey/Prefix_answers/Code" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-5)" xpath="//Prefix_answers/Code" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Code">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.code</camed:documentation>
+              <camed:documentation type="KeyRef">code</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Answer" path="/LimeSurvey/Prefix_answers/Answer" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_answers/Answer" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Answer">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.answer</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Sortorder" path="/LimeSurvey/Prefix_answers/Sortorder" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_answers/Sortorder" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Sortorder">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.sortorder</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Assessment_value" path="/LimeSurvey/Prefix_answers/Assessment_value" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_answers/Assessment_value" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Assessment_value">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.assessment_value</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Language" path="/LimeSurvey/Prefix_answers/Language" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_answers/Language" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Language">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.language</camed:documentation>
+              <camed:documentation type="KeyRef">language</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Scale_id" path="/LimeSurvey/Prefix_answers/Scale_id" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_answers/Scale_id" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_answers/Scale_id">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.scale_id</camed:documentation>
+              <camed:documentation type="KeyRef">scale_id</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+        </as:Element>
+        <as:Element name="Prefix_assessments" path="/LimeSurvey/Prefix_assessments" namespace="" namespacePrefix="">
+          <as:Rule>
+            <as:constraint action="makeRepeatable()" xpath="//LimeSurvey/Prefix_assessments" />
+          </as:Rule>
+          <camed:annotation item="//LimeSurvey/Prefix_assessments">
+            <camed:documentation type="Definition">SQL Table: prefix_assessments</camed:documentation>
+          </camed:annotation>
+          <as:Element name="Id" path="/LimeSurvey/Prefix_assessments/Id" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_assessments/Id" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Id">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.id</camed:documentation>
+              <camed:documentation type="KeyRef">id</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Sid" path="/LimeSurvey/Prefix_assessments/Sid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_assessments/Sid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Sid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.sid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Scope" path="/LimeSurvey/Prefix_assessments/Scope" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-5)" xpath="//Prefix_assessments/Scope" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Scope">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.scope</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Gid" path="/LimeSurvey/Prefix_assessments/Gid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_assessments/Gid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Gid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.gid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Name" path="/LimeSurvey/Prefix_assessments/Name" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_assessments/Name" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Name">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.name</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Minimum" path="/LimeSurvey/Prefix_assessments/Minimum" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-50)" xpath="//Prefix_assessments/Minimum" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Minimum">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.minimum</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Maximum" path="/LimeSurvey/Prefix_assessments/Maximum" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-50)" xpath="//Prefix_assessments/Maximum" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Maximum">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.maximum</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Message" path="/LimeSurvey/Prefix_assessments/Message" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_assessments/Message" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Message">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.message</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Language" path="/LimeSurvey/Prefix_assessments/Language" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_assessments/Language" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_assessments/Language">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.language</camed:documentation>
+              <camed:documentation type="KeyRef">language</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+        </as:Element>
+        <as:Element name="Prefix_defaultvalues" path="/LimeSurvey/Prefix_defaultvalues" namespace="" namespacePrefix="">
+          <as:Rule>
+            <as:constraint action="makeRepeatable()" xpath="//LimeSurvey/Prefix_defaultvalues" />
+          </as:Rule>
+          <camed:annotation item="//LimeSurvey/Prefix_defaultvalues">
+            <camed:documentation type="Definition">SQL Table: prefix_defaultvalues</camed:documentation>
+          </camed:annotation>
+          <as:Element name="Qid" path="/LimeSurvey/Prefix_defaultvalues/Qid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_defaultvalues/Qid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Qid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.qid</camed:documentation>
+              <camed:documentation type="KeyRef">qid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Scale_id" path="/LimeSurvey/Prefix_defaultvalues/Scale_id" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_defaultvalues/Scale_id" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Scale_id">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.scale_id</camed:documentation>
+              <camed:documentation type="KeyRef">scale_id</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Sqid" path="/LimeSurvey/Prefix_defaultvalues/Sqid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_defaultvalues/Sqid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Sqid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.sqid</camed:documentation>
+              <camed:documentation type="KeyRef">sqid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Language" path="/LimeSurvey/Prefix_defaultvalues/Language" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_defaultvalues/Language" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Language">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.language</camed:documentation>
+              <camed:documentation type="KeyRef">language</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Specialtype" path="/LimeSurvey/Prefix_defaultvalues/Specialtype" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_defaultvalues/Specialtype" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Specialtype">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.specialtype</camed:documentation>
+              <camed:documentation type="KeyRef">specialtype</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Defaultvalue" path="/LimeSurvey/Prefix_defaultvalues/Defaultvalue" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_defaultvalues/Defaultvalue" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_defaultvalues/Defaultvalue" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Defaultvalue">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.defaultvalue</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+        </as:Element>
+        <as:Element name="Prefix_participants" path="/LimeSurvey/Prefix_participants" namespace="" namespacePrefix="">
+          <as:Rule>
+            <as:constraint action="makeRepeatable()" xpath="//LimeSurvey/Prefix_participants" />
+          </as:Rule>
+          <camed:annotation item="//LimeSurvey/Prefix_participants">
+            <camed:documentation type="Definition">SQL Table: prefix_participants</camed:documentation>
+          </camed:annotation>
+          <as:Element name="Participant_id" path="/LimeSurvey/Prefix_participants/Participant_id" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-50)" xpath="//Prefix_participants/Participant_id" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Participant_id">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.participant_id</camed:documentation>
+              <camed:documentation type="KeyRef">participant_id</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Firstname" path="/LimeSurvey/Prefix_participants/Firstname" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-150)" xpath="//Prefix_participants/Firstname" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_participants/Firstname" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Firstname">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.firstname</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Lastname" path="/LimeSurvey/Prefix_participants/Lastname" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-150)" xpath="//Prefix_participants/Lastname" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_participants/Lastname" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Lastname">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.lastname</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Email" path="/LimeSurvey/Prefix_participants/Email" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_participants/Email" />
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_participants/Email" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Email">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.email</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Language" path="/LimeSurvey/Prefix_participants/Language" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_participants/Language" />
+              <as:constraint action="setLength(1-40)" xpath="//Prefix_participants/Language" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Language">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.language</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Blacklisted" path="/LimeSurvey/Prefix_participants/Blacklisted" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_participants/Blacklisted" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Blacklisted">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.blacklisted</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Owner_uid" path="/LimeSurvey/Prefix_participants/Owner_uid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_participants/Owner_uid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Owner_uid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.owner_uid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Created_by" path="/LimeSurvey/Prefix_participants/Created_by" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_participants/Created_by" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Created_by">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.created_by</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Created" path="/LimeSurvey/Prefix_participants/Created" namespace="" namespacePrefix="" exampleValue="%YYYY-MM-DD'T'HH:MI:SS.SSS%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_participants/Created" />
+              <as:constraint action="setDateMask(YYYY-MM-DD'T'HH:MI:SS.SSS)" xpath="//Prefix_participants/Created" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Created">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.created</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Modified" path="/LimeSurvey/Prefix_participants/Modified" namespace="" namespacePrefix="" exampleValue="%YYYY-MM-DD'T'HH:MI:SS.SSS%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_participants/Modified" />
+              <as:constraint action="setDateMask(YYYY-MM-DD'T'HH:MI:SS.SSS)" xpath="//Prefix_participants/Modified" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_participants/Modified">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.modified</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+        </as:Element>
+        <as:Element name="Prefix_questions" path="/LimeSurvey/Prefix_questions" namespace="" namespacePrefix="">
+          <as:Rule>
+            <as:constraint action="makeRepeatable()" xpath="//LimeSurvey/Prefix_questions" />
+          </as:Rule>
+          <camed:annotation item="//LimeSurvey/Prefix_questions">
+            <camed:documentation type="Definition">SQL Table: prefix_questions</camed:documentation>
+          </camed:annotation>
+          <as:Element name="Qid" path="/LimeSurvey/Prefix_questions/Qid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Qid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Qid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.qid</camed:documentation>
+              <camed:documentation type="KeyRef">qid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Parent_qid" path="/LimeSurvey/Prefix_questions/Parent_qid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Parent_qid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Parent_qid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.parent_qid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Sid" path="/LimeSurvey/Prefix_questions/Sid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Sid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Sid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.sid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Gid" path="/LimeSurvey/Prefix_questions/Gid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Gid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Gid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.gid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Type" path="/LimeSurvey/Prefix_questions/Type" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_questions/Type" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Type">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.type</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Title" path="/LimeSurvey/Prefix_questions/Title" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_questions/Title" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Title">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.title</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Question" path="/LimeSurvey/Prefix_questions/Question" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_questions/Question" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Question">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.question</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Preg" path="/LimeSurvey/Prefix_questions/Preg" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_questions/Preg" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_questions/Preg" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Preg">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.preg</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Help" path="/LimeSurvey/Prefix_questions/Help" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_questions/Help" />
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_questions/Help" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Help">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.help</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Other" path="/LimeSurvey/Prefix_questions/Other" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_questions/Other" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Other">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.other</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Mandatory" path="/LimeSurvey/Prefix_questions/Mandatory" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_questions/Mandatory" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_questions/Mandatory" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Mandatory">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.mandatory</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Question_order" path="/LimeSurvey/Prefix_questions/Question_order" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Question_order" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Question_order">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.question_order</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Language" path="/LimeSurvey/Prefix_questions/Language" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_questions/Language" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Language">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.language</camed:documentation>
+              <camed:documentation type="KeyRef">language</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Scale_id" path="/LimeSurvey/Prefix_questions/Scale_id" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Scale_id" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Scale_id">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.scale_id</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Same_default" path="/LimeSurvey/Prefix_questions/Same_default" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_questions/Same_default" />
+            </as:Rule>
+            <camed:annotation item="//Prefix_questions/Same_default">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.same_default</camed:documentation>
+              <camed:documentation type="Definition">Saves if user set to use the same default value across languages in default options dialog</camed:documentation>
+            </camed:annotation>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Same_default">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.same_default</camed:documentation>
+              <camed:documentation type="Definition">Saves if user set to use the same default value across languages in default options dialog</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Relevance" path="/LimeSurvey/Prefix_questions/Relevance" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_questions/Relevance" />
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_questions/Relevance" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Relevance">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.relevance</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Modulename" path="/LimeSurvey/Prefix_questions/Modulename" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-255)" xpath="//Prefix_questions/Modulename" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_questions/Modulename" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_questions/Modulename">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.modulename</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+        </as:Element>
+        <as:Element name="Prefix_surveys" path="/LimeSurvey/Prefix_surveys" namespace="" namespacePrefix="">
+          <as:Rule>
+            <as:constraint action="makeRepeatable()" xpath="//LimeSurvey/Prefix_surveys" />
+          </as:Rule>
+          <camed:annotation item="//LimeSurvey/Prefix_surveys">
+            <camed:documentation type="Definition">SQL Table: prefix_surveys</camed:documentation>
+          </camed:annotation>
+          <as:Element name="Sid" path="/LimeSurvey/Prefix_surveys/Sid" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Sid" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Sid">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.sid</camed:documentation>
+              <camed:documentation type="KeyRef">sid</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Owner_id" path="/LimeSurvey/Prefix_surveys/Owner_id" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Owner_id" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Owner_id">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.owner_id</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Admin" path="/LimeSurvey/Prefix_surveys/Admin" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-50)" xpath="//Prefix_surveys/Admin" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Admin" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Admin">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.admin</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Active" path="/LimeSurvey/Prefix_surveys/Active" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Active" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Active">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.active</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Expires" path="/LimeSurvey/Prefix_surveys/Expires" namespace="" namespacePrefix="" exampleValue="%YYYY-MM-DD'T'HH:MI:SS.SSS%">
+            <as:Rule>
+              <as:constraint action="setDateMask(YYYY-MM-DD'T'HH:MI:SS.SSS)" xpath="//Prefix_surveys/Expires" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Expires" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Expires">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.expires</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Startdate" path="/LimeSurvey/Prefix_surveys/Startdate" namespace="" namespacePrefix="" exampleValue="%YYYY-MM-DD'T'HH:MI:SS.SSS%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Startdate" />
+              <as:constraint action="setDateMask(YYYY-MM-DD'T'HH:MI:SS.SSS)" xpath="//Prefix_surveys/Startdate" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Startdate">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.startdate</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Adminemail" path="/LimeSurvey/Prefix_surveys/Adminemail" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-254)" xpath="//Prefix_surveys/Adminemail" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Adminemail" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Adminemail">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.adminemail</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Anonymized" path="/LimeSurvey/Prefix_surveys/Anonymized" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Anonymized" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Anonymized">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.anonymized</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Faxto" path="/LimeSurvey/Prefix_surveys/Faxto" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-20)" xpath="//Prefix_surveys/Faxto" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Faxto" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Faxto">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.faxto</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Format" path="/LimeSurvey/Prefix_surveys/Format" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Format" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Format" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Format">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.format</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Savetimings" path="/LimeSurvey/Prefix_surveys/Savetimings" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Savetimings" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Savetimings">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.savetimings</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Template" path="/LimeSurvey/Prefix_surveys/Template" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Template" />
+              <as:constraint action="setLength(1-100)" xpath="//Prefix_surveys/Template" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Template">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.template</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Language" path="/LimeSurvey/Prefix_surveys/Language" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Language" />
+              <as:constraint action="setLength(1-50)" xpath="//Prefix_surveys/Language" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Language">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.language</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Additional_languages" path="/LimeSurvey/Prefix_surveys/Additional_languages" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-255)" xpath="//Prefix_surveys/Additional_languages" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Additional_languages" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Additional_languages">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.additional_languages</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Datestamp" path="/LimeSurvey/Prefix_surveys/Datestamp" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Datestamp" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Datestamp">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.datestamp</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Usecookie" path="/LimeSurvey/Prefix_surveys/Usecookie" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Usecookie" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Usecookie">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.usecookie</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Allowregister" path="/LimeSurvey/Prefix_surveys/Allowregister" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Allowregister" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Allowregister">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.allowregister</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Allowsave" path="/LimeSurvey/Prefix_surveys/Allowsave" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Allowsave" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Allowsave">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.allowsave</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Autonumber_start" path="/LimeSurvey/Prefix_surveys/Autonumber_start" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Autonumber_start" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Autonumber_start">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.autonumber_start</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Autoredirect" path="/LimeSurvey/Prefix_surveys/Autoredirect" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Autoredirect" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Autoredirect">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.autoredirect</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Allowprev" path="/LimeSurvey/Prefix_surveys/Allowprev" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Allowprev" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Allowprev">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.allowprev</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Printanswers" path="/LimeSurvey/Prefix_surveys/Printanswers" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Printanswers" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Printanswers">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.printanswers</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Ipaddr" path="/LimeSurvey/Prefix_surveys/Ipaddr" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Ipaddr" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Ipaddr">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.ipaddr</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Refurl" path="/LimeSurvey/Prefix_surveys/Refurl" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Refurl" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Refurl">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.refurl</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Datecreated" path="/LimeSurvey/Prefix_surveys/Datecreated" namespace="" namespacePrefix="" exampleValue="%YYYY-MM-DD%">
+            <as:Rule>
+              <as:constraint action="setDateMask(YYYY-MM-DD)" xpath="//Prefix_surveys/Datecreated" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Datecreated" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Datecreated">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.datecreated</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Publicstatistics" path="/LimeSurvey/Prefix_surveys/Publicstatistics" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Publicstatistics" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Publicstatistics">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.publicstatistics</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Publicgraphs" path="/LimeSurvey/Prefix_surveys/Publicgraphs" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Publicgraphs" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Publicgraphs">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.publicgraphs</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Listpublic" path="/LimeSurvey/Prefix_surveys/Listpublic" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Listpublic" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Listpublic">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.listpublic</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Htmlemail" path="/LimeSurvey/Prefix_surveys/Htmlemail" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Htmlemail" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Htmlemail">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.htmlemail</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Sendconfirmation" path="/LimeSurvey/Prefix_surveys/Sendconfirmation" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Sendconfirmation" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Sendconfirmation">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.sendconfirmation</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Tokenanswerspersistence" path="/LimeSurvey/Prefix_surveys/Tokenanswerspersistence" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Tokenanswerspersistence" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Tokenanswerspersistence">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.tokenanswerspersistence</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Assessments" path="/LimeSurvey/Prefix_surveys/Assessments" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Assessments" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Assessments">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.assessments</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Usecaptcha" path="/LimeSurvey/Prefix_surveys/Usecaptcha" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Usecaptcha" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Usecaptcha">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.usecaptcha</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Usetokens" path="/LimeSurvey/Prefix_surveys/Usetokens" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Usetokens" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Usetokens">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.usetokens</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounce_email" path="/LimeSurvey/Prefix_surveys/Bounce_email" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-254)" xpath="//Prefix_surveys/Bounce_email" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounce_email" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounce_email">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounce_email</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Attributedescriptions" path="/LimeSurvey/Prefix_surveys/Attributedescriptions" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_surveys/Attributedescriptions" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Attributedescriptions" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Attributedescriptions">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.attributedescriptions</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Emailresponseto" path="/LimeSurvey/Prefix_surveys/Emailresponseto" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_surveys/Emailresponseto" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Emailresponseto" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Emailresponseto">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.emailresponseto</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Emailnotificationto" path="/LimeSurvey/Prefix_surveys/Emailnotificationto" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1000)" xpath="//Prefix_surveys/Emailnotificationto" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Emailnotificationto" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Emailnotificationto">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.emailnotificationto</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Tokenlength" path="/LimeSurvey/Prefix_surveys/Tokenlength" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Tokenlength" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Tokenlength">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.tokenlength</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Showxquestions" path="/LimeSurvey/Prefix_surveys/Showxquestions" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Showxquestions" />
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Showxquestions" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Showxquestions">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showxquestions</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Showgroupinfo" path="/LimeSurvey/Prefix_surveys/Showgroupinfo" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Showgroupinfo" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Showgroupinfo" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Showgroupinfo">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showgroupinfo</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Shownoanswer" path="/LimeSurvey/Prefix_surveys/Shownoanswer" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Shownoanswer" />
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Shownoanswer" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Shownoanswer">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.shownoanswer</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Showqnumcode" path="/LimeSurvey/Prefix_surveys/Showqnumcode" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Showqnumcode" />
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Showqnumcode" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Showqnumcode">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showqnumcode</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bouncetime" path="/LimeSurvey/Prefix_surveys/Bouncetime" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Bouncetime" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bouncetime" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bouncetime">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bouncetime</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounceprocessing" path="/LimeSurvey/Prefix_surveys/Bounceprocessing" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounceprocessing" />
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Bounceprocessing" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceprocessing">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceprocessing</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounceaccounttype" path="/LimeSurvey/Prefix_surveys/Bounceaccounttype" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-4)" xpath="//Prefix_surveys/Bounceaccounttype" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounceaccounttype" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccounttype">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccounttype</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounceaccounthost" path="/LimeSurvey/Prefix_surveys/Bounceaccounthost" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-200)" xpath="//Prefix_surveys/Bounceaccounthost" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounceaccounthost" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccounthost">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccounthost</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounceaccountpass" path="/LimeSurvey/Prefix_surveys/Bounceaccountpass" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounceaccountpass" />
+              <as:constraint action="setLength(1-100)" xpath="//Prefix_surveys/Bounceaccountpass" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccountpass">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccountpass</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounceaccountencryption" path="/LimeSurvey/Prefix_surveys/Bounceaccountencryption" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-3)" xpath="//Prefix_surveys/Bounceaccountencryption" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounceaccountencryption" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccountencryption">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccountencryption</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Bounceaccountuser" path="/LimeSurvey/Prefix_surveys/Bounceaccountuser" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Bounceaccountuser" />
+              <as:constraint action="setLength(1-200)" xpath="//Prefix_surveys/Bounceaccountuser" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccountuser">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccountuser</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Showwelcome" path="/LimeSurvey/Prefix_surveys/Showwelcome" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Showwelcome" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Showwelcome" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Showwelcome">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showwelcome</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Showprogress" path="/LimeSurvey/Prefix_surveys/Showprogress" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Showprogress" />
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Showprogress" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Showprogress">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showprogress</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Questionindex" path="/LimeSurvey/Prefix_surveys/Questionindex" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Questionindex" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Questionindex">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.questionindex</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Navigationdelay" path="/LimeSurvey/Prefix_surveys/Navigationdelay" namespace="" namespacePrefix="" exampleValue="%123456%">
+            <as:Rule>
+              <as:constraint action="setNumberMask(##########)" xpath="//Prefix_surveys/Navigationdelay" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Navigationdelay">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.navigationdelay</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Nokeyboard" path="/LimeSurvey/Prefix_surveys/Nokeyboard" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Nokeyboard" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Nokeyboard" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Nokeyboard">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.nokeyboard</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Alloweditaftercompletion" path="/LimeSurvey/Prefix_surveys/Alloweditaftercompletion" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Alloweditaftercompletion" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Alloweditaftercompletion" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Alloweditaftercompletion">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.alloweditaftercompletion</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Googleanalyticsstyle" path="/LimeSurvey/Prefix_surveys/Googleanalyticsstyle" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="setLength(1-1)" xpath="//Prefix_surveys/Googleanalyticsstyle" />
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Googleanalyticsstyle" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Googleanalyticsstyle">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.googleanalyticsstyle</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+          <as:Element name="Googleanalyticsapikey" path="/LimeSurvey/Prefix_surveys/Googleanalyticsapikey" namespace="" namespacePrefix="" exampleValue="%string%">
+            <as:Rule>
+              <as:constraint action="makeOptional()" xpath="//Prefix_surveys/Googleanalyticsapikey" />
+              <as:constraint action="setLength(1-25)" xpath="//Prefix_surveys/Googleanalyticsapikey" />
+            </as:Rule>
+            <camed:annotation item="/LimeSurvey/Prefix_surveys/Googleanalyticsapikey">
+              <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.googleanalyticsapikey</camed:documentation>
+            </camed:annotation>
+          </as:Element>
+        </as:Element>
+      </as:Element>
+    </as:Structure>
+  </as:AssemblyStructure>
+</as:CAM>

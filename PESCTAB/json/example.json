@@ -1,0 +1,19 @@
+{
+	"A": {
+		"x": "attribute-x",
+		"B": {
+			"y": "attribute-y",
+			"z": "attribute-z",
+			"Text": "text-B"
+		},
+		"C": {
+			"D": {
+				"xx": "attribute-xx"
+			},
+			"E": [
+				"text-E1", "text-E2"
+			]
+		},
+		"F": ""
+	}
+}

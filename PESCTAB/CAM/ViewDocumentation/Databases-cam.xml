@@ -1,0 +1,662 @@
+<as:CAM
+ xmlns:as="http://www.oasis-open.org/committees/cam"
+ xmlns:camed="http://jcam.org.uk/editor"
+ xmlns:xml="http://www.w3.org/XML/1998/namespace"
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" CAMlevel="1" version="1.1" cameditor="3.2.3">
+  <as:Header>
+    <as:Description>No Description</as:Description>
+    <as:Owner>Not Set</as:Owner>
+    <as:Version>0.1</as:Version>
+    <as:DateTime>2016-06-29T16:50:36</as:DateTime>
+  </as:Header>
+  <as:AssemblyStructure>
+    <as:Structure ID="LimeSurvey" taxonomy="XML" reference="appian.jpa">
+      <LimeSurvey>
+        <Prefix_answers>
+          <Qid>%123456%</Qid>
+          <Code>%string%</Code>
+          <Answer>%string%</Answer>
+          <Sortorder>%123456%</Sortorder>
+          <Assessment_value>%123456%</Assessment_value>
+          <Language>%string%</Language>
+          <Scale_id>%123456%</Scale_id>
+        </Prefix_answers>
+        <Prefix_assessments>
+          <Id>%123456%</Id>
+          <Sid>%123456%</Sid>
+          <Scope>%string%</Scope>
+          <Gid>%123456%</Gid>
+          <Name>%string%</Name>
+          <Minimum>%string%</Minimum>
+          <Maximum>%string%</Maximum>
+          <Message>%string%</Message>
+          <Language>%string%</Language>
+        </Prefix_assessments>
+        <Prefix_defaultvalues>
+          <Qid>%123456%</Qid>
+          <Scale_id>%123456%</Scale_id>
+          <Sqid>%123456%</Sqid>
+          <Language>%string%</Language>
+          <Specialtype>%string%</Specialtype>
+          <Defaultvalue>%string%</Defaultvalue>
+        </Prefix_defaultvalues>
+        <Prefix_participants>
+          <Participant_id>%string%</Participant_id>
+          <Firstname>%string%</Firstname>
+          <Lastname>%string%</Lastname>
+          <Email>%string%</Email>
+          <Language>%string%</Language>
+          <Blacklisted>%string%</Blacklisted>
+          <Owner_uid>%123456%</Owner_uid>
+          <Created_by>%123456%</Created_by>
+          <Created>%YYYY-MM-DD'T'HH:MI:SS.SSS%</Created>
+          <Modified>%YYYY-MM-DD'T'HH:MI:SS.SSS%</Modified>
+        </Prefix_participants>
+        <Prefix_questions>
+          <Qid>%123456%</Qid>
+          <Parent_qid>%123456%</Parent_qid>
+          <Sid>%123456%</Sid>
+          <Gid>%123456%</Gid>
+          <Type>%string%</Type>
+          <Title>%string%</Title>
+          <Question>%string%</Question>
+          <Preg>%string%</Preg>
+          <Help>%string%</Help>
+          <Other>%string%</Other>
+          <Mandatory>%string%</Mandatory>
+          <Question_order>%123456%</Question_order>
+          <Language>%string%</Language>
+          <Scale_id>%123456%</Scale_id>
+          <Same_default>%123456%</Same_default>
+          <Relevance>%string%</Relevance>
+          <Modulename>%string%</Modulename>
+        </Prefix_questions>
+        <Prefix_surveys>
+          <Sid>%123456%</Sid>
+          <Owner_id>%123456%</Owner_id>
+          <Admin>%string%</Admin>
+          <Active>%string%</Active>
+          <Expires>%YYYY-MM-DD'T'HH:MI:SS.SSS%</Expires>
+          <Startdate>%YYYY-MM-DD'T'HH:MI:SS.SSS%</Startdate>
+          <Adminemail>%string%</Adminemail>
+          <Anonymized>%string%</Anonymized>
+          <Faxto>%string%</Faxto>
+          <Format>%string%</Format>
+          <Savetimings>%string%</Savetimings>
+          <Template>%string%</Template>
+          <Language>%string%</Language>
+          <Additional_languages>%string%</Additional_languages>
+          <Datestamp>%string%</Datestamp>
+          <Usecookie>%string%</Usecookie>
+          <Allowregister>%string%</Allowregister>
+          <Allowsave>%string%</Allowsave>
+          <Autonumber_start>%123456%</Autonumber_start>
+          <Autoredirect>%string%</Autoredirect>
+          <Allowprev>%string%</Allowprev>
+          <Printanswers>%string%</Printanswers>
+          <Ipaddr>%string%</Ipaddr>
+          <Refurl>%string%</Refurl>
+          <Datecreated>%YYYY-MM-DD%</Datecreated>
+          <Publicstatistics>%string%</Publicstatistics>
+          <Publicgraphs>%string%</Publicgraphs>
+          <Listpublic>%string%</Listpublic>
+          <Htmlemail>%string%</Htmlemail>
+          <Sendconfirmation>%string%</Sendconfirmation>
+          <Tokenanswerspersistence>%string%</Tokenanswerspersistence>
+          <Assessments>%string%</Assessments>
+          <Usecaptcha>%string%</Usecaptcha>
+          <Usetokens>%string%</Usetokens>
+          <Bounce_email>%string%</Bounce_email>
+          <Attributedescriptions>%string%</Attributedescriptions>
+          <Emailresponseto>%string%</Emailresponseto>
+          <Emailnotificationto>%string%</Emailnotificationto>
+          <Tokenlength>%123456%</Tokenlength>
+          <Showxquestions>%string%</Showxquestions>
+          <Showgroupinfo>%string%</Showgroupinfo>
+          <Shownoanswer>%string%</Shownoanswer>
+          <Showqnumcode>%string%</Showqnumcode>
+          <Bouncetime>%123456%</Bouncetime>
+          <Bounceprocessing>%string%</Bounceprocessing>
+          <Bounceaccounttype>%string%</Bounceaccounttype>
+          <Bounceaccounthost>%string%</Bounceaccounthost>
+          <Bounceaccountpass>%string%</Bounceaccountpass>
+          <Bounceaccountencryption>%string%</Bounceaccountencryption>
+          <Bounceaccountuser>%string%</Bounceaccountuser>
+          <Showwelcome>%string%</Showwelcome>
+          <Showprogress>%string%</Showprogress>
+          <Questionindex>%123456%</Questionindex>
+          <Navigationdelay>%123456%</Navigationdelay>
+          <Nokeyboard>%string%</Nokeyboard>
+          <Alloweditaftercompletion>%string%</Alloweditaftercompletion>
+          <Googleanalyticsstyle>%string%</Googleanalyticsstyle>
+          <Googleanalyticsapikey>%string%</Googleanalyticsapikey>
+        </Prefix_surveys>
+      </LimeSurvey>
+    </as:Structure>
+  </as:AssemblyStructure>
+  <as:BusinessUseContext>
+    <as:Rules>
+      <as:default>
+        <as:context>
+          <as:constraint action="makeRepeatable(//LimeSurvey/Prefix_answers)" />
+          <as:constraint action="makeRepeatable(//LimeSurvey/Prefix_assessments)" />
+          <as:constraint action="makeRepeatable(//LimeSurvey/Prefix_defaultvalues)" />
+          <as:constraint action="makeRepeatable(//LimeSurvey/Prefix_participants)" />
+          <as:constraint action="makeRepeatable(//LimeSurvey/Prefix_questions)" />
+          <as:constraint action="makeRepeatable(//LimeSurvey/Prefix_surveys)" />
+          <as:constraint action="setLength(//Prefix_answers/Answer,1-1000)" />
+          <as:constraint action="setNumberMask(//Prefix_answers/Assessment_value,##########)" />
+          <as:constraint action="setLength(//Prefix_answers/Code,1-5)" />
+          <as:constraint action="setLength(//Prefix_answers/Language,1-20)" />
+          <as:constraint action="setNumberMask(//Prefix_answers/Qid,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_answers/Scale_id,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_answers/Sortorder,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_assessments/Gid,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_assessments/Id,##########)" />
+          <as:constraint action="setLength(//Prefix_assessments/Language,1-20)" />
+          <as:constraint action="setLength(//Prefix_assessments/Maximum,1-50)" />
+          <as:constraint action="setLength(//Prefix_assessments/Message,1-1000)" />
+          <as:constraint action="setLength(//Prefix_assessments/Minimum,1-50)" />
+          <as:constraint action="setLength(//Prefix_assessments/Name,1-1000)" />
+          <as:constraint action="setLength(//Prefix_assessments/Scope,1-5)" />
+          <as:constraint action="setNumberMask(//Prefix_assessments/Sid,##########)" />
+          <as:constraint action="makeOptional(//Prefix_defaultvalues/Defaultvalue)" />
+          <as:constraint action="setLength(//Prefix_defaultvalues/Defaultvalue,1-1000)" />
+          <as:constraint action="setLength(//Prefix_defaultvalues/Language,1-20)" />
+          <as:constraint action="setNumberMask(//Prefix_defaultvalues/Qid,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_defaultvalues/Scale_id,##########)" />
+          <as:constraint action="setLength(//Prefix_defaultvalues/Specialtype,1-20)" />
+          <as:constraint action="setNumberMask(//Prefix_defaultvalues/Sqid,##########)" />
+          <as:constraint action="setLength(//Prefix_participants/Blacklisted,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_participants/Created)" />
+          <as:constraint action="setDateMask(//Prefix_participants/Created,YYYY-MM-DD'T'HH:MI:SS.SSS)" />
+          <as:constraint action="setNumberMask(//Prefix_participants/Created_by,##########)" />
+          <as:constraint action="makeOptional(//Prefix_participants/Email)" />
+          <as:constraint action="setLength(//Prefix_participants/Email,1-1000)" />
+          <as:constraint action="makeOptional(//Prefix_participants/Firstname)" />
+          <as:constraint action="setLength(//Prefix_participants/Firstname,1-150)" />
+          <as:constraint action="makeOptional(//Prefix_participants/Language)" />
+          <as:constraint action="setLength(//Prefix_participants/Language,1-40)" />
+          <as:constraint action="makeOptional(//Prefix_participants/Lastname)" />
+          <as:constraint action="setLength(//Prefix_participants/Lastname,1-150)" />
+          <as:constraint action="makeOptional(//Prefix_participants/Modified)" />
+          <as:constraint action="setDateMask(//Prefix_participants/Modified,YYYY-MM-DD'T'HH:MI:SS.SSS)" />
+          <as:constraint action="setNumberMask(//Prefix_participants/Owner_uid,##########)" />
+          <as:constraint action="setLength(//Prefix_participants/Participant_id,1-50)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Gid,##########)" />
+          <as:constraint action="makeOptional(//Prefix_questions/Help)" />
+          <as:constraint action="setLength(//Prefix_questions/Help,1-1000)" />
+          <as:constraint action="setLength(//Prefix_questions/Language,1-20)" />
+          <as:constraint action="makeOptional(//Prefix_questions/Mandatory)" />
+          <as:constraint action="setLength(//Prefix_questions/Mandatory,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_questions/Modulename)" />
+          <as:constraint action="setLength(//Prefix_questions/Modulename,1-255)" />
+          <as:constraint action="setLength(//Prefix_questions/Other,1-1)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Parent_qid,##########)" />
+          <as:constraint action="makeOptional(//Prefix_questions/Preg)" />
+          <as:constraint action="setLength(//Prefix_questions/Preg,1-1000)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Qid,##########)" />
+          <as:constraint action="setLength(//Prefix_questions/Question,1-1000)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Question_order,##########)" />
+          <as:constraint action="makeOptional(//Prefix_questions/Relevance)" />
+          <as:constraint action="setLength(//Prefix_questions/Relevance,1-1000)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Same_default,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Scale_id,##########)" />
+          <as:constraint action="setNumberMask(//Prefix_questions/Sid,##########)" />
+          <as:constraint action="setLength(//Prefix_questions/Title,1-20)" />
+          <as:constraint action="setLength(//Prefix_questions/Type,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Active,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Additional_languages)" />
+          <as:constraint action="setLength(//Prefix_surveys/Additional_languages,1-255)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Admin)" />
+          <as:constraint action="setLength(//Prefix_surveys/Admin,1-50)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Adminemail)" />
+          <as:constraint action="setLength(//Prefix_surveys/Adminemail,1-254)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Alloweditaftercompletion)" />
+          <as:constraint action="setLength(//Prefix_surveys/Alloweditaftercompletion,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Allowprev,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Allowregister,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Allowsave,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Anonymized,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Assessments,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Attributedescriptions)" />
+          <as:constraint action="setLength(//Prefix_surveys/Attributedescriptions,1-1000)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Autonumber_start,##########)" />
+          <as:constraint action="setLength(//Prefix_surveys/Autoredirect,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounce_email)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounce_email,1-254)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounceaccountencryption)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounceaccountencryption,1-3)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounceaccounthost)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounceaccounthost,1-200)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounceaccountpass)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounceaccountpass,1-100)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounceaccounttype)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounceaccounttype,1-4)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounceaccountuser)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounceaccountuser,1-200)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bounceprocessing)" />
+          <as:constraint action="setLength(//Prefix_surveys/Bounceprocessing,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Bouncetime)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Bouncetime,##########)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Datecreated)" />
+          <as:constraint action="setDateMask(//Prefix_surveys/Datecreated,YYYY-MM-DD)" />
+          <as:constraint action="setLength(//Prefix_surveys/Datestamp,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Emailnotificationto)" />
+          <as:constraint action="setLength(//Prefix_surveys/Emailnotificationto,1-1000)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Emailresponseto)" />
+          <as:constraint action="setLength(//Prefix_surveys/Emailresponseto,1-1000)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Expires)" />
+          <as:constraint action="setDateMask(//Prefix_surveys/Expires,YYYY-MM-DD'T'HH:MI:SS.SSS)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Faxto)" />
+          <as:constraint action="setLength(//Prefix_surveys/Faxto,1-20)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Format)" />
+          <as:constraint action="setLength(//Prefix_surveys/Format,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Googleanalyticsapikey)" />
+          <as:constraint action="setLength(//Prefix_surveys/Googleanalyticsapikey,1-25)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Googleanalyticsstyle)" />
+          <as:constraint action="setLength(//Prefix_surveys/Googleanalyticsstyle,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Htmlemail,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Ipaddr,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Language)" />
+          <as:constraint action="setLength(//Prefix_surveys/Language,1-50)" />
+          <as:constraint action="setLength(//Prefix_surveys/Listpublic,1-1)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Navigationdelay,##########)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Nokeyboard)" />
+          <as:constraint action="setLength(//Prefix_surveys/Nokeyboard,1-1)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Owner_id,##########)" />
+          <as:constraint action="setLength(//Prefix_surveys/Printanswers,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Publicgraphs,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Publicstatistics,1-1)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Questionindex,##########)" />
+          <as:constraint action="setLength(//Prefix_surveys/Refurl,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Savetimings,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Sendconfirmation,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Showgroupinfo)" />
+          <as:constraint action="setLength(//Prefix_surveys/Showgroupinfo,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Shownoanswer)" />
+          <as:constraint action="setLength(//Prefix_surveys/Shownoanswer,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Showprogress)" />
+          <as:constraint action="setLength(//Prefix_surveys/Showprogress,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Showqnumcode)" />
+          <as:constraint action="setLength(//Prefix_surveys/Showqnumcode,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Showwelcome)" />
+          <as:constraint action="setLength(//Prefix_surveys/Showwelcome,1-1)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Showxquestions)" />
+          <as:constraint action="setLength(//Prefix_surveys/Showxquestions,1-1)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Sid,##########)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Startdate)" />
+          <as:constraint action="setDateMask(//Prefix_surveys/Startdate,YYYY-MM-DD'T'HH:MI:SS.SSS)" />
+          <as:constraint action="makeOptional(//Prefix_surveys/Template)" />
+          <as:constraint action="setLength(//Prefix_surveys/Template,1-100)" />
+          <as:constraint action="setLength(//Prefix_surveys/Tokenanswerspersistence,1-1)" />
+          <as:constraint action="setNumberMask(//Prefix_surveys/Tokenlength,##########)" />
+          <as:constraint action="setLength(//Prefix_surveys/Usecaptcha,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Usecookie,1-1)" />
+          <as:constraint action="setLength(//Prefix_surveys/Usetokens,1-1)" />
+        </as:context>
+      </as:default>
+    </as:Rules>
+  </as:BusinessUseContext>
+  <as:Extension name="uk.org.jcam.camed.extensions.StructureAnnotations">
+    <camed:annotation item="//LimeSurvey/Prefix_answers">
+      <camed:documentation type="Definition">SQL Table: prefix_answers</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="//LimeSurvey/Prefix_assessments">
+      <camed:documentation type="Definition">SQL Table: prefix_assessments</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="//LimeSurvey/Prefix_defaultvalues">
+      <camed:documentation type="Definition">SQL Table: prefix_defaultvalues</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="//LimeSurvey/Prefix_participants">
+      <camed:documentation type="Definition">SQL Table: prefix_participants</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="//LimeSurvey/Prefix_questions">
+      <camed:documentation type="Definition">SQL Table: prefix_questions</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="//LimeSurvey/Prefix_surveys">
+      <camed:documentation type="Definition">SQL Table: prefix_surveys</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="//Prefix_questions/Same_default">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.same_default</camed:documentation>
+      <camed:documentation type="Definition">Saves if user set to use the same default value across languages in default options dialog</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Answer">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.answer</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Assessment_value">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.assessment_value</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Code">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.code</camed:documentation>
+      <camed:documentation type="KeyRef">code</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Language">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.language</camed:documentation>
+      <camed:documentation type="KeyRef">language</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Qid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.qid</camed:documentation>
+      <camed:documentation type="KeyRef">qid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Scale_id">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.scale_id</camed:documentation>
+      <camed:documentation type="KeyRef">scale_id</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_answers/Sortorder">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_answers.sortorder</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Gid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.gid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Id">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.id</camed:documentation>
+      <camed:documentation type="KeyRef">id</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Language">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.language</camed:documentation>
+      <camed:documentation type="KeyRef">language</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Maximum">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.maximum</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Message">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.message</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Minimum">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.minimum</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Name">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.name</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Scope">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.scope</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_assessments/Sid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_assessments.sid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Defaultvalue">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.defaultvalue</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Language">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.language</camed:documentation>
+      <camed:documentation type="KeyRef">language</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Qid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.qid</camed:documentation>
+      <camed:documentation type="KeyRef">qid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Scale_id">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.scale_id</camed:documentation>
+      <camed:documentation type="KeyRef">scale_id</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Specialtype">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.specialtype</camed:documentation>
+      <camed:documentation type="KeyRef">specialtype</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_defaultvalues/Sqid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_defaultvalues.sqid</camed:documentation>
+      <camed:documentation type="KeyRef">sqid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Blacklisted">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.blacklisted</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Created">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.created</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Created_by">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.created_by</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Email">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.email</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Firstname">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.firstname</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Language">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.language</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Lastname">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.lastname</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Modified">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.modified</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Owner_uid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.owner_uid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_participants/Participant_id">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_participants.participant_id</camed:documentation>
+      <camed:documentation type="KeyRef">participant_id</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Gid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.gid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Help">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.help</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Language">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.language</camed:documentation>
+      <camed:documentation type="KeyRef">language</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Mandatory">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.mandatory</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Modulename">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.modulename</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Other">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.other</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Parent_qid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.parent_qid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Preg">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.preg</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Qid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.qid</camed:documentation>
+      <camed:documentation type="KeyRef">qid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Question">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.question</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Question_order">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.question_order</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Relevance">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.relevance</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Same_default">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.same_default</camed:documentation>
+      <camed:documentation type="Definition">Saves if user set to use the same default value across languages in default options dialog</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Scale_id">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.scale_id</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Sid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.sid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Title">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.title</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_questions/Type">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_questions.type</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Active">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.active</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Additional_languages">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.additional_languages</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Admin">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.admin</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Adminemail">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.adminemail</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Alloweditaftercompletion">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.alloweditaftercompletion</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Allowprev">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.allowprev</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Allowregister">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.allowregister</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Allowsave">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.allowsave</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Anonymized">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.anonymized</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Assessments">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.assessments</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Attributedescriptions">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.attributedescriptions</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Autonumber_start">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.autonumber_start</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Autoredirect">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.autoredirect</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounce_email">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounce_email</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccountencryption">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccountencryption</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccounthost">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccounthost</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccountpass">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccountpass</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccounttype">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccounttype</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceaccountuser">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceaccountuser</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bounceprocessing">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bounceprocessing</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Bouncetime">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.bouncetime</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Datecreated">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.datecreated</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Datestamp">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.datestamp</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Emailnotificationto">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.emailnotificationto</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Emailresponseto">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.emailresponseto</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Expires">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.expires</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Faxto">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.faxto</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Format">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.format</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Googleanalyticsapikey">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.googleanalyticsapikey</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Googleanalyticsstyle">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.googleanalyticsstyle</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Htmlemail">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.htmlemail</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Ipaddr">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.ipaddr</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Language">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.language</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Listpublic">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.listpublic</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Navigationdelay">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.navigationdelay</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Nokeyboard">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.nokeyboard</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Owner_id">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.owner_id</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Printanswers">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.printanswers</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Publicgraphs">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.publicgraphs</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Publicstatistics">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.publicstatistics</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Questionindex">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.questionindex</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Refurl">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.refurl</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Savetimings">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.savetimings</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Sendconfirmation">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.sendconfirmation</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Showgroupinfo">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showgroupinfo</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Shownoanswer">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.shownoanswer</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Showprogress">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showprogress</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Showqnumcode">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showqnumcode</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Showwelcome">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showwelcome</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Showxquestions">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.showxquestions</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Sid">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.sid</camed:documentation>
+      <camed:documentation type="KeyRef">sid</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Startdate">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.startdate</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Template">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.template</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Tokenanswerspersistence">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.tokenanswerspersistence</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Tokenlength">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.tokenlength</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Usecaptcha">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.usecaptcha</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Usecookie">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.usecookie</camed:documentation>
+    </camed:annotation>
+    <camed:annotation item="/LimeSurvey/Prefix_surveys/Usetokens">
+      <camed:documentation type="DBMapping">LimeSurvey.prefix_surveys.usetokens</camed:documentation>
+    </camed:annotation>
+  </as:Extension>
+</as:CAM>

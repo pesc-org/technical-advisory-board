@@ -1,0 +1,115 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "Example of CLR",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"type": "string",
+			"description": "URL of the JSON-LD context file",
+			"format": "uri"
+		},
+		"id": {
+			"type": "string",
+			"description": "Model Primitive Datatype = NormalizedString. Unique IRI for the CLR. If the CLR is meant to be verified using Hosted verification, the id must conform to the getClr endpoint format."
+		},
+		"type": {
+			"type": "string",
+			"description": "Model Primitive Datatype = NormalizedString. The JSON-LD type of this object. Normally 'CLR'."
+		},
+		"achievements": {
+			"type": "array",
+			"description": "Array of achievements that are related directly or indirectly through associations with the asserted achievements in the CLR. Primarily used to represent hierarchical pathways. Asserted achievements may appear in both this array and in the achievement assertion. If asserted achievements do appear in both places, they MUST match exactly.",
+			"items": {
+				"$ref": "#/definitions/achievementDType"
+			}
+		}
+	},
+	"definitions": {
+		"achievementDType": {
+			"description": "A CLR Achievement can represent many different types of achievement from an assessment result to membership. Use 'Achievement' to indicate an achievement not in the list of allowed values.",
+			"type": "object",
+			"properties": {
+				"achievementType": {
+					"description": "A CLR Achievement can represent many different types of achievement from an assessment result to membership. Use 'Achievement' to indicate an achievement not in the list of allowed values.",
+					"anyOf": [
+						{
+							"type": "string",
+							"enum": [
+								"Achievement",
+								"AssessmentResult",
+								"Award",
+								"Badge",
+								"Certificate",
+								"Certification",
+								"Course",
+								"CommunityService",
+								"Competency",
+								"Co-Curricular",
+								"Degree",
+								"Diploma",
+								"Fieldwork",
+								"License",
+								"Membership"
+							]
+						},
+						{
+							"type": "string",
+							"description": "Model Primitive Datatype = String.",
+							"pattern": "(ext:)[a-z|A-Z|0-9|.|-|_]+"
+						}
+					],
+					"allOf": [
+						{
+							"if": {
+								"properties": {
+									"achievementType": {
+										"const": "Course"
+									}
+								}
+							},
+							"then": {
+								"properties": {
+									"achievementDetails": {
+										"$ref": "CollegeTranscriptV1.8.json#/definitions/CourseType"
+									}
+								}
+							}
+						},
+						{
+							"if": {
+								"properties": {
+									"achievemenType": {
+										"const": "Degree"
+									}
+								}
+							},
+							"then": {
+								"properties": {
+									"achievementDetails": {
+										"$ref": "CollegeTranscriptV1.8.json#/definitions/AcademicAwardType"
+									}
+								}
+							}
+						},
+						{
+							"if": {
+								"properties": {
+									"achievementType": {
+										"const": "AssessmentResult"
+									}
+								}
+							},
+							"then": {
+								"properties": {
+									"achievementDetails": {
+										"$ref": "CollegeTranscriptV1.8.json#/definitions/TestScoreType"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}

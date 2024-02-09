@@ -1,0 +1,17 @@
+{
+	"TransmissionData": {
+		"DocumentID": "12345CV",
+		"CreatedDateTime": "2016-02-03",
+		"TransmissionType": "Resubmission",
+		"DocumentTypeCode": "Application",
+		"Source": {
+			"Name": "Michael",
+			"Status": "Confused"
+		},
+		"Destination": {},
+		"NoteMessage": [
+			"First Message",
+			"Second Message"
+		]
+	}
+}

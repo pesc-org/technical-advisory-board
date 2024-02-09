@@ -1,0 +1,79 @@
+{
+	"@context": "https://contexts.ward.guru/clr_v1p0.jsonld",
+	"id": "urn:uuid:f193ab9d-b534-5672-80e9-1c039aded859",
+	"name": "Student Transcript",
+	"partial": true,
+	"learner": {
+		"id": "urn:uuid:6e700ba8-ce46-4ad4-b00b-1a256c979e96",
+		"name": "Student3 Demo",
+		"sourcedId": "11234700",
+		"studentId": "102444777",
+		"address": {
+			"streetAddress": "111 South Park",
+			"addressRegion": "ND",
+			"addressLocality": "Bismarck",
+			"postalCode": "58504",
+			"addressCountry": "USA"
+		},
+		"telephone": "123-456-7890",
+		"ndt:StudentInfo": {
+			"@context": "https://contexts.ward.guru/ndTranscript.jsonld",
+			"type": "ndt:StudentInfo",
+			"lastName": "Demo",
+			"firstName": "Student3",
+			"middleName": "D",
+			"localStudentId": "652344",
+			"currentGrade": "12",
+			"graduationDate": "2016-06-05",
+			"dateOfBirth": "1998-01-11"
+		}
+	},
+	"publisher": {
+		"id": "urn:uuid:c3b09cce-244e-4568-a1f8-364a0137d1c5",
+		"name": "Bismarck High School",
+		"sourcedId": "0800109700912",
+		"address": {
+			"streetAddress": "800 N 8th Street",
+			"addressRegion": "ND",
+			"addressLocality": "Bismarck",
+			"postalCode": "58501",
+			"addressCountry": "USA"
+		},
+		"telephone": "701-323-4800"
+	},
+	"achievements": [
+		{
+			"id": "urn:uuid:215a27d3-c0db-549b-aefb-b2d8fd9cb729",
+			"name": "Elementary Algebra",
+			"issuer": {
+                    "id": "urn:uuid:c3b09cce-244e-4568-a1f8-364a0137d1c5",
+                    "name": "Bismarck High School",
+                    "sourcedId": "0800109700912",
+                    "address": {
+                        "streetAddress": "800 N 8th Street",
+                        "addressRegion": "ND",
+                        "addressLocality": "Bismarck",
+                        "postalCode": "58501",
+                        "addressCountry": "USA"
+				}
+				},
+			"achievementType": "Course",
+			"achievementDetails": {
+				"CourseCreditBasis": "Regular",
+				"CourseCreditUnits": "Semester",
+				"CourseCreditLevel": "LowerDivision",
+				"CourseCreditValue": 5.0,
+				"CourseCreditEarned": 5.0,
+				"CourseAcademicGradeScaleCode": "25",
+				"CourseAcademicGrade": "A",
+				"CourseCIPCode": "27.0102",
+				"CourseQualityPointsEarned": 20.0,
+				"CourseLevel": "LowerDivision",
+				"CourseGPAApplicabilityCode": "Applicable",
+				"CourseSubjectAbbreviation": "MATH",
+				"CourseNumber": "100",
+				"CourseTitle": "Elementary Algebra"
+			}
+		}
+	]
+}

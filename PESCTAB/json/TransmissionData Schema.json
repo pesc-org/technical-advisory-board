@@ -1,0 +1,82 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		"DocumentIDType": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 35
+		},
+		"CreateDateTimeType": {
+			"type": "string",
+			"pattern": "^(19|20)[0-9]{2}-(0[1-9]|1[0-2])-([012][0-9]|3[01])$"
+		},
+		"TransmissionTypeType": {
+			"type": "string",
+			"enum": [
+				"Duplicate", "MutuallyDefined", "Original", "Reissue", "Replace", "Resubmission"
+			]
+		},
+		"DocumentTypeCodeType": {
+			"type": "string",
+			"enum": [
+				"Acknowledgment", "Application", "Cancel", "CertificationRequest", "Change", "DisbursementAcknowledgement", "DisbursementForecast", "DisbursementRoster", "InstitutionRequest", "GainfulEmploymentStudentResponseFile", "GainfulEmploymentStudentSubmittal", "IPEDS", "NSLDSEnrollmentError", "NSLDSEnrollmentSubmittal", "Receipt", "Request", "RequestedRecord", "Response", "ReverseTransfer", "StudentRequest", "TermEnroll", "TermGrade", "ThirdPartyRequest"
+			]
+		},
+		"NoteMessageType": {
+			"description": "Textual information that is not included in other properties",
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 80
+		},
+		"TransmissionDataType": {
+			"type": "object",
+			"properties": {
+				"DocumentID": {
+					"$ref": "#/definitions/DocumentIDType"
+				},
+				"CreatedDateTime": {
+					"$ref": "#/definitions/CreateDateTimeType"
+				},
+				"TransmissionType": {
+					"$ref": "#/definitions/TransmissionTypeType"
+				},
+				"DocumentTypeCode": {
+					"$ref": "#/definitions/DocumentTypeCodeType"
+				},
+				"Source": {
+					"type":  "object",
+					"properties": {
+					},
+				"additionalProperties": true
+				},
+				"Destination": {
+					"type":  "object",
+					"properties": {
+					},
+				"additionalProperties": true
+				},
+				"NoteMessage": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/NoteMessageType"
+					},
+					"minItems": 0
+				}
+			},
+			"additionalProperties": true,
+			"required": [
+				"DocumentID", "CreatedDateTime", "TransmissionType", "Source", "Destination"
+			]
+		},
+		"TopLevel": {
+			"type": "object",
+			"properties": {
+				"TransmissionData": {
+					"$ref": "#/definitions/TransmissionDataType"
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"$ref": "#/definitions/TopLevel"
+}

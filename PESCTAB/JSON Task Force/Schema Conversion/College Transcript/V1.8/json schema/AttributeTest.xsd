@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 (x64) (http://www.altova.com) by Michael Morris (ACT INC) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="TopLevel">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="A" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="AttrA" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="B"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,1095 @@
+{
+	"TestScoreReport": {
+		"@schemaLocation": "urn:org:pesc:message:TestScoreReport:v1.0.0 TestScoreReport_v1.0.0.xsd",
+		"TransmissionData": {
+			"DocumentID": {
+				"$": 1234567
+			},
+			"CreatedDateTime": {
+				"$": "2001-12-17T09:30:47Z"
+			},
+			"DocumentTypeCode": {
+				"$": "Request"
+			},
+			"TransmissionType": {
+				"$": "Original"
+			},
+			"Source": {
+				"Organization": {
+					"DUNS": {
+						"$": 926459942
+					},
+					"OrganizationName": {
+						"$": "ACT, Inc."
+					},
+					"Contacts": {
+						"Address": {
+							"AddressLine": {
+								"$": "550 ACT Drive"
+							},
+							"City": {
+								"$": "Iowa City"
+							},
+							"StateProvinceCode": {
+								"$": "IA"
+							},
+							"PostalCode": {
+								"$": "52243-0168"
+							}
+						},
+						"Phone": {
+							"CountryPrefixCode": {
+								"$": 1
+							},
+							"AreaCityCode": {
+								"$": 319
+							},
+							"PhoneNumber": {
+								"$": "555-5555"
+							}
+						},
+						"Email": {
+							"EmailAddress": {
+								"$": "notaperson@act.org"
+							}
+						},
+						"URL": {
+							"URLAddress": {
+								"$": "http:\/\/www.act.org"
+							}
+						}
+					}
+				}
+			},
+			"Destination": {
+				"Organization": {
+					"CEEBACT": {
+						"$": 444032
+					},
+					"LocalOrganizationID": {
+						"LocalOrganizationIDCode": {
+							"$": 2237901002
+						},
+						"LocalOrganizationIDQualifier": {
+							"$": "TX"
+						}
+					},
+					"OrganizationName": {
+						"$": "Austin Testing Organization"
+					},
+					"Contacts": {
+						"Address": {
+							"AddressLine": {
+								"$": "1715 W Cesar Chavez"
+							},
+							"City": {
+								"$": "Austin"
+							},
+							"StateProvinceCode": {
+								"$": "TX"
+							},
+							"PostalCode": {
+								"$": 78703
+							},
+							"AttentionLine": [
+								{
+									"$": "Jane Doe"
+								}, {
+									"$": "GuidanceCounselor"
+								}
+							]
+						},
+						"Phone": {
+							"CountryPrefixCode": {
+								"$": 1
+							},
+							"AreaCityCode": {
+								"$": 512
+							},
+							"PhoneNumber": {
+								"$": "555-1212"
+							},
+							"PhoneNumberExtension": {
+								"$": 1400
+							}
+						},
+						"Email": {
+							"EmailAddress": {
+								"$": "registration@austintestingorganization.net"
+							}
+						},
+						"URL": {
+							"URLAddress": {
+								"$": "http:\/\/austintestorganization.net"
+							}
+						}
+					}
+				}
+			},
+			"DocumentProcessCode": {
+				"$": "TEST"
+			},
+			"DocumentOfficialCode": {
+				"$": "Official"
+			},
+			"DocumentCompleteCode": {
+				"$": "Partial"
+			}
+		},
+		"TestStudent": {
+			"TestPerson": {
+				"StudentIdentification": {
+					"SSN": {
+						"$": "000990327"
+					}
+				},
+				"Birth": {
+					"BirthDate": {
+						"$": "1985-12-25"
+					}
+				},
+				"Name": {
+					"FirstName": {
+						"$": "SPANGLED"
+					},
+					"LastName": {
+						"$": "BALLOTS"
+					}
+				},
+				"Contacts": {
+					"Address": {
+						"AddressLine": {
+							"$": "WEB ASR KID 27 NR  L"
+						},
+						"City": {
+							"$": "CHICAGO"
+						},
+						"StateProvinceCode": {
+							"$": "IL"
+						},
+						"PostalCode": {
+							"$": 60714
+						}
+					},
+					"Phone": {
+						"AreaCityCode": {
+							"$": 847
+						},
+						"PhoneNumber": {
+							"$": 4434142
+						}
+					}
+				},
+				"Gender": {
+					"GenderCode": {
+						"$": "Female"
+					}
+				}
+			},
+			"SelfReportedAcademicRecord": {
+				"School": {
+					"Organization": {
+						"CEEBACT": {
+							"$": 143926
+						}
+					}
+				},
+				"ExitDateYear": {
+					"$": 2005
+				},
+				"SelfReportedSubject": [
+					{
+						"SubjectAreaName": {
+							"$": "English"
+						},
+						"GPA": {
+							"GradePointAverage": {
+								"$": 4
+							}
+						}
+					}, {
+						"SubjectAreaName": {
+							"$": "Mathematics"
+						},
+						"GPA": {
+							"GradePointAverage": {
+								"$": 3.6
+							}
+						}
+					}, {
+						"SubjectAreaName": {
+							"$": "Social Studies"
+						},
+						"GPA": {
+							"GradePointAverage": {
+								"$": 4
+							}
+						}
+					}, {
+						"SubjectAreaName": {
+							"$": "Science"
+						},
+						"GPA": {
+							"GradePointAverage": {
+								"$": 4
+							}
+						}
+					}
+				],
+				"SelfReportedCourse": [
+					{
+						"CourseTitle": {
+							"$": "English 9"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "English 10"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "English 11"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "English 12"
+						},
+						"CourseStatusCode": {
+							"$": "Planned"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Other English"
+						},
+						"CourseStatusCode": {
+							"$": "Planned"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Algebra 1"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Algebra 2"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Geometry"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Trig"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "B"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Calculus"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "B"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Other Math"
+						},
+						"CourseStatusCode": {
+							"$": "Planned"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Computer"
+						},
+						"CourseStatusCode": {
+							"$": "NotTaken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "General Science"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Biology"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Chemistry"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Physics"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "US History"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "World History"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Other History"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Government"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Economics"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Geography"
+						},
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "A"
+							}
+						},
+						"CourseStatusCode": {
+							"$": "Taken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Psychololgy"
+						},
+						"CourseStatusCode": {
+							"$": "Planned"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Spanish"
+						},
+						"CourseStatusCode": {
+							"$": "InProcess"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "French"
+						},
+						"CourseStatusCode": {
+							"$": "InProcess"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "German"
+						},
+						"CourseStatusCode": {
+							"$": "Planned"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Art"
+						},
+						"CourseStatusCode": {
+							"$": "NotTaken"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Music"
+						},
+						"CourseStatusCode": {
+							"$": "InProcess"
+						}
+					}, {
+						"CourseTitle": {
+							"$": "Drama"
+						},
+						"CourseStatusCode": {
+							"$": "NotTaken"
+						}
+					}
+				],
+				"GPA": {
+					"GradePointAverage": {
+						"$": 3
+					}
+				}
+			},
+			"SchoolSelectionCriteria": {
+				"SchoolCharacteristics": {
+					"SchoolOrganizationalControl": {
+						"$": "PrivateNonProfit"
+					},
+					"SchoolLevel": {
+						"$": "BacheloriateCollege"
+					},
+					"AcademicMajor": {
+						"AcademicProgramName": {
+							"$": "Psychology"
+						},
+						"ProgramCIPCode": {
+							"$": 429999
+						}
+					}
+				}
+			},
+			"EducationTests": [
+				{
+					"EducationTestCode": {
+						"$": "ACT"
+					},
+					"EducationTestName": {
+						"$": "The ACT"
+					},
+					"TestAdministrationMethodCode": {
+						"$": "PencilAndPaper"
+					},
+					"TestDate": {
+						"$": "2006-09-09"
+					},
+					"EducationSubtest": [
+						{
+							"EducationSubtestCode": {
+								"$": "WritingEnglish"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 0
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 0
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "Writing"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 0
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 0
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "English"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 28
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 84
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "Math"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 31
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 86
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "Reading"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 22
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 63
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "Science"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 22
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 45
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "CompositeScore"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 26
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 86
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "EnglishUsageMechanics"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 15
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 84
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "EnglishRhetoricalSkills"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 14
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 73
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "Algebra"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 16
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 95
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "AlgebraGeometryCoordinate"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 14
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 86
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "MathPlaneGeometryTrigonometry"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 17
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 98
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "SocialStudies"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 12
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 71
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "ReadingArtsLiterature"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 11
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 50
+									}
+								}
+							}
+						}
+					]
+				}, {
+					"EducationTestCode": {
+						"$": "ACTInterestInventory"
+					},
+					"TestDate": {
+						"$": "2006-09-09"
+					},
+					"EducationSubtest": [
+						{
+							"EducationSubtestCode": {
+								"$": "InterestScience"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 80
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileRankValue": {
+										"$": 99
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "InterestArts"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 42
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileUpperBoundValue": {
+										"$": 21
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "InterestSocialService"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 52
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileRankValue": {
+										"$": 59
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "InterestBusinessContact"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 39
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileRankValue": {
+										"$": 15
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "InterestBusinessOperations"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 52
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileRankValue": {
+										"$": 60
+									}
+								}
+							}
+						}, {
+							"EducationSubtestCode": {
+								"$": "InterestTechnical"
+							},
+							"EducationTestScores": {
+								"ScaleScoreValue": {
+									"$": 55
+								},
+								"NormReferencedValues": {
+									"NormPopulation": {
+										"NormPopulationCode": {
+											"$": "National"
+										}
+									},
+									"PercentileRankValue": {
+										"$": 69
+									}
+								}
+							}
+						}
+					]
+				}
+			],
+			"AcademicPrediction": [
+				{
+					"AcademicPredictionCode": {
+						"$": "AllCourses"
+					},
+					"AcademicPredictionSubject": {
+						"$": "English"
+					},
+					"AcademicPredictionValue": {
+						"NormReferencedValues": {
+							"NormPopulation": {
+								"NormPopulationCode": {
+									"$": "Institution"
+								}
+							},
+							"PercentileUpperBoundValue": {
+								"$": 83
+							}
+						}
+					}
+				}, {
+					"AcademicPredictionCode": {
+						"$": "AllCourses"
+					},
+					"AcademicPredictionSubject": {
+						"$": "Mathematics"
+					},
+					"AcademicPredictionValue": {
+						"NormReferencedValues": {
+							"NormPopulation": {
+								"NormPopulationCode": {
+									"$": "Institution"
+								}
+							},
+							"PercentileUpperBoundValue": {
+								"$": 91
+							}
+						}
+					}
+				}, {
+					"AcademicPredictionCode": {
+						"$": "AllCourses"
+					},
+					"AcademicPredictionSubject": {
+						"$": "Reading"
+					},
+					"AcademicPredictionValue": {
+						"NormReferencedValues": {
+							"NormPopulation": {
+								"NormPopulationCode": {
+									"$": "Institution"
+								}
+							},
+							"PercentileUpperBoundValue": {
+								"$": 78
+							}
+						}
+					}
+				}, {
+					"AcademicPredictionCode": {
+						"$": "AllCourses"
+					},
+					"AcademicPredictionSubject": {
+						"$": "Science"
+					},
+					"AcademicPredictionValue": {
+						"NormReferencedValues": {
+							"NormPopulation": {
+								"NormPopulationCode": {
+									"$": "Institution"
+								}
+							},
+							"PercentileUpperBoundValue": {
+								"$": 84
+							}
+						}
+					}
+				}, {
+					"AcademicPredictionCode": {
+						"$": "AllCourses"
+					},
+					"AcademicPredictionSubject": {
+						"$": "Composite"
+					},
+					"AcademicPredictionValue": {
+						"NormReferencedValues": {
+							"NormPopulation": {
+								"NormPopulationCode": {
+									"$": "Institution"
+								}
+							},
+							"PercentileUpperBoundValue": {
+								"$": 84
+							}
+						}
+					}
+				}, {
+					"AcademicPredictionCode": {
+						"$": "AllCourses"
+					},
+					"AcademicPredictionSubject": {
+						"$": "Freshman grades C or better"
+					},
+					"AcademicPredictionValue": {
+						"CourseGrade": {
+							"CourseAcademicGrade": {
+								"$": "C"
+							}
+						},
+						"NormReferencedValues": {
+							"NormPopulation": {
+								"NormPopulationCode": {
+									"$": "Institution"
+								}
+							},
+							"ProbabilityValue": {
+								"$": 0.9
+							}
+						}
+					},
+					"AcademicPredictionInterpretation": {
+						"$": "This student is highly likely to obtain a C or better average in Freshman courses at your Institution"
+					}
+				}
+			]
+		}
+	}
+}
