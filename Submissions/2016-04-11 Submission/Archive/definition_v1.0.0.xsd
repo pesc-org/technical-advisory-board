@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2015 rel. 3 (x64) (http://www.altova.com) by NEIL SCHMITZ (ACT, INC.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:def="urn:org:pesc:definition_v1.0.0" targetNamespace="urn:org:pesc:definition_v1.0.0" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:element name="DefinitionList" type="def:DefinitionType">
+		<xs:annotation>
+			<xs:documentation>A set of element and type defintions</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="DefinitionType">
+		<xs:sequence>
+			<xs:element name="Line" type="def:LineType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LineType">
+		<xs:sequence>
+			<xs:element name="Term" type="xs:string"/>
+			<xs:element name="Type" type="xs:string"/>
+			<xs:element name="Definition" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

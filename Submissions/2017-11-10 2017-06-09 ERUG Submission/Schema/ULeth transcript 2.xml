@@ -1,0 +1,1156 @@
+<ColTrn:CollegeTranscript xmlns:ColTrn="urn:org:pesc:message:CollegeTranscript:v1.9.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:org:pesc:message:CollegeTranscript:v1.9.0 CollegeTranscript_v1.9.0.xsd">
+	<TransmissionData>
+		<DocumentID>001182330-DIGI-20230223105513</DocumentID>
+		<CreatedDateTime>2023-02-23T10:55:13</CreatedDateTime>
+		<DocumentTypeCode>ThirdPartyRequest</DocumentTypeCode>
+		<TransmissionType>Original</TransmissionType>
+		<Source>
+			<Organization>
+				<APAS>8289625524</APAS>
+				<LocalOrganizationID>
+					<LocalOrganizationIDCode>8289625524</LocalOrganizationIDCode>
+					<LocalOrganizationIDQualifier>AB</LocalOrganizationIDQualifier>
+				</LocalOrganizationID>
+				<OrganizationName>University of Lethbridge</OrganizationName>
+				<Contacts>
+					<Address>
+						<AddressLine>Registrar&apos;s Office &amp; Student Services</AddressLine>
+						<AddressLine>4401 University Drive</AddressLine>
+						<City>Lethbridge</City>
+						<StateProvinceCode>AB</StateProvinceCode>
+						<PostalCode>T1K 3M4</PostalCode>
+					</Address>
+					<Phone>
+						<CountryPrefixCode>1</CountryPrefixCode>
+						<AreaCityCode>403</AreaCityCode>
+						<PhoneNumber>329-2000</PhoneNumber>
+						<NoteMessage>Phone</NoteMessage>
+					</Phone>
+					<Phone>
+						<CountryPrefixCode>1</CountryPrefixCode>
+						<AreaCityCode>403</AreaCityCode>
+						<PhoneNumber>329-5159</PhoneNumber>
+						<NoteMessage>Fax</NoteMessage>
+					</Phone>
+					<Email>
+						<EmailAddress>Regoffice@uleth.ca</EmailAddress>
+					</Email>
+				</Contacts>
+			</Organization>
+		</Source>
+		<Destination>
+			<Organization>
+				<APAS>DIGI</APAS>
+				<LocalOrganizationID>
+					<LocalOrganizationIDCode>DIGI</LocalOrganizationIDCode>
+					<LocalOrganizationIDQualifier>AB</LocalOrganizationIDQualifier>
+				</LocalOrganizationID>
+				<OrganizationName>MyCreds.ca</OrganizationName>
+			</Organization>
+		</Destination>
+		<DocumentProcessCode>PRODUCTION</DocumentProcessCode>
+		<DocumentCompleteCode>Complete</DocumentCompleteCode>
+	</TransmissionData>
+	<Student>
+		<Person>
+			<SchoolAssignedPersonID>777777777</SchoolAssignedPersonID>
+			<AgencyIdentifier>
+				<AgencyAssignedID>777777777</AgencyAssignedID>
+				<AgencyCode>Province</AgencyCode>
+				<AgencyName>Alberta Education</AgencyName>
+				<CountryCode>CA</CountryCode>
+				<StateProvinceCode>AB</StateProvinceCode>
+			</AgencyIdentifier>
+			<Birth>
+				<Birthday>--12-21</Birthday>
+			</Birth>
+			<Name>
+				<FirstName>Mickey</FirstName>
+				<MiddleName>Donald</MiddleName>
+				<LastName>Mouse</LastName>
+			</Name>
+			<Gender>
+				<GenderCode>Male</GenderCode>
+			</Gender>
+		</Person>
+		<AcademicRecord>
+			<AcademicAward>
+				<AcademicAwardLevel>2.4</AcademicAwardLevel>
+				<AcademicAwardDate>2019-05-31</AcademicAwardDate>
+				<AcademicAwardTitle>Bachelor of Science</AcademicAwardTitle>
+				<AcademicHonors>
+					<HonorsTitle>Distinction</HonorsTitle>
+					<HonorsLevel>SecondHighest</HonorsLevel>
+				</AcademicHonors>
+				<AcademicAwardProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicAwardProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicAwardProgram>
+			</AcademicAward>
+			<AcademicAward>
+				<AcademicAwardLevel>4.2</AcademicAwardLevel>
+				<AcademicAwardDate>2022-06-03</AcademicAwardDate>
+				<AcademicAwardTitle>Master of Science</AcademicAwardTitle>
+				<AcademicAwardProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicAwardProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicDegreeRequirement>
+					<ThesisDissertationTitle>Approved Final Thesis: Non-target effects of extended-release LongRange eprinomectin on coprophilous insects</ThesisDissertationTitle>
+				</AcademicDegreeRequirement>
+			</AcademicAward>
+			<AcademicSummary>
+				<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+				<GPA>
+					<CreditHoursEarned>120</CreditHoursEarned>
+					<GradePointAverage>3.57</GradePointAverage>
+					<TotalQualityPoints>428.4</TotalQualityPoints>
+					<CreditHoursforGPA>120</CreditHoursforGPA>
+				</GPA>
+			</AcademicSummary>
+			<AcademicSummary>
+				<AcademicSummaryLevel>Graduate</AcademicSummaryLevel>
+				<GPA>
+					<CreditHoursEarned>96</CreditHoursEarned>
+					<GradePointAverage>3.85</GradePointAverage>
+					<TotalQualityPoints>23.1</TotalQualityPoints>
+					<CreditHoursforGPA>6</CreditHoursforGPA>
+				</GPA>
+			</AcademicSummary>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2014-09</SessionDesignator>
+					<SessionName>Fall 2014</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2014-09-01</SessionBeginDate>
+					<SessionEndDate>2014-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>1010</CourseNumber>
+					<CourseTitle>Cellular Basis of Life</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>CHEM</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>General Chemistry I</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>CPSC</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>Introduction to Computer Science</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PHIL</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>Introduction to Philosophy</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>3.75</GradePointAverage>
+						<TotalQualityPoints>45</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2015-01</SessionDesignator>
+					<SessionName>Spring 2015</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2015-01-01</SessionBeginDate>
+					<SessionEndDate>2015-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>1020</CourseNumber>
+					<CourseTitle>Diversity of Life</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>DRAM</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>Introduction to Dramatic Arts</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>0</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>C+</CourseAcademicGrade>
+					<CourseRepeatCode>RepeatNotCounted</CourseRepeatCode>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>ENGL</CourseSubjectAbbreviation>
+					<CourseNumber>1900</CourseNumber>
+					<CourseTitle>Introduction to Language and Literature</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>MATH</CourseSubjectAbbreviation>
+					<CourseNumber>1410</CourseNumber>
+					<CourseTitle>Elementary Linear Algebra</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>Basic Concepts of Psychology</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>3.85</GradePointAverage>
+						<TotalQualityPoints>46.2</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2015-09</SessionDesignator>
+					<SessionName>Fall 2015</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2015-09-01</SessionBeginDate>
+					<SessionEndDate>2015-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>C+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>2.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>2000</CourseNumber>
+					<CourseTitle>Principles of Genetics</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>CHEM</CourseSubjectAbbreviation>
+					<CourseNumber>2000</CourseNumber>
+					<CourseTitle>General Chemistry II</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>2.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PHYS</CourseSubjectAbbreviation>
+					<CourseNumber>1050</CourseNumber>
+					<CourseTitle>Introduction to Biophysics</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>2700</CourseNumber>
+					<CourseTitle>Behaviour and Evolution</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>2.9</GradePointAverage>
+						<TotalQualityPoints>34.8</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2016-01</SessionDesignator>
+					<SessionName>Spring 2016</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2016-01-01</SessionBeginDate>
+					<SessionEndDate>2016-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>0</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>C+</CourseAcademicGrade>
+					<CourseRepeatCode>RepeatNotCounted</CourseRepeatCode>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3005</CourseNumber>
+					<CourseTitle>Genome Maintenance</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>2.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3115</CourseNumber>
+					<CourseTitle>Principles of Cell Growth</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>CHEM</CourseSubjectAbbreviation>
+					<CourseNumber>2500</CourseNumber>
+					<CourseTitle>Organic Chemistry I</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>2800</CourseNumber>
+					<CourseTitle>Social Psychology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>STAT</CourseSubjectAbbreviation>
+					<CourseNumber>1770</CourseNumber>
+					<CourseTitle>Introduction to Probability and Statistics</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>3.35</GradePointAverage>
+						<TotalQualityPoints>40.2</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+					<NoteMessage>Repeated Biological Sciences 3105 - Spring, 2017 </NoteMessage>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2016-09</SessionDesignator>
+					<SessionName>Fall 2016</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2016-09-01</SessionBeginDate>
+					<SessionEndDate>2016-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BCHM</CourseSubjectAbbreviation>
+					<CourseNumber>2000</CourseNumber>
+					<CourseTitle>Introductory Biochemistry</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>2200</CourseNumber>
+					<CourseTitle>Principles of Ecology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>CHEM</CourseSubjectAbbreviation>
+					<CourseNumber>2600</CourseNumber>
+					<CourseTitle>Organic Chemistry II</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>3760</CourseNumber>
+					<CourseTitle>Animal Communication</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>3.4</GradePointAverage>
+						<TotalQualityPoints>40.8</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2017-01</SessionDesignator>
+					<SessionName>Spring 2017</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2017-01-01</SessionBeginDate>
+					<SessionEndDate>2017-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3005</CourseNumber>
+					<CourseTitle>Genome Maintenance</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3300</CourseNumber>
+					<CourseTitle>Evolution</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>C+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>2.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3310</CourseNumber>
+					<CourseTitle>Developmental Biology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3520</CourseNumber>
+					<CourseTitle>Invertebrate Zoology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>DRAM</CourseSubjectAbbreviation>
+					<CourseNumber>3030</CourseNumber>
+					<CourseTitle>Introduction to Film Studies</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>3.34</GradePointAverage>
+						<TotalQualityPoints>50.1</TotalQualityPoints>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2017-05</SessionDesignator>
+					<SessionName>Summer 2017</SessionName>
+					<SessionType>SummerSession</SessionType>
+					<SessionBeginDate>2017-05-01</SessionBeginDate>
+					<SessionEndDate>2017-08-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>IDST</CourseSubjectAbbreviation>
+					<CourseNumber>2600</CourseNumber>
+					<CourseTitle>Study Tour of Japan</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>12</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2017-09</SessionDesignator>
+					<SessionName>Fall 2017</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2017-09-01</SessionBeginDate>
+					<SessionEndDate>2017-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3000</CourseNumber>
+					<CourseTitle>Gene Expression &amp; Regulation</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3105</CourseNumber>
+					<CourseTitle>Signal Transduction</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3420</CourseNumber>
+					<CourseTitle>Animal Physiology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3700</CourseNumber>
+					<CourseTitle>Ecosystem &amp; Community Ecology</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>3.43</GradePointAverage>
+						<TotalQualityPoints>41.1</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2018-01</SessionDesignator>
+					<SessionName>Spring 2018</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2018-01-01</SessionBeginDate>
+					<SessionEndDate>2018-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3800</CourseNumber>
+					<CourseTitle>Aquatic Ecosystems</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>4420</CourseNumber>
+					<CourseTitle>Environmental Physiology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>4500</CourseNumber>
+					<CourseTitle>Seminars in Biological Science</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>STAT</CourseSubjectAbbreviation>
+					<CourseNumber>2780</CourseNumber>
+					<CourseTitle>Statistical Inference</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<GradePointAverage>3.93</GradePointAverage>
+						<TotalQualityPoints>47.1</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2018-09</SessionDesignator>
+					<SessionName>Fall 2018</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2018-09-01</SessionBeginDate>
+					<SessionEndDate>2018-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3630</CourseNumber>
+					<CourseTitle>Field Biology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>2505</CourseNumber>
+					<CourseTitle>Abnormal Psychology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>3770</CourseNumber>
+					<CourseTitle>Primate Lives and Cognition</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>9</CreditHoursEarned>
+						<GradePointAverage>3.9</GradePointAverage>
+						<TotalQualityPoints>35.1</TotalQualityPoints>
+						<CreditHoursforGPA>9</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2019-01</SessionDesignator>
+					<SessionName>Spring 2019</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2019-01-01</SessionBeginDate>
+					<SessionEndDate>2019-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3990</CourseNumber>
+					<CourseTitle>Applied Insect Ecology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>CPSC</CourseSubjectAbbreviation>
+					<CourseNumber>1620</CourseNumber>
+					<CourseTitle>Fundamentals of Programming I</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>ENGL</CourseSubjectAbbreviation>
+					<CourseNumber>1900</CourseNumber>
+					<CourseTitle>Intro.to Language &amp; Literature</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>9</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>36</TotalQualityPoints>
+						<CreditHoursforGPA>9</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2019-09</SessionDesignator>
+					<SessionName>Fall 2019</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2019-09-01</SessionBeginDate>
+					<SessionEndDate>2019-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>5500</CourseNumber>
+					<CourseTitle>Current Topics in Biological Sciences</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>517</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>X</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>3.7</GradePointAverage>
+						<TotalQualityPoints>11.1</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2020-01</SessionDesignator>
+					<SessionName>Spring 2020</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2020-01-01</SessionBeginDate>
+					<SessionEndDate>2020-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>517</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>X</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>0</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2020-05</SessionDesignator>
+					<SessionName>Summer 2020</SessionName>
+					<SessionType>SummerSession</SessionType>
+					<SessionBeginDate>2020-05-01</SessionBeginDate>
+					<SessionEndDate>2020-08-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>517</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>X</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>0</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2020-09</SessionDesignator>
+					<SessionName>Fall 2020</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2020-09-01</SessionBeginDate>
+					<SessionEndDate>2020-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>517</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>X</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>0</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2021-01</SessionDesignator>
+					<SessionName>Spring 2021</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2021-01-01</SessionBeginDate>
+					<SessionEndDate>2021-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>5720</CourseNumber>
+					<CourseTitle>Community Ecology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>517</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>X</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>12</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2021-05</SessionDesignator>
+					<SessionName>Summer 2021</SessionName>
+					<SessionType>SummerSession</SessionType>
+					<SessionBeginDate>2021-05-01</SessionBeginDate>
+					<SessionEndDate>2021-08-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>517</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>X</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>0</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2021-09</SessionDesignator>
+					<SessionName>Fall 2021</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2021-09-01</SessionBeginDate>
+					<SessionEndDate>2021-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>Master of Science (BIOL)</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Biological Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>90</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>6000</CourseNumber>
+					<CourseTitle>Master&apos;s Thesis</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>90</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2019-05</SessionDesignator>
+					<SessionName>Summer 2019</SessionName>
+					<SessionType>SummerSession</SessionType>
+				</AcademicSessionDetail>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2022-05</SessionDesignator>
+					<SessionName>Summer 2022</SessionName>
+					<SessionType>SummerSession</SessionType>
+				</AcademicSessionDetail>
+			</AcademicSession>
+		</AcademicRecord>
+	</Student>
+</ColTrn:CollegeTranscript>

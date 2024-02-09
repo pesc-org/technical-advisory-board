@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<def:DefinitionList xsi:schemaLocation="urn:org:pesc:definition_v1.0.0 definition_v1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:def="urn:org:pesc:definition_v1.0.0">
+	<Line>
+		<Term>TransmissionData</Term>
+		<Type>xs:element</Type>
+		<Definition>This element provides a logical grouping of elements related to Transmission information.</Definition>
+	</Line>
+	<Line>
+		<Term>Profile</Term>
+		<Type>xs:element</Type>
+		<Definition>Student identification and demographical information.</Definition>
+	</Line>
+	<Line>
+		<Term>Events</Term>
+		<Type>xs:element</Type>
+		<Definition>Attributes describing an event as stored in a student’s portfolio. An event could be related to an academic course or program or a life/work/education event or experience.</Definition>
+	</Line>
+	<Line>
+		<Term>Goals</Term>
+		<Type>xs:element</Type>
+		<Definition>A student’s goals and related action plans as stored in the student’s portfolio. Active and completed goals can be defined.</Definition>
+	</Line>
+	<Line>
+		<Term>Artifacts</Term>
+		<Type>xs:element</Type>
+		<Definition>The Artifacts component provides a flexible structure for storing artifacts related to many of the other components of the schema. For example, artifacts could be related to events, goals, education, employment, or competencies. Artifacts can represent documents uploaded into the eportfolio or online documents stored at a specific URL.</Definition>
+	</Line>
+	<Line>
+		<Term>Comments</Term>
+		<Type>xs:element</Type>
+		<Definition>The Comments component supports the related Events and Artifacts components providing a structure for owner, advisor, teacher, professor, peer, and parent/guardian eportfolio comments that can be connected to other related objects. The same comment can refer to multiple objects in the instance.</Definition>
+	</Line>
+	<Line>
+		<Term>Education</Term>
+		<Type>xs:element</Type>
+		<Definition>Contains score and interpretive data for all the tests reported in the test score report</Definition>
+	</Line>
+	<Line>
+		<Term>EmploymentHistory</Term>
+		<Type>xs:element</Type>
+		<Definition>The Employment History component supports data related to jobs at multiple employers and a place for ObjectLinks to artifacts such as résumés stored in the student’s portfolio. This employment history data could be used by a system as part of a résumé function.</Definition>
+	</Line>
+	<Line>
+		<Term>Competencies</Term>
+		<Type>xs:element</Type>
+		<Definition>The Competencies component provides a general structure for data related to the eportfolio owner’s competencies and skills. A general structure was defined to support the numerous skill and competency models and taxonomies in existence.</Definition>
+	</Line>
+	<Line>
+		<Term>Networks</Term>
+		<Type>xs:element</Type>
+		<Definition>The Networks component includes elements to describe the eportfolio owner’s networks and references.</Definition>
+	</Line>
+	<Line>
+		<Term>LicensesAndCredentials</Term>
+		<Type>xs:element</Type>
+		<Definition>The Licenses and Credentials component defines the eportfolio owner’s licenses—including information on the currency of the license and the issuing authority—as well as industry-recognized credentials.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryHistory</Term>
+		<Type>xs:element</Type>
+		<Definition>The Military History component provides a summary of the eportfolio owner’s military employment experiences.</Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessments</Term>
+		<Type>xs:element</Type>
+		<Definition>The Career Assessments component provides a structure for supporting a range of career assessment results including two standard Department of Labor assessments commonly used in education and workforce development settings.</Definition>
+	</Line>
+	<Line>
+		<Term>Lists</Term>
+		<Type>xs:element</Type>
+		<Definition>The Lists component defines a flexible structure for transmitting or exporting lists of stored items that are typically part of career and education planning in a student’s portfolio. This includes lists of careers of interest, postsecondary programs and majors of interest, postsecondary schools of interest, and scholarships.</Definition>
+	</Line>
+	<Line>
+		<Term>UserDefinedExtensions</Term>
+		<Type>xs:element</Type>
+		<Definition>This is used to create a place holder for the Unique Data which is defined by the VendorCode and IdentifierCode.</Definition>
+	</Line>
+	<Line>
+		<Term>NoteMessage</Term>
+		<Type>xs:element</Type>
+		<Definition> Note Message: Entities may use this field to store information not otherwise tracked on a loan.</Definition>
+	</Line>
+	<Line>
+		<Term>Name</Term>
+		<Type>xs:element</Type>
+		<Definition>The title given to someone, usually at birth. The name of the author of the comment.</Definition>
+	</Line>
+	<Line>
+		<Term>Gender</Term>
+		<Type>xs:element</Type>
+		<Definition>The sex designation of a person.</Definition>
+	</Line>
+	<Line>
+		<Term>Birth</Term>
+		<Type>xs:element</Type>
+		<Definition>Information about the delivery, creation or beginning of life of a person.</Definition>
+	</Line>
+	<Line>
+		<Term>SSN</Term>
+		<Type>xs:element</Type>
+		<Definition>The person's U.S. Social Security Number.</Definition>
+	</Line>
+	<Line>
+		<Term>SIN</Term>
+		<Type>xs:element</Type>
+		<Definition>The Social Insurance Number (Canadian) of the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>NSN</Term>
+		<Type>xs:element</Type>
+		<Definition>The National Student Number (Canadian) of the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>AgencyAssignedID</Term>
+		<Type>xs:element</Type>
+		<Definition>The ID assigned by an agency to the person (student or borrower).</Definition>
+	</Line>
+	<Line>
+		<Term>Contacts</Term>
+		<Type>xs:element</Type>
+		<Definition>This element provides a logical grouping of elements related to contact information.</Definition>
+	</Line>
+	<Line>
+		<Term>Citizenship</Term>
+		<Type>xs:element</Type>
+		<Definition>Attributes of a person's qualifications to become or to have become a citizen of a country.</Definition>
+	</Line>
+	<Line>
+		<Term>EthnicityRace</Term>
+		<Type>xs:element</Type>
+		<Definition>The cultural, tribal or national background of a person.</Definition>
+	</Line>
+	<Line>
+		<Term>ParentGuardian</Term>
+		<Type>xs:element</Type>
+		<Definition>To be deprecated in a future release</Definition>
+	</Line>
+	<Line>
+		<Term>HSTranscript</Term>
+		<Type>xs:element</Type>
+		<Definition>A portfolio owner&apos;s high school transcript.</Definition>
+	</Line>
+	<Line>
+		<Term>CollegeTranscript</Term>
+		<Type>xs:element</Type>
+		<Definition>A portfolio owner&apos;s College transcript.</Definition>
+	</Line>
+	<Line>
+		<Term>TestScoreReport</Term>
+		<Type>xs:element</Type>
+		<Definition>Information about the attribuites, accomplishments and test scores of a set of students</Definition>
+	</Line>
+	<Line>
+		<Term>ApplicationForAdmission</Term>
+		<Type>xs:element</Type>
+		<Definition>A portfolio owner’s application to a postsecondary institution.</Definition>
+	</Line>
+	<Line>
+		<Term>PostsecondaryProgram</Term>
+		<Type>xs:element</Type>
+		<Definition>A portfolio owner&apos;s postsecondary program; both completed and in-progress.</Definition>
+	</Line>
+	<Line>
+		<Term>SecondaryEducation</Term>
+		<Type>xs:element</Type>
+		<Definition>A portfolio owner&apos;s high school education details.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearning</Term>
+		<Type>xs:element</Type>
+		<Definition>A portfolio owner&apos;s other learning experiences.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for a goal.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalCode</Term>
+		<Type>xs:element</Type>
+		<Definition>The type of goal.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalTitle</Term>
+		<Type>xs:element</Type>
+		<Definition>The title or label for the goal.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the goal.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalTargetDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The target date for achieving the goal.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalCompletionDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The actual date when the goal was achieved.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>An object link to another node or object related to this goal. For example, it could connect this goal to a related artifact stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalActionPlanStep</Term>
+		<Type>xs:element</Type>
+		<Definition>Details describing the attributes of a single step in an action plan related to a goal set by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectPath</Term>
+		<Type>xs:element</Type>
+		<Definition>Path expression specifying a node within this XML document. The node specified by the expression has a parent or child relationship to the current node/object.</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectRelationCode</Term>
+		<Type>xs:element</Type>
+		<Definition>The relationship between the linked node/object and the current node/object.</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectID</Term>
+		<Type>xs:element</Type>
+		<Definition>An alternate identifier, unique within this component, to the node/object within this XML document that has a relationship to the current node. Can be used by applications to reference the related node. Examples of ID elements in the schema: EventID, ArtifactID, CommentID, GoalID, and StepID.</Definition>
+	</Line>
+	<Line>
+		<Term>EventID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for an event.</Definition>
+	</Line>
+	<Line>
+		<Term>EventClassification</Term>
+		<Type>xs:element</Type>
+		<Definition>The classification of an event.</Definition>
+	</Line>
+	<Line>
+		<Term>EventTitle</Term>
+		<Type>xs:element</Type>
+		<Definition>The name, title, or label of the event.</Definition>
+	</Line>
+	<Line>
+		<Term>EventStartDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The start date of the event.</Definition>
+	</Line>
+	<Line>
+		<Term>EventEndDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The end date of the event.</Definition>
+	</Line>
+	<Line>
+		<Term>EventDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the event.</Definition>
+	</Line>
+	<Line>
+		<Term>OrganizationName</Term>
+		<Type>xs:element</Type>
+		<Definition>Name of Non-person entity such as Organization, Institution, Agency or Business.</Definition>
+	</Line>
+	<Line>
+		<Term>EventOrganizationDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of an organization related to an event.</Definition>
+	</Line>
+	<Line>
+		<Term>EventObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>An object link to another node or object related to this event. For example, it could connect this event to a goal defined in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>CommentID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for a comment. </Definition>
+	</Line>
+	<Line>
+		<Term>CommentDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Date comment was created or saved in the portfolio. </Definition>
+	</Line>
+	<Line>
+		<Term>CommentTitle</Term>
+		<Type>xs:element</Type>
+		<Definition>Title of the comment. </Definition>
+	</Line>
+	<Line>
+		<Term>CommentDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>Comment text or description. </Definition>
+	</Line>
+	<Line>
+		<Term>CommentAuthor</Term>
+		<Type>xs:element</Type>
+		<Definition>Comment author name and details. </Definition>
+	</Line>
+	<Line>
+		<Term>CommentObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this comment. For example, it could connect this comment to a related artifact stored in the portfolio. </Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for an artifact.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactTitle</Term>
+		<Type>xs:element</Type>
+		<Definition>Name of the stored artifact.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactAuthor</Term>
+		<Type>xs:element</Type>
+		<Definition>Name of the author of the artifact. Could be a person or some other entity.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactCreationDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Date the artifact was created.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>Description or background details on the artifact and/or the reasons for its inclusion in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactSource</Term>
+		<Type>xs:element</Type>
+		<Definition>Either an indication that the artifact was self-reported or the contact information for the entity that generated or supplied the artifact. Can be used for informal authentication of official artifacts.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactClassification</Term>
+		<Type>xs:element</Type>
+		<Definition>Element for portfolio system classification of artifacts. Would need to be supported by a mutually defined classification taxonomy.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactMediaIdentifierCode</Term>
+		<Type>xs:element</Type>
+		<Definition>Media type represented by the stored artifact.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactLocationURL</Term>
+		<Type>xs:element</Type>
+		<Definition>URL for Internet-based artifacts stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactFileName</Term>
+		<Type>xs:element</Type>
+		<Definition>File name for artifacts that are documents stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this artifact. For example it could connect this artifact to a related event documented in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>Relationship</Term>
+		<Type>xs:element</Type>
+		<Definition>The relationship of the comment&apos;s author to the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassification</Term>
+		<Type>xs:element</Type>
+		<Definition>The primary classification of an event.</Definition>
+	</Line>
+	<Line>
+		<Term>ActivityCode</Term>
+		<Type>xs:element</Type>
+		<Definition>A subclassification for an event that is an activity.</Definition>
+	</Line>
+	<Line>
+		<Term>AcademicProgramDegreeLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>The level of the degree for which the applicant is applying.</Definition>
+	</Line>
+	<Line>
+		<Term>Day</Term>
+		<Type>xs:element</Type>
+		<Definition>The day part of the specified date.</Definition>
+	</Line>
+	<Line>
+		<Term>Month</Term>
+		<Type>xs:element</Type>
+		<Definition>The month part of the specified date.</Definition>
+	</Line>
+	<Line>
+		<Term>Year</Term>
+		<Type>xs:element</Type>
+		<Definition>The year part of the specified date.</Definition>
+	</Line>
+	<Line>
+		<Term>SelfReportedIndicator</Term>
+		<Type>xs:element</Type>
+		<Definition>An indicator that the portfolio component is self reported data.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for a network to which the portfolio owner belongs.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of a network to which the portfolio owner belongs.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkCode</Term>
+		<Type>xs:element</Type>
+		<Definition>The type of network.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkUserName</Term>
+		<Type>xs:element</Type>
+		<Definition>The portfolio owner&apos;s user name in the network.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this network. For example, it could connect this network to a related goal defined in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>ReferenceID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for a personal reference.</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipCode</Term>
+		<Type>xs:element</Type>
+		<Definition>Indicates the person's relationship.</Definition>
+	</Line>
+	<Line>
+		<Term>ReferenceObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this personal reference. For example, it could connect this personal reference to a related artifact stored in the portfolio such as an employment performance review authored by the reference.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for an element of the portfolio owner&apos;s military history.</Definition>
+	</Line>
+	<Line>
+		<Term>CountryIdentifier</Term>
+		<Type>xs:element</Type>
+		<Definition>The identifier for the country in which the issuing organization or authority is located.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceBranchCode</Term>
+		<Type>xs:element</Type>
+		<Definition>The military branch for this element of the portfolio owner&apos;s military service.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryServicePeriod</Term>
+		<Type>xs:element</Type>
+		<Definition>The service time frame for this element of the portfolio owner&apos;s military service.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryOccupationalClassification</Term>
+		<Type>xs:element</Type>
+		<Definition>The Military Occupational Classification (MOC) for the military occupation related to this element of the portfolio owner&apos;s military service.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this element of military service. For example, it could connect this element of military service to a related artifact stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for a license.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of the license.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseClassification</Term>
+		<Type>xs:element</Type>
+		<Definition>The classification for the license</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseStatus</Term>
+		<Type>xs:element</Type>
+		<Definition>The status of the license.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseNumber</Term>
+		<Type>xs:element</Type>
+		<Definition>The identifying number for the portfolio owner&apos;s license.</Definition>
+	</Line>
+	<Line>
+		<Term>LicensurePassageDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Specifies the date the licensure was passed.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseDuration</Term>
+		<Type>xs:element</Type>
+		<Definition>The period during which the license is valid.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseIssuingAuthority</Term>
+		<Type>xs:element</Type>
+		<Definition>The authority issuing the license.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the license.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this license. For example, it could connect this license to a related artifact such as a copy of the license stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>EmployerID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for an employer.</Definition>
+	</Line>
+	<Line>
+		<Term>Employment</Term>
+		<Type>xs:element</Type>
+		<Definition>The information about a persons employment.</Definition>
+	</Line>
+	<Line>
+		<Term>EmployerObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this employer. For example, it could connect this employer to an artifact stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>StartDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The start date of a date range.  The start date of a date range.  The start date of the military service period.</Definition>
+	</Line>
+	<Line>
+		<Term>EndDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The end date of a date range.  The end date of a date range.  The end date of the military service period.</Definition>
+	</Line>
+	<Line>
+		<Term>CurrentIndicator</Term>
+		<Type>xs:element</Type>
+		<Definition>Flag that indicates that a date range does not have an end date. For example, an employment date range could represent the date range for current employment.  Flag that indicates that a date range does not have an end date as the education event is still in progress. For example, a postsecondary program date range could represent the date range for a current program.  An indicator that the portfolio owner is still in active military service.</Definition>
+	</Line>
+	<Line>
+		<Term>IncompleteIndicator</Term>
+		<Type>xs:element</Type>
+		<Definition>Flag that indicates that a date range does not have an end date as the education event is incomplete but is no longer in progress. For example, a postsecondary program date range could represent the date range for a past program that was started but never finished. </Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for an &quot;other&quot; learning experience.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningCode</Term>
+		<Type>xs:element</Type>
+		<Definition>A type for an &quot;other&quot; learning experience.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningName</Term>
+		<Type>xs:element</Type>
+		<Definition>A name or label for the &quot;other&quot; learning experience.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the &quot;other&quot; learning experience.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningCertification</Term>
+		<Type>xs:element</Type>
+		<Definition>A certification earned from the &quot;other&quot; learning experience.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningDates</Term>
+		<Type>xs:element</Type>
+		<Definition>The timeframe for the &quot;other&quot; learning experience</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this Other Learning Experience. For example, it could connect this experience to a related goal defined in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>SecondaryEducationID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for a high school experience.</Definition>
+	</Line>
+	<Line>
+		<Term>School</Term>
+		<Type>xs:element</Type>
+		<Definition>A place or system for educating students.</Definition>
+	</Line>
+	<Line>
+		<Term>AcademicAwardLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>The level of the degree, certificate, or award granted for the successful completion of requirements of an academic program.</Definition>
+	</Line>
+	<Line>
+		<Term>SecondaryEducationDates</Term>
+		<Type>xs:element</Type>
+		<Definition>The date range when the portfolio owner attended the high school. An end date may be specificied if the portfolio owner graduated. An indicator may be specified if the portfolio owner is still in attendance. An indicator may be specified if the graduation was not achieved.</Definition>
+	</Line>
+	<Line>
+		<Term>SecondaryEducationObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this high school experience. For example, it could connect this high school experience to a related artifact stored in the portfolio such as a diploma.</Definition>
+	</Line>
+	<Line>
+		<Term>Course</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on a course in the portfolio owner’s course plan at the high school.</Definition>
+	</Line>
+	<Line>
+		<Term>ProgramID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for the postsecondary program in which the portfolio owner is/was enrolled.</Definition>
+	</Line>
+	<Line>
+		<Term>ProgramName</Term>
+		<Type>xs:element</Type>
+		<Definition>The title of the area of concentration</Definition>
+	</Line>
+	<Line>
+		<Term>CIP</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of the postsecondary program in which the portfolio owner is/was enrolled.</Definition>
+	</Line>
+	<Line>
+		<Term>CredentialEarned</Term>
+		<Type>xs:element</Type>
+		<Definition>The Classification of Instructional Programs identifier for the postsecondary program in which the portfolio owner is/was enrolled.</Definition>
+	</Line>
+	<Line>
+		<Term>ProgramPeriod</Term>
+		<Type>xs:element</Type>
+		<Definition>The date range when the portfolio owner was enrolled in the postsecondary program. May also represent a current program with a start date and a current program indicator.</Definition>
+	</Line>
+	<Line>
+		<Term>ProgramObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this postsecondary program. For example, it could connect this postsecondary program to a related goal defined in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>CompetencyID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for the competency. </Definition>
+	</Line>
+	<Line>
+		<Term>CompetencyName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of the competency. </Definition>
+	</Line>
+	<Line>
+		<Term>CompetencyDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the competency. </Definition>
+	</Line>
+	<Line>
+		<Term>CompetencyLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Portfolio owner&apos;s achieved or learned level of the competency or skill. </Definition>
+	</Line>
+	<Line>
+		<Term>CompetencyObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this competency. For example, it could connect this competency to a related artifact stored in the portfolio. </Definition>
+	</Line>
+	<Line>
+		<Term>CompetencySource</Term>
+		<Type>xs:element</Type>
+		<Definition>The source of the assignment of the competency to the portfolio owner. Can be self-reported or assigned by a documented organization. </Definition>
+	</Line>
+	<Line>
+		<Term>ListItemID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for an item in a list created by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of an item in a list.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemNotes</Term>
+		<Type>xs:element</Type>
+		<Definition>Notes about an item in a list created by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemClassificationCode</Term>
+		<Type>xs:element</Type>
+		<Definition>The type of list which includes the described item.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemIdentifier</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier related to a standard taxonomy for an item in a list.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemURL</Term>
+		<Type>xs:element</Type>
+		<Definition>A URL related to an item in a list.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this list item. For example, it could connect this list item to a related artifact stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>StepID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for an action plan step related to a goal.</Definition>
+	</Line>
+	<Line>
+		<Term>StepTitle</Term>
+		<Type>xs:element</Type>
+		<Definition>Name of the action plan step related to a goal.</Definition>
+	</Line>
+	<Line>
+		<Term>StepDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>Description or details for the action plan step related to a goal.</Definition>
+	</Line>
+	<Line>
+		<Term>StepStartDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Defined start date for the action plan step related to a goal</Definition>
+	</Line>
+	<Line>
+		<Term>StepTargetDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Defined target completion date for the action plan step related to a goal.</Definition>
+	</Line>
+	<Line>
+		<Term>StepCompletionDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Actual completion date for the action plan step related to a goal. Could be used as an indicator that an action plan step is no longer active.</Definition>
+	</Line>
+	<Line>
+		<Term>StepObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this action plan step. For example it could connect this action plan step to a related artifact stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>Applicant</Term>
+		<Type>xs:element</Type>
+		<Definition>Describes the person that is applying for admission or readmission to the postsecondary school.</Definition>
+	</Line>
+	<Line>
+		<Term>Student</Term>
+		<Type>xs:element</Type>
+		<Definition>Student Type</Definition>
+	</Line>
+	<Line>
+		<Term>EmploymentHistoryID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for the portfolio owner&apos;s employment history used for backward references from XLink objects.</Definition>
+	</Line>
+	<Line>
+		<Term>EmployerHistory</Term>
+		<Type>xs:element</Type>
+		<Definition>The portfolio owner&apos;s employment experience at an employer.</Definition>
+	</Line>
+	<Line>
+		<Term>EmploymentHistoryObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to the portfolio owner&apos;s overall employment history. For example, it could connect the employment history to an artifact like a resume stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>Network</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on a network to which the portfolio owner belongs.</Definition>
+	</Line>
+	<Line>
+		<Term>PersonalReference</Term>
+		<Type>xs:element</Type>
+		<Definition>Details for a personal reference for the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>City</Term>
+		<Type>xs:element</Type>
+		<Definition>I could not find this data element in any schemas now in use.</Definition>
+	</Line>
+	<Line>
+		<Term>StateProvince</Term>
+		<Type>xs:element</Type>
+		<Definition>Code for US states, etc., and Canadian provinces.</Definition>
+	</Line>
+	<Line>
+		<Term>WebSite</Term>
+		<Type>xs:element</Type>
+		<Definition>The URL for the website for the issuing organization or authority</Definition>
+	</Line>
+	<Line>
+		<Term>Description</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the military service period.</Definition>
+	</Line>
+	<Line>
+		<Term>ONET</Term>
+		<Type>xs:element</Type>
+		<Definition>A unique identifier used by the Department of Labor as part of the O*NET system for identifying occupations.</Definition>
+	</Line>
+	<Line>
+		<Term>ProgramCIPCode</Term>
+		<Type>xs:element</Type>
+		<Definition>Code indicating a discipline or field of study assigned by the Classification of Instructional Programs. The current XML format definition is deprecated. Future releases will enforce the following format: nn.nnnn or nn.nn (with leading and trailing zeroes) The following examples are all valid: 01.1299 04.08 11.1002 15.00 16.0500 19.0000 For a complete list of valid codes see http://nces.ed.gov/.</Definition>
+	</Line>
+	<Line>
+		<Term>OPEID</Term>
+		<Type>xs:element</Type>
+		<Definition>Groups not allowed in NIEM.</Definition>
+	</Line>
+	<Line>
+		<Term>IPEDS</Term>
+		<Type>xs:element</Type>
+		<Definition>The unique identifier assigned by National Center for Education Statistics for each data exchange partner.</Definition>
+	</Line>
+	<Line>
+		<Term>FICE</Term>
+		<Type>xs:element</Type>
+		<Definition>The unique identifier once maintained by the National Center for Education Statistics for each data exchange partner.</Definition>
+	</Line>
+	<Line>
+		<Term>CEEBACT</Term>
+		<Type>xs:element</Type>
+		<Definition>The unique identifier assigned by the College Entrance Examining Board and ACT for each data exchange partner.</Definition>
+	</Line>
+	<Line>
+		<Term>ACT</Term>
+		<Type>xs:element</Type>
+		<Definition>This element provides a logical grouping of elements related to contact information.</Definition>
+	</Line>
+	<Line>
+		<Term>License</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on a license held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>IndustryRecognizedCredential</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on an industry-recognized credential held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifier for an industry-recognized credential.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name or title of an industry-recognized credential.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialCode</Term>
+		<Type>xs:element</Type>
+		<Definition>The type of industry-recognized credential held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialIssuedDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The date the industry-recognized credential was issued to the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialOrganization</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on the organization that issued the industry-recognized credential to the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A brief description of the industry-recognized credential.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>An object link to another node or object related to this industry-recognized credential. For example, it could connect this industry-recognized credential to a related artifact about the credential stored in thye portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningExperience</Term>
+		<Type>xs:element</Type>
+		<Definition>Details of an &quot;other&quot; learning experience documented in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>Badge</Term>
+		<Type>xs:element</Type>
+		<Definition>Details of a badge earned by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for the badge as stored in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of the achievement.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>A short description of the achievement.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeImageURL</Term>
+		<Type>xs:element</Type>
+		<Definition>URL of an image representing the achievement.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeCriteriaURL</Term>
+		<Type>xs:element</Type>
+		<Definition>URL of the criteria for earning the achievement.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeIssuingOrganization</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on the organization that issued the badge</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeStandardsAlignment</Term>
+		<Type>xs:element</Type>
+		<Definition>Details on the related badge standards alignment.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeIssuedDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Date the earned badge was issued by the badge issuing authority.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeExpiryDate</Term>
+		<Type>xs:element</Type>
+		<Definition>The expiry date for earned badges with a limited timeframe.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this badge. For example, it could connect this badge to a goal defined in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeAlignmentName</Term>
+		<Type>xs:element</Type>
+		<Definition>Name of the badge standard alignment.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeAlignmentDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>Short description of the badge standard alignment.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeAlignmentURL</Term>
+		<Type>xs:element</Type>
+		<Definition>URL linking to the official description of the badge standard alignment.</Definition>
+	</Line>
+	<Line>
+		<Term>DocumentID</Term>
+		<Type>xs:element</Type>
+		<Definition>The File Transmission Date and Time stamp with additional unique qualifying characters.</Definition>
+	</Line>
+	<Line>
+		<Term>CreatedDateType</Term>
+		<Type>xs:element</Type>
+		<Definition>The date and time stamp when the document was created</Definition>
+	</Line>
+	<Line>
+		<Term>TransmissionType</Term>
+		<Type>xs:element</Type>
+		<Definition>The nature and/or purpose of the document being transmitted.</Definition>
+	</Line>
+	<Line>
+		<Term>DocumentType</Term>
+		<Type>xs:element</Type>
+		<Definition>Specifies a short description of the data in the document.</Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentID</Term>
+		<Type>xs:element</Type>
+		<Definition>An identifying code for a career assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>AssessedAttribute</Term>
+		<Type>xs:element</Type>
+		<Definition>The career-related attribute of the portfolio owner that was measured by the assessment. Some standard assessed attributes are defined with an open element to add others.</Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentName</Term>
+		<Type>xs:element</Type>
+		<Definition>The name of the career assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentResult</Term>
+		<Type>xs:element</Type>
+		<Definition>The result of the career assessment. Structures are defined for two common assessments: interests and work values. A separate structure is defined for describing the results of other career assessments. </Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentDate</Term>
+		<Type>xs:element</Type>
+		<Definition>Date the career assessment was taken. </Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentDescription</Term>
+		<Type>xs:element</Type>
+		<Definition>Brief description of the career assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentObjectLink</Term>
+		<Type>xs:element</Type>
+		<Definition>Object link to another node or object related to this assessment. For example it could connect this assessment to a comment stored in the portfolio. </Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCode</Term>
+		<Type>xs:element</Type>
+		<Definition>A standard career-related attribute of the portfolio owner that was measured by the assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>OtherAttribute</Term>
+		<Type>xs:element</Type>
+		<Definition>A non-standard career-related attribute of the portfolio owner that was measured by the assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>InterestProfile</Term>
+		<Type>xs:element</Type>
+		<Definition>Results of an interest assessment aligned with Holland interest types. For example, the Interest Profiler from the U.S. Department of Labor. </Definition>
+	</Line>
+	<Line>
+		<Term>WorkValuesProfile</Term>
+		<Type>xs:element</Type>
+		<Definition>Results of a work values assessment aligned with O*NET work values. For example, the Work Importance Profiler from the U.S. Department of Labor/Employment and Training Administration. </Definition>
+	</Line>
+	<Line>
+		<Term>OtherCareerAssessmentResultProfile</Term>
+		<Type>xs:element</Type>
+		<Definition>Results of another career assessment (not interests or work values).  </Definition>
+	</Line>
+	<Line>
+		<Term>RealisticLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Realistic interest type from interest assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>InvestigativeLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Investigative interest type from interest assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>ArtisticLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Artistic interest type from interest assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>SocialLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Social interest type from interest assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>EnterprisingLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Enterprising interest type from interest assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>ConventionalLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Conventional interest type from interest assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>AchievementLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Achievement work value factor from work values assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>IndependenceLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Independence work value factor from work values assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>RecognitionLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Recognition work value factor from work values assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipsLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Relationships work value factor from work values assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>SupportLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Support work value factor from work values assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>WorkingConditionsLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of Working Conditions work value factor from work values assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>FactorName</Term>
+		<Type>xs:element</Type>
+		<Definition>Name of the career-related attribute measured by the assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>FactorLevel</Term>
+		<Type>xs:element</Type>
+		<Definition>Measured level of career-related attribute for the portfolio owner measured by the assessment. </Definition>
+	</Line>
+	<Line>
+		<Term>AcademicEPortfolioType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining contents of the Academic ePortfolio message.</Definition>
+	</Line>
+	<Line>
+		<Term>ProfileType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing profile information for the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>EducationType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the portfolio owner’s education.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a goal defined by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectLinkType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a comment stored in a portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>EventType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing an event documented in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>CommentType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a comment stored in a portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing an artifact stored in a portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>AuthorType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the author of a comment.</Definition>
+	</Line>
+	<Line>
+		<Term>EventClassificationType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the classification of an event.</Definition>
+	</Line>
+	<Line>
+		<Term>SeparatedDateType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type that separates the date into separate day, month, and year elements</Definition>
+	</Line>
+	<Line>
+		<Term>SourceType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the source of a portfolio component.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing networks to which the portfolio owner belongs.</Definition>
+	</Line>
+	<Line>
+		<Term>ReferenceType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a personal reference of the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing an element of the military service of the portfolio owner. Each element can represent service in a different branch, for a different time period, or in a different military occupation.</Definition>
+	</Line>
+	<Line>
+		<Term>LicenseType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining details on a license held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>EmployerType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing one of the portfolio owner’s employers.</Definition>
+	</Line>
+	<Line>
+		<Term>DateRangeType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a date range that ends with a fixed date or an indicator that the date range has not yet ended.</Definition>
+	</Line>
+	<Line>
+		<Term>EducationDateRangeType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a date range that ends with a fixed date or an indicator that the date range has not yet ended or an indicator that the date range was not completed.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningExperienceType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining Details of an &quot;other&quot; learning experience documented in the portfolio.</Definition>
+	</Line>
+	<Line>
+		<Term>SecondaryEducationType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining A portfolio owner&apos;s high school education details.</Definition>
+	</Line>
+	<Line>
+		<Term>PostsecondaryProgramType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining A portfolio owner&apos;s postsecondary program; both completed and in-progress.</Definition>
+	</Line>
+	<Line>
+		<Term>CompetencyType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the portfolio owner’s skills and competencies.</Definition>
+	</Line>
+	<Line>
+		<Term>ListsType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing items in lists saved in a portfolio for career and education planning.</Definition>
+	</Line>
+	<Line>
+		<Term>ActionPlanStepType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the attributes of a single step in an action plan related to a goal set by a student.</Definition>
+	</Line>
+	<Line>
+		<Term>ApplicationForAdmissionType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a portfolio owner’s high school transcript.</Definition>
+	</Line>
+	<Line>
+		<Term>HSTranscriptType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a college transcript for the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>CollegeTranscriptType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a college transcript for the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>EmploymentHistoryType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the portfolio owner’s employment history.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworksType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing networks to which the portfolio owner belongs as well as personal references.</Definition>
+	</Line>
+	<Line>
+		<Term>IssuingAuthorityType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing an organization that issues formal or informal credentials.</Definition>
+	</Line>
+	<Line>
+		<Term>ServicePeriodType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a military service period.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemCodeType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type providing for identifiers for items in portfolio-based lists for career and college planning.</Definition>
+	</Line>
+	<Line>
+		<Term>LicensesCertificationsType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing a license or certification held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>IndustryRecognizedCredentialType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining details on an industry-recognized credential held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining A portfolio owner&apos;s other learning experiences.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining Details of a badge earned by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>BadgeAlignmentType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing an Open Badge alignment to which the earned badge is aligned.</Definition>
+	</Line>
+	<Line>
+		<Term>TransmissionDataType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>This element provides a logical grouping of elements related to Transmission information.</Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A complex type describing the portfolio owner’s result from taking a career assessment.</Definition>
+	</Line>
+	<Line>
+		<Term>AssessedAttributeType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining The career-related attribute of the portfolio owner that was measured by the assessment. Some standard assessed attributes are defined with an open element to add others.</Definition>
+	</Line>
+	<Line>
+		<Term>CareerAssessmentResultType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining The result of the career assessment. Structures are defined for two common assessments: interests and work values. A separate structure is defined for describing the results of other career assessments. </Definition>
+	</Line>
+	<Line>
+		<Term>InterestProfileType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining Results of an interest assessment aligned with Holland interest types. For example, the Interest Profiler from the U.S. Department of Labor. </Definition>
+	</Line>
+	<Line>
+		<Term>WorkValuesProfileType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>A type defining Results of a work values assessment aligned with O*NET work values. For example, the Work Importance Profiler from the U.S. Department of Labor/Employment and Training Administration. </Definition>
+	</Line>
+	<Line>
+		<Term>OtherCareersAssessmentResultProfileType</Term>
+		<Type>xs:complexType</Type>
+		<Definition>*Not in Implementation Guide*</Definition>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceBranchCode</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>The military branch for this element of the portfolio owner&apos;s military service.</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectIDType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining An alternate identifier, unique within this component, to the node/object within this XML document that has a relationship to the current node. Can be used by applications to reference the related node. Examples of ID elements in the schema: EventID, ArtifactID, CommentID, GoalID, and StepID.</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectRelationType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>*Not in Implementation Guide*</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining The relationship of the comment&apos;s author to the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining The primary classification of an event.</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining A type for an &quot;other&quot; learning experience.</Definition>
+	</Line>
+	<Line>
+		<Term>GoalCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining The type of goal.</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactMediaIdentifierCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining Media type represented by the stored artifact.</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining The type of network.</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemClassificationCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining The type of list which includes the described item.</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining The type of industry-recognized credential held by the portfolio owner.</Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCodeType</Term>
+		<Type>xs:simpleType</Type>
+		<Definition>A type defining A standard career-related attribute of the portfolio owner that was measured by the assessment. </Definition>
+	</Line>
+</def:DefinitionList>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edef:EnumDefinitionList xsi:schemaLocation="urn:org:pesc:edefinition_v1.0.0 edefinition_v1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edef="urn:org:pesc:edefinition_v1.0.0">
+	<Line>
+		<Term>MilitaryServiceBranchCodeType</Term>
+		<Enumeration>AirForce</Enumeration>
+		<Definition/>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceBranchCodeType</Term>
+		<Enumeration>Army</Enumeration>
+		<Definition/>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceBranchCodeType</Term>
+		<Enumeration>CoastGuard</Enumeration>
+		<Definition/>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceBranchCodeType</Term>
+		<Enumeration>Marines</Enumeration>
+		<Definition/>
+	</Line>
+	<Line>
+		<Term>MilitaryServiceBranchCodeType</Term>
+		<Enumeration>Navy</Enumeration>
+		<Definition/>
+	</Line>
+	<Line>
+		<Term>ObjectRelationType</Term>
+		<Enumeration>ParentOf</Enumeration>
+		<Definition>current object is parent of related object</Definition>
+	</Line>
+	<Line>
+		<Term>ObjectRelationType</Term>
+		<Enumeration>ChildOf</Enumeration>
+		<Definition>current object is child of related object</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Enumeration>Self</Enumeration>
+		<Definition>portfolio owner</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Enumeration>Peer</Enumeration>
+		<Definition>peer of the portfolio owner</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Enumeration>Instructor</Enumeration>
+		<Definition>instructor of the portfolio owner</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Enumeration>Supervisor</Enumeration>
+		<Definition>supervisor of the portfolio owner</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Enumeration>Subordinate</Enumeration>
+		<Definition>subordinate of the portfolio owner</Definition>
+	</Line>
+	<Line>
+		<Term>RelationshipType</Term>
+		<Enumeration>Parent/guardian</Enumeration>
+		<Definition>parent or guardian of the portfolio owner</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Activity</Enumeration>
+		<Definition>Activity</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Award</Enumeration>
+		<Definition>Award</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>CommunityService</Enumeration>
+		<Definition>Community service</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Course</Enumeration>
+		<Definition>Course</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>IndependentStudy</Enumeration>
+		<Definition>Independent study</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Internship</Enumeration>
+		<Definition>Internship</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Job</Enumeration>
+		<Definition>Job</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>LeadershipExperience</Enumeration>
+		<Definition>Leadership experience</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>LifeExperience</Enumeration>
+		<Definition>Life experience</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>OrganizationMembership</Enumeration>
+		<Definition>Organization membership</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Other</Enumeration>
+		<Definition>Other type of event</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>ServiceLearning</Enumeration>
+		<Definition>Service learning</Definition>
+	</Line>
+	<Line>
+		<Term>EventPrimaryClassificationCodeType</Term>
+		<Enumeration>Training</Enumeration>
+		<Definition>Training</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningCodeType</Term>
+		<Enumeration>Course</Enumeration>
+		<Definition>A single completed course</Definition>
+	</Line>
+	<Line>
+		<Term>OtherLearningCodeType</Term>
+		<Enumeration>SelfStudy</Enumeration>
+		<Definition>A self-study program</Definition>
+	</Line>
+	<Line>
+		<Term>GoalCodeType</Term>
+		<Enumeration>Academic</Enumeration>
+		<Definition>Academic goal</Definition>
+	</Line>
+	<Line>
+		<Term>GoalCodeType</Term>
+		<Enumeration>Career</Enumeration>
+		<Definition>Career goal</Definition>
+	</Line>
+	<Line>
+		<Term>GoalCodeType</Term>
+		<Enumeration>Personal/Social</Enumeration>
+		<Definition>Personal or social goal</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactMediaIdentifierCodeType</Term>
+		<Enumeration>document</Enumeration>
+		<Definition>document</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactMediaIdentifierCodeType</Term>
+		<Enumeration>audio</Enumeration>
+		<Definition>audio</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactMediaIdentifierCodeType</Term>
+		<Enumeration>video</Enumeration>
+		<Definition>video</Definition>
+	</Line>
+	<Line>
+		<Term>ArtifactMediaIdentifierCodeType</Term>
+		<Enumeration>image</Enumeration>
+		<Definition>image</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkCodeType</Term>
+		<Enumeration>Social</Enumeration>
+		<Definition>social network</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkCodeType</Term>
+		<Enumeration>Professional</Enumeration>
+		<Definition>professional network</Definition>
+	</Line>
+	<Line>
+		<Term>NetworkCodeType</Term>
+		<Enumeration>Informal</Enumeration>
+		<Definition>informal network</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemClassificationCodeType</Term>
+		<Enumeration>Career</Enumeration>
+		<Definition>career</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemClassificationCodeType</Term>
+		<Enumeration>ProgramOrMajor</Enumeration>
+		<Definition>program or major</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemClassificationCodeType</Term>
+		<Enumeration>School</Enumeration>
+		<Definition>school</Definition>
+	</Line>
+	<Line>
+		<Term>ListItemClassificationCodeType</Term>
+		<Enumeration>Scholarship</Enumeration>
+		<Definition>scholarship</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialCodeType</Term>
+		<Enumeration>RegisteredApprenticeshipCompletionCertificate</Enumeration>
+		<Definition>Registered Apprenticeship Completion Certificate</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialCodeType</Term>
+		<Enumeration>GeneralApprenticeshipCompletionCertificate</Enumeration>
+		<Definition>General Apprenticeship Completion Certificate</Definition>
+	</Line>
+	<Line>
+		<Term>IRCredentialCodeType</Term>
+		<Enumeration>ThirdPartyCertification</Enumeration>
+		<Definition>Third Party Certification</Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCodeType</Term>
+		<Enumeration>Interests</Enumeration>
+		<Definition>Interests</Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCodeType</Term>
+		<Enumeration>Values</Enumeration>
+		<Definition>Work values</Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCodeType</Term>
+		<Enumeration>PersonalityType</Enumeration>
+		<Definition>Personality type</Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCodeType</Term>
+		<Enumeration>Aptitudes</Enumeration>
+		<Definition>Aptitudes</Definition>
+	</Line>
+	<Line>
+		<Term>StandardAttributeCodeType</Term>
+		<Enumeration>Skills</Enumeration>
+		<Definition>Skills</Definition>
+	</Line>
+</edef:EnumDefinitionList>

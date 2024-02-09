@@ -1,0 +1,1176 @@
+<ColTrn:CollegeTranscript xmlns:ColTrn="urn:org:pesc:message:CollegeTranscript:v1.6.0" xmlns:AcRec="urn:org:pesc:sector:AcademicRecord:v1.9.0" xmlns:core="urn:org:pesc:core:CoreMain:v1.14.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:org:pesc:message:CollegeTranscript:v1.6.0 urn:org:pesc:message:CollegeTranscript:v1.6.0">
+	<TransmissionData>
+		<DocumentID>001081809-DIGI-20220706143956</DocumentID>
+		<CreatedDateTime>2022-07-06T14:39:56</CreatedDateTime>
+		<DocumentTypeCode>ThirdPartyRequest</DocumentTypeCode>
+		<TransmissionType>Original</TransmissionType>
+		<Source>
+			<Organization>
+				<APAS>8289625524</APAS>
+				<LocalOrganizationID>
+					<LocalOrganizationIDCode>8289625524</LocalOrganizationIDCode>
+					<LocalOrganizationIDQualifier>AB</LocalOrganizationIDQualifier>
+				</LocalOrganizationID>
+				<OrganizationName>University of Lethbridge</OrganizationName>
+				<Contacts>
+					<Address>
+						<AddressLine>Registrar&apos;s Office &amp; Student Services</AddressLine>
+						<AddressLine>4401 University Drive</AddressLine>
+						<City>Lethbridge</City>
+						<StateProvinceCode>AB</StateProvinceCode>
+						<PostalCode>T1K 3M4</PostalCode>
+					</Address>
+					<Phone>
+						<CountryPrefixCode>1</CountryPrefixCode>
+						<AreaCityCode>403</AreaCityCode>
+						<PhoneNumber>329-2000</PhoneNumber>
+						<NoteMessage>Phone</NoteMessage>
+					</Phone>
+					<Phone>
+						<CountryPrefixCode>1</CountryPrefixCode>
+						<AreaCityCode>403</AreaCityCode>
+						<PhoneNumber>329-5159</PhoneNumber>
+						<NoteMessage>Fax</NoteMessage>
+					</Phone>
+					<Email>
+						<EmailAddress>Regoffice@uleth.ca</EmailAddress>
+					</Email>
+				</Contacts>
+			</Organization>
+		</Source>
+		<Destination>
+			<Organization>
+				<APAS>DIGI</APAS>
+				<LocalOrganizationID>
+					<LocalOrganizationIDCode>DIGI</LocalOrganizationIDCode>
+					<LocalOrganizationIDQualifier>AB</LocalOrganizationIDQualifier>
+				</LocalOrganizationID>
+				<OrganizationName>MyCreds.ca</OrganizationName>
+			</Organization>
+		</Destination>
+		<DocumentProcessCode>PRODUCTION</DocumentProcessCode>
+		<DocumentCompleteCode>Complete</DocumentCompleteCode>
+	</TransmissionData>
+	<Student>
+		<Person>
+			<SchoolAssignedPersonID>001081809</SchoolAssignedPersonID>
+			<AgencyIdentifier>
+				<AgencyAssignedID>840807788</AgencyAssignedID>
+				<AgencyCode>Province</AgencyCode>
+				<AgencyName>Alberta Education</AgencyName>
+				<CountryCode>CA</CountryCode>
+				<StateProvinceCode>AB</StateProvinceCode>
+			</AgencyIdentifier>
+			<Birth>
+				<Birthday>--08-17</Birthday>
+			</Birth>
+			<Name>
+				<FirstName>Nicole</FirstName>
+				<MiddleName>Jocelyn</MiddleName>
+				<LastName>Davidson</LastName>
+			</Name>
+			<Gender>
+				<GenderCode>Female</GenderCode>
+			</Gender>
+		</Person>
+		<AcademicRecord>
+			<AcademicAward>
+				<AcademicAwardLevel>2.4</AcademicAwardLevel>
+				<AcademicAwardDate>2007-06-01</AcademicAwardDate>
+				<AcademicAwardTitle>BSc and BEd</AcademicAwardTitle>
+				<AcademicHonors>
+					<HonorsTitle>Distinction on BSc</HonorsTitle>
+					<HonorsLevel>SecondHighest</HonorsLevel>
+				</AcademicHonors>
+				<AcademicHonors>
+					<HonorsTitle>Great Distinction on BEd</HonorsTitle>
+					<HonorsLevel>SecondHighest</HonorsLevel>
+				</AcademicHonors>
+				<AcademicAwardProgram>
+					<AcademicProgramName>BSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicAwardProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicAwardProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicAwardProgram>
+			</AcademicAward>
+			<AcademicAward>
+				<AcademicAwardLevel>4.2</AcademicAwardLevel>
+				<AcademicAwardDate>2017-06-02</AcademicAwardDate>
+				<AcademicAwardTitle>Master of Education</AcademicAwardTitle>
+				<AcademicAwardProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicAwardProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicAwardProgram>
+				<AcademicDegreeRequirement>
+					<ThesisDissertationTitle>Approved Final Capstone: Supporting LD/ADHD Student Transition to Post-Secondary Environments</ThesisDissertationTitle>
+				</AcademicDegreeRequirement>
+			</AcademicAward>
+			<AcademicSummary>
+				<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+				<GPA>
+					<CreditHoursEarned>120</CreditHoursEarned>
+					<GradePointAverage>3.85</GradePointAverage>
+					<TotalQualityPoints>348.8</TotalQualityPoints>
+					<CreditHoursforGPA>90.5</CreditHoursforGPA>
+				</GPA>
+			</AcademicSummary>
+			<AcademicSummary>
+				<AcademicSummaryLevel>Graduate</AcademicSummaryLevel>
+				<GPA>
+					<CreditHoursEarned>36</CreditHoursEarned>
+					<GradePointAverage>4</GradePointAverage>
+					<TotalQualityPoints>120</TotalQualityPoints>
+					<CreditHoursforGPA>30</CreditHoursforGPA>
+				</GPA>
+			</AcademicSummary>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2004-05</SessionDesignator>
+				</AcademicSessionDetail>
+				<School>
+					<OrganizationName>Mount Royal University</OrganizationName>
+					<SchoolLevel>Postsecondary</SchoolLevel>
+				</School>
+				<AcademicSummary>
+					<AcademicSummaryType>TransferOnly</AcademicSummaryType>
+					<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>3.3</GradePointAverage>
+						<TotalQualityPoints>9.9</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2003-09</SessionDesignator>
+					<SessionName>Fall 2003</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2003-09-01</SessionBeginDate>
+					<SessionEndDate>2003-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>PreBSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>1020</CourseNumber>
+					<CourseTitle>Diversity of Life</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>GEOG</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>Introduction to Physical Geography</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>2600</CourseNumber>
+					<CourseTitle>Brain and Behaviour</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>2800</CourseNumber>
+					<CourseTitle>Social Psychology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>SOCI</CourseSubjectAbbreviation>
+					<CourseNumber>2410</CourseNumber>
+					<CourseTitle>Women, Men and Society</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>3.68</GradePointAverage>
+						<TotalQualityPoints>55.2</TotalQualityPoints>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2004-01</SessionDesignator>
+					<SessionName>Spring 2004</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2004-01-01</SessionBeginDate>
+					<SessionEndDate>2004-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>PreBSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BCHM</CourseSubjectAbbreviation>
+					<CourseNumber>2300</CourseNumber>
+					<CourseTitle>Elements of Human Nutrition</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.3</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>2000</CourseNumber>
+					<CourseTitle>Principles of Genetics</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>GEOG</CourseSubjectAbbreviation>
+					<CourseNumber>2015</CourseNumber>
+					<CourseTitle>Weather and Climate</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PHIL</CourseSubjectAbbreviation>
+					<CourseNumber>1000</CourseNumber>
+					<CourseTitle>Introduction to Philosophy</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>3535</CourseNumber>
+					<CourseTitle>Drugs and Behaviour</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>3.62</GradePointAverage>
+						<TotalQualityPoints>54.3</TotalQualityPoints>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2004-09</SessionDesignator>
+					<SessionName>Fall 2004</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2004-09-01</SessionBeginDate>
+					<SessionEndDate>2004-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>PreBSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>2200</CourseNumber>
+					<CourseTitle>Principles of Ecology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>BIOL</CourseSubjectAbbreviation>
+					<CourseNumber>3850</CourseNumber>
+					<CourseTitle>Medical-Veterinary Entomology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>DRAM</CourseSubjectAbbreviation>
+					<CourseNumber>3030</CourseNumber>
+					<CourseTitle>Film Studies</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>2500</CourseNumber>
+					<CourseTitle>Orientation to Teaching</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>GEOG</CourseSubjectAbbreviation>
+					<CourseNumber>2030</CourseNumber>
+					<CourseTitle>Geomorphology</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>3.93</GradePointAverage>
+						<TotalQualityPoints>47.1</TotalQualityPoints>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2005-01</SessionDesignator>
+					<SessionName>Spring 2005</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2005-01-01</SessionBeginDate>
+					<SessionEndDate>2005-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>PreBSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>HLSC</CourseSubjectAbbreviation>
+					<CourseNumber>3003</CourseNumber>
+					<CourseTitle>Epidemiology/BIOL 3003</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>HLSC</CourseSubjectAbbreviation>
+					<CourseNumber>4806</CourseNumber>
+					<CourseTitle>Immunology/BIOL 4806</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>NMED</CourseSubjectAbbreviation>
+					<CourseNumber>3850</CourseNumber>
+					<CourseTitle>Cinema History (1945-Present)</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>3600</CourseNumber>
+					<CourseTitle>Fundamental Neurobiology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>PSYC</CourseSubjectAbbreviation>
+					<CourseNumber>4000</CourseNumber>
+					<CourseTitle>Evolutionary Psychology</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>60</TotalQualityPoints>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2005-09</SessionDesignator>
+					<SessionName>Fall 2005</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2005-09-01</SessionBeginDate>
+					<SessionEndDate>2005-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3500</CourseNumber>
+					<CourseTitle>Professional Semester I Practicum</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>2</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3501</CourseNumber>
+					<CourseTitle>Curriculum and Instruction</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>2</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3502</CourseNumber>
+					<CourseTitle>Educational Psychology</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>2</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3503</CourseNumber>
+					<CourseTitle>Language in Education</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>2</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3504</CourseNumber>
+					<CourseTitle>Evaluation of Learning</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>2</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3505</CourseNumber>
+					<CourseTitle>Teaching Seminar</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>2</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3508</CourseNumber>
+					<CourseTitle>Communications Technology and Education</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>32</TotalQualityPoints>
+						<CreditHoursforGPA>8</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2006-01</SessionDesignator>
+					<SessionName>Spring 2006</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2006-01-01</SessionBeginDate>
+					<SessionEndDate>2006-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>4.5</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3600</CourseNumber>
+					<CourseTitle>Professional Semester II Practicum</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3601</CourseNumber>
+					<CourseTitle>C &amp; I for Majors - Science</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3602</CourseNumber>
+					<CourseTitle>Psychology and Education of Atypical Students in the Regular</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3603</CourseNumber>
+					<CourseTitle>Social Context of Schooling</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>1.5</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>3604</CourseNumber>
+					<CourseTitle>Evaluation of Student Learning</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>42</TotalQualityPoints>
+						<CreditHoursforGPA>10.5</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2006-09</SessionDesignator>
+					<SessionName>Fall 2006</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2006-09-01</SessionBeginDate>
+					<SessionEndDate>2006-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>15</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>4572</CourseNumber>
+					<CourseTitle>Secondary Education Internship</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2007-01</SessionDesignator>
+					<SessionName>Spring 2007</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2007-01-01</SessionBeginDate>
+					<SessionEndDate>2007-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>BSc/BEd Gen Sc/Science Ed</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General Major Sciences</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>Science Education</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>4272</CourseNumber>
+					<CourseTitle>Teaching English as a Second Language</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>4391</CourseNumber>
+					<CourseTitle>A Philosophical Approach to Technology in Education</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>4729</CourseNumber>
+					<CourseTitle>Issues in Native Education</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A-</CourseAcademicGrade>
+					<CourseQualityPointsEarned>3.7</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>4765</CourseNumber>
+					<CourseTitle>Multimedia and Learning</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Undergraduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>GEOL</CourseSubjectAbbreviation>
+					<CourseNumber>2060</CourseNumber>
+					<CourseTitle>Physical Geology</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<GradePointAverage>3.88</GradePointAverage>
+						<TotalQualityPoints>58.2</TotalQualityPoints>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2014-05</SessionDesignator>
+					<SessionName>Summer 2014</SessionName>
+					<SessionType>SummerSession</SessionType>
+					<SessionBeginDate>2014-05-01</SessionBeginDate>
+					<SessionEndDate>2014-08-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5300</CourseNumber>
+					<CourseTitle>The Foundations of Modern Educational Theory and Practice</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>NEUR</CourseSubjectAbbreviation>
+					<CourseNumber>5850</CourseNumber>
+					<CourseTitle>Brain in Education</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>6</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>24</TotalQualityPoints>
+						<CreditHoursforGPA>6</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2014-09</SessionDesignator>
+					<SessionName>Fall 2014</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2014-09-01</SessionBeginDate>
+					<SessionEndDate>2014-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5200</CourseNumber>
+					<CourseTitle>Curriculum Studies and Classroom Practice</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>12</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2015-01</SessionDesignator>
+					<SessionName>Spring 2015</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2015-01-01</SessionBeginDate>
+					<SessionEndDate>2015-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5850</CourseNumber>
+					<CourseTitle>Assessment of Children and Adolescents with Exceptionalities</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>12</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2015-05</SessionDesignator>
+					<SessionName>Summer 2015</SessionName>
+					<SessionType>SummerSession</SessionType>
+					<SessionBeginDate>2015-05-01</SessionBeginDate>
+					<SessionEndDate>2015-08-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5850</CourseNumber>
+					<CourseTitle>Learning and Behaviour</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>NEUR</CourseSubjectAbbreviation>
+					<CourseNumber>5850</CourseNumber>
+					<CourseTitle>Neuroscience and Education: Learning Disabilities and Behavi</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>6</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>24</TotalQualityPoints>
+						<CreditHoursforGPA>6</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2015-09</SessionDesignator>
+					<SessionName>Fall 2015</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2015-09-01</SessionBeginDate>
+					<SessionEndDate>2015-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5400</CourseNumber>
+					<CourseTitle>The Nature of Educational Research</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>12</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2016-01</SessionDesignator>
+					<SessionName>Spring 2016</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2016-01-01</SessionBeginDate>
+					<SessionEndDate>2016-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5620</CourseNumber>
+					<CourseTitle>Interventions with Children &amp; Youth with Emotional/Behav</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>12</TotalQualityPoints>
+						<CreditHoursforGPA>3</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2016-05</SessionDesignator>
+					<SessionName>Summer 2016</SessionName>
+					<SessionType>SummerSession</SessionType>
+					<SessionBeginDate>2016-05-01</SessionBeginDate>
+					<SessionEndDate>2016-08-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5500</CourseNumber>
+					<CourseTitle>Understanding Professional Practice and Professional Develop</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>005</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A+</CourseAcademicGrade>
+					<CourseQualityPointsEarned>4</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>NEUR</CourseSubjectAbbreviation>
+					<CourseNumber>5850</CourseNumber>
+					<CourseTitle>Neuroscience and Education: Brain Development over the Life </CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>6</CreditHoursEarned>
+						<GradePointAverage>4</GradePointAverage>
+						<TotalQualityPoints>24</TotalQualityPoints>
+						<CreditHoursforGPA>6</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2016-09</SessionDesignator>
+					<SessionName>Fall 2016</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2016-09-01</SessionBeginDate>
+					<SessionEndDate>2016-12-31</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>5560</CourseNumber>
+					<CourseTitle>Internship in Education</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2017-01</SessionDesignator>
+					<SessionName>Spring 2017</SessionName>
+					<SessionType>Semester</SessionType>
+					<SessionBeginDate>2017-01-01</SessionBeginDate>
+					<SessionEndDate>2017-04-30</SessionEndDate>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>MEd General</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicProgram>
+					<AcademicProgramType>Major</AcademicProgramType>
+					<AcademicProgramName>General</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>060</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>P</CourseAcademicGrade>
+					<CourseQualityPointsEarned>0</CourseQualityPointsEarned>
+					<CourseSubjectAbbreviation>EDUC</CourseSubjectAbbreviation>
+					<CourseNumber>6006</CourseNumber>
+					<CourseTitle>M.Ed. Capstone</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryType>SenderOnly</AcademicSummaryType>
+					<GPA>
+						<CreditHoursEarned>3</CreditHoursEarned>
+						<GradePointAverage>0</GradePointAverage>
+						<TotalQualityPoints>0</TotalQualityPoints>
+						<CreditHoursforGPA>0</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2007-05</SessionDesignator>
+					<SessionName>Summer 2007</SessionName>
+					<SessionType>SummerSession</SessionType>
+				</AcademicSessionDetail>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2017-05</SessionDesignator>
+					<SessionName>Summer 2017</SessionName>
+					<SessionType>SummerSession</SessionType>
+				</AcademicSessionDetail>
+			</AcademicSession>
+		</AcademicRecord>
+	</Student>
+</ColTrn:CollegeTranscript>
